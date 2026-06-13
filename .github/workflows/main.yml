@@ -1,0 +1,48 @@
+name: SPARQL Unicorn Ontology Documentation CI
+
+# Builds the HTML documentation (incl. Leaflet maps + WebVOWL) from the FAIRyland
+# Turtle dataset using the SPARQLing Unicorn ontology-doc tool, and deploys it to
+# GitHub Pages. Demo for oer-002-sparqling-unicorn (DH Ireland/UK, Southampton).
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  # Allows running it manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    # Reusable workflow from the ontdoc repository
+    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    with:
+      version: v017
+
+      # >>> If your TTL lives elsewhere (e.g. FAIRyland/lod/fairyland.ttl),
+      # >>> change ONLY this line to match your repo layout.
+      rdffilepath: fairyland.ttl
+
+      docpath: docs
+
+      # Main namespace whose entities get pages: the finds live in suni:
+      prefixns: http://www.github.com/sparqlunicorn#
+      prefixnsshort: unicorn
+
+      indexpages: true
+      createcollections: true
+      createVOWL: true
+      createnonNSPages: true        # also build pages for fairyland: schema/periods/trenches
+      metadatatable: true
+      preferredlang: en
+      ghpages: true                 # deploy result to the gh-pages branch
+      ogcapifeatures: false         # set true later if you want an OGC API Features endpoint for the QGIS plugin
+
+      # Research Squirrel Engineers "Squirrels" HTML template
+      templatedir: https://github.com/Research-Squirrel-Engineers/unicorn-ontdoc-template-squirrels/archive/refs/tags/scrat.1.zip
+
+      # Swap for the OER Squirrels logo URL if you prefer
+      logourl: https://raw.githubusercontent.com/Research-Squirrel-Engineers/croton-geo/main/img/fsl-logo.png
+
+      datasettitle: "FAIRyland LOD - The Lost Flat-Pack Civilisation of Norrfors"
+      publisher: Research Squirrel Engineers Network
