@@ -1,0 +1,9 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom> a <http://www.opengis.net/ont/sf#Point>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
+    geo:asWKT "POINT(20.0267367 63.8791337)"^^geo:wktLiteral .
+

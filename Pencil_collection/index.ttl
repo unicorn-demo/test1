@@ -1,0 +1,18 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Pencil_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Pencil Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e>,
+        <http://www.github.com/sparqlunicorn#323d52f6-0ef2-41c3-a89e-dda98053ce1c>,
+        <http://www.github.com/sparqlunicorn#37678450-1c30-4756-b89a-75c4021bcefe>,
+        <http://www.github.com/sparqlunicorn#42897bc2-5707-42ff-8f01-b6170d542c6c>,
+        <http://www.github.com/sparqlunicorn#a0283553-5bf3-4d5e-8438-1dbfbd55f352>,
+        <http://www.github.com/sparqlunicorn#bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f>,
+        <http://www.github.com/sparqlunicorn#c336744b-5e45-446b-ab1a-5c61031669ed>,
+        <http://www.github.com/sparqlunicorn#ef66850a-2651-4d2b-bcfb-c37803346e55> .
+

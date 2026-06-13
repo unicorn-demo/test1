@@ -1,0 +1,18 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://www.github.com/sparqlunicorn#Tealight_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Tealight Instances Collection"@en ;
+    void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
+    rdfs:member <http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e>,
+        <http://www.github.com/sparqlunicorn#4a598935-f4fd-45e1-9a4e-7e7f16b46b00>,
+        <http://www.github.com/sparqlunicorn#4c6d67ee-1eed-470c-bf84-4c6ee11d2083>,
+        <http://www.github.com/sparqlunicorn#51e65249-8f83-4a14-a2a1-a9b53fd3dda3>,
+        <http://www.github.com/sparqlunicorn#55199184-3a67-4d1d-8361-eebeec4b6615>,
+        <http://www.github.com/sparqlunicorn#559a292c-9b84-4152-8d12-161347862318>,
+        <http://www.github.com/sparqlunicorn#949e43c6-bcb7-4a9e-8686-38c04de30d80>,
+        <http://www.github.com/sparqlunicorn#b49637a5-8304-4703-b961-328acd9cfab1> .
+

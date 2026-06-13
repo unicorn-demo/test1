@@ -1,0 +1,228 @@
+<html about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors">
+  <head>
+    <script>
+      if (window.location.href.includes("index.html")) {
+        document.write("<title>Index page for http://www.github.com/sparqlunicorn# | FAIRyland LOD - The Lost Flat-Pack Civilisation of Norrfors</title>");
+      } else {
+        document.write(
+          "<title>Index Page for FAIRyland LOD - The Lost Flat-Pack Civilisation of Norrfors by the Research Squirrel Engineers Network</title>"
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.1/proj4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphh.js"></script>
+    <script src="{{epsgdefspath}}"></script>
+    <script src="vowl_result.js"></script>
+    <script src="unicorn_search.js"></script>
+    <script src="unicorn_classtree.js"></script>
+    <script src="proprelations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="startscripts.js"></script>
+  </head>
+
+  <div id="mySidenav" class="sidenav" style="overflow: auto">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    GeoClasses: <input type="checkbox" id="geoclasses" /><br />
+    Search:<input type="text" id="classsearch" /><br />
+    <div id="jstree"></div>
+  </div>
+  <script>
+    var indexpage=true;
+    var relativedepth=0;
+    var baseurl="http://www.github.com/sparqlunicorn#";
+    var iconprefixx="";
+  </script>
+
+  <body>
+    <div id="headertop">
+      <span class="header_pt1">
+        <b>Squirrel Data</b>&nbsp;|&nbsp;FAIRyland LOD - The Lost Flat-Pack Civilisation of Norrfors&nbsp;|&nbsp;
+        <i>powered by the Research Squirrel Engineers Network</i>
+      </span>
+      <span class="header_pt2">
+        <b>Nuts?</b>&nbsp;&nbsp;<a href="http://squirrel.link" target="_blank"
+          ><img
+            src="https://raw.githubusercontent.com/Research-Squirrel-Engineers/unicorn-ontdoc-template-squirrels/main/icons/squirrel_icon.png"
+            style="height: 40px !important; margin-right: 10px"
+        /></a>
+      </span>
+    </div>
+    <div id="header">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<h1 id="title"><img src="https://raw.githubusercontent.com/Research-Squirrel-Engineers/croton-geo/main/img/fsl-logo.png" width="25" height="25"/>Index page for http://www.github.com/sparqlunicorn#<span style="font-size: 16px;font-weight: 300;font-style: italic;">EN</span></h1>'
+          );
+        } else {
+          document.write(
+            '<h1 id="title">Index Page for FAIRyland LOD - The Lost Flat-Pack Civilisation of Norrfors by the Research Squirrels</h1>'
+          );
+        }
+        if (window.location.href.includes("index.html")) {
+          document.write('<br><span id="titletwo">http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors</span>');
+        } else {
+          console.log(window.location.href);
+        }
+      </script>
+    </div>
+    <div class="page-resource-uri">
+      <script>
+        if (window.location.href.includes("index.html")) {
+          document.write(
+            '<b>The Index page for http://www.github.com/sparqlunicorn#</b> resource is powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        } else {
+          document.write(
+            'Powered by Static <a style="color:#007bff;" target="_blank" href="https://github.com/i3mainz/geopubby">GeoPubby</a> generated using the <a style="color:#007bff;" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS">SPARQLing Unicorn QGIS Plugin</a></div>'
+          );
+        }
+      </script>
+    </div>
+    <div id="rdficon">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+    </div>
+    <div class="search">
+      <div class="ui-widget">
+        Search: <input id="search" size="50" />
+        <button id="gotosearch" onclick="followLink()">Go</button>
+        <b>Download Options:</b>&nbsp;Format:<select
+          id="format"
+          onchange="changeDefLink()">
+          <option value="csv">Comma Separated Values (CSV)</option>
+<option value="geojson">(Geo)JSON</option>
+<option value="gdf">Graph Definition Format (GDF)</option>
+<option value="graphml">Graph Markup Language (GraphML)</option>
+<option value="json">JSON-LD</option>
+<option value="tgf">Trivial Graph Format (TGF)</option>
+<option value="tsv">Tab Separated Values (TSV)</option>
+<option value="ttl" selected>Turtle (TTL)</option>
+
+        </select>
+        <a id="formatlink" href="#" target="_blank">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-info-circle-fill"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill-rule="evenodd"
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+          </svg> </a
+        >&nbsp;
+        <button id="downloadButton" onclick="download()">Download</button>
+        <br />
+      </div>
+    </div>
+    <dialog
+      id="classrelationdialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <dialog
+      id="dataschemadialog"
+      width="500"
+      height="500"
+      modal="true"></dialog>
+    <div class="container-fluid">
+      <div class="row-fluid" id="main-wrapper"></div>
+    </div>
+  </body>
+</html>
+<p property="http://rdfs.org/ns/void#feature" resource="http://www.w3.org/ns/formats/Turtle">This page shows information about linked data resources in <span property="http://rdfs.org/ns/void#feature" resource="http://www.w3.org/ns/formats/RDFa">HTML</span>. Choose the classtree navigation or search to browse the data</p><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/css/vowl.css"/>
+<script src="minivowl_result.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/situx/mini-vowl@master/docs/js/webVOWLGraphProd.js"></script>
+<div id="wrapper">
+  <section id="vowl">
+    <div id="graph">
+      <div id="resetOption"></div>
+      <div id="sliderOption"></div>
+    </div>
+  </section>
+  <a href="vowl_result.js" target="_blank">Download VOWL File</a> <a href="minivowl_result.js" target="_blank">Download Mini VOWL File</a>
+    <script>var graphTag = document.getElementById('graph')
+    , linkDistanceClassSlider
+    , linkDistanceClassLabel
+    , linkDistanceLiteralLabel
+    , linkDistanceLiteralSlider
+    , onLoadCalled = false;
+        var   height = 600
+        , width = document.getElementById("vowl").offsetWidth;
+    var graphOptions = function graphOptionsFunct() {
+
+    var   resetOption = document.getElementById('resetOption')
+        , sliderOption = document.getElementById('sliderOption');
+
+    d3.select(resetOption)
+        .append("button")
+        .attr("id", "reset")
+        .property("type", "reset")
+        .text("Reset")
+        .on("click", resetGraph);
+
+    var slidDiv = d3.select(sliderOption)
+        .append("div")
+        .attr("id", "distanceSlider");
+
+    linkDistanceClassLabel = slidDiv.append("label")
+        .attr("for", "distanceSlider")
+        .text(DEFAULT_VISIBLE_LINKDISTANCE);
+    linkDistanceLiteralLabel = linkDistanceClassLabel;
+
+    linkDistanceClassSlider = slidDiv.append("input")
+        .attr("type", "range")
+        .attr("min", 10)
+        .attr("max", 600)
+        .attr("value", DEFAULT_VISIBLE_LINKDISTANCE)
+        .attr("step", 10)
+        .on("input", changeDistance);
+    linkDistanceLiteralSlider = linkDistanceClassSlider;
+};
+    json=minivowlresult
+    drawGraph(graphTag, width, height);
+</script>
+</div><table about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors" typeof="http://rdfs.org/ns/void#Dataset" property="http://rdfs.org/ns/void#dataDump" resource="https://unicorn-demo.github.io/test1//index.ttl" class="description" style ="height: 100%; overflow: auto" border=1 id=indextable><thead><tr><th>Class</th><th>Number of instances</th><th>Instance Example</th></tr></thead><tbody><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Koetbullar_collection/" href="Koetbullar_collection/index.html" target="_blank">Koetbullar (fairyland:Koetbullar) [256]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Koetbullar"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Koetbullar" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Koetbullar" property="http://rdfs.org/ns/void#entities" content="9" datatype="http://www.w3.org/2001/XMLSchema#integer">9</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="005191fc-7128-48b0-a0f4-d1eaaaff3004" href="005191fc-7128-48b0-a0f4-d1eaaaff3004/index.html">005191fc-7128-48b0-a0f4-d1eaaaff3004 (suni:005191fc-7128-48b0-a0f4-d1eaaaff3004)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Banana_collection/" href="Banana_collection/index.html" target="_blank">Banana (fairyland:Banana) [16]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Banana"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Banana" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Banana"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Banana" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="04f90f9b-1396-45af-a2f1-e803ea0b65f0" href="04f90f9b-1396-45af-a2f1-e803ea0b65f0/index.html">04f90f9b-1396-45af-a2f1-e803ea0b65f0 (suni:04f90f9b-1396-45af-a2f1-e803ea0b65f0)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Minion_collection/" href="Minion_collection/index.html" target="_blank">Minion (fairyland:Minion) [38]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Minion"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Minion" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Minion" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb" href="09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb/index.html">09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb (suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Stone_collection/" href="Stone_collection/index.html" target="_blank">Stone (fairyland:Stone) [9]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Stone"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Stone" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Stone" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="0b12b1c6-4f43-4635-9437-2eccad89860a" href="0b12b1c6-4f43-4635-9437-2eccad89860a/index.html">0b12b1c6-4f43-4635-9437-2eccad89860a (suni:0b12b1c6-4f43-4635-9437-2eccad89860a)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Pencil_collection/" href="Pencil_collection/index.html" target="_blank">Pencil (fairyland:Pencil) [8]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Pencil"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Pencil" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Pencil"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Pencil" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="28fa130c-4c84-4817-8b2e-855128e2b44e" href="28fa130c-4c84-4817-8b2e-855128e2b44e/index.html">28fa130c-4c84-4817-8b2e-855128e2b44e (suni:28fa130c-4c84-4817-8b2e-855128e2b44e)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Kangaroo_collection/" href="Kangaroo_collection/index.html" target="_blank">Kangaroo (fairyland:Kangaroo) [8]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Kangaroo"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Kangaroo" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Kangaroo" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="2a991c50-a03f-45bd-a3ba-6e7ab9d661e5" href="2a991c50-a03f-45bd-a3ba-6e7ab9d661e5/index.html">2a991c50-a03f-45bd-a3ba-6e7ab9d661e5 (suni:2a991c50-a03f-45bd-a3ba-6e7ab9d661e5)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="FlatpackPanel_collection/" href="FlatpackPanel_collection/index.html" target="_blank">FlatpackPanel (fairyland:FlatpackPanel) [9]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_FlatpackPanel"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_FlatpackPanel" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/FlatpackPanel"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_FlatpackPanel" property="http://rdfs.org/ns/void#entities" content="10" datatype="http://www.w3.org/2001/XMLSchema#integer">10</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="2df381ca-154e-4368-bc83-b6d74e5130a2" href="2df381ca-154e-4368-bc83-b6d74e5130a2/index.html">2df381ca-154e-4368-bc83-b6d74e5130a2 (suni:2df381ca-154e-4368-bc83-b6d74e5130a2)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Tealight_collection/" href="Tealight_collection/index.html" target="_blank">Tealight (fairyland:Tealight) [8]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Tealight"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Tealight" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Tealight"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Tealight" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="2f08adaf-d8a8-400b-a410-f011c467324e" href="2f08adaf-d8a8-400b-a410-f011c467324e/index.html">2f08adaf-d8a8-400b-a410-f011c467324e (suni:2f08adaf-d8a8-400b-a410-f011c467324e)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="LingonberryJar_collection/" href="LingonberryJar_collection/index.html" target="_blank">LingonberryJar (fairyland:LingonberryJar) [9]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_LingonberryJar"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_LingonberryJar" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/LingonberryJar"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_LingonberryJar" property="http://rdfs.org/ns/void#entities" content="8" datatype="http://www.w3.org/2001/XMLSchema#integer">8</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="3413903c-a458-8422-3997-434b1071b02b" href="3413903c-a458-8422-3997-434b1071b02b/index.html">3413903c-a458-8422-3997-434b1071b02b (suni:3413903c-a458-8422-3997-434b1071b02b)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Crater_collection/" href="Crater_collection/index.html" target="_blank">Crater (fairyland:Crater) [4]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Crater"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Crater" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Crater" property="http://rdfs.org/ns/void#entities" content="9" datatype="http://www.w3.org/2001/XMLSchema#integer">9</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="4db030c2-2331-4dad-b17c-da023bceff9f" href="4db030c2-2331-4dad-b17c-da023bceff9f/index.html">4db030c2-2331-4dad-b17c-da023bceff9f (suni:4db030c2-2331-4dad-b17c-da023bceff9f)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="AllenKey_collection/" href="AllenKey_collection/index.html" target="_blank">AllenKey (fairyland:AllenKey) [1]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_AllenKey"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_AllenKey" property="http://rdfs.org/ns/void#class" resource="https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_AllenKey" property="http://rdfs.org/ns/void#entities" content="9" datatype="http://www.w3.org/2001/XMLSchema#integer">9</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="86f8a06e-51c7-41be-935b-e70bfcaa67b7" href="86f8a06e-51c7-41be-935b-e70bfcaa67b7/index.html">86f8a06e-51c7-41be-935b-e70bfcaa67b7 (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7)</a></td></tr><tr><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoclass.png" height="25" width="25" alt="geoclass"/><a property="http://rdfs.org/ns/void#exampleResource" resource="Point_collection/" href="Point_collection/index.html" target="_blank">Point (sf:Point) [234]</a></td><td property="http://rdfs.org/ns/void#classPartition" typeof="http://rdfs.org/ns/void#Dataset" resource="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Point"><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Point" property="http://rdfs.org/ns/void#class" resource="http://www.opengis.net/ont/sf#Point"></span><span about="http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Point" property="http://rdfs.org/ns/void#entities" content="3" datatype="http://www.w3.org/2001/XMLSchema#integer">3</td><td><img src="https://cdn.jsdelivr.net/gh/i3mainz/geopubby@master/public/icons/geoinstance.png" height="25" width="25" alt="geoinstance"/><a property="http://rdfs.org/ns/void#exampleResource" resource="005191fc-7128-48b0-a0f4-d1eaaaff3004_geom" href="005191fc-7128-48b0-a0f4-d1eaaaff3004_geom/index.html">005191fc-7128-48b0-a0f4-d1eaaaff3004_geom (suni:005191fc-7128-48b0-a0f4-d1eaaaff3004_geom)</a></td></tr></tbody></table><script property="http://purl.org/dc/terms/modified" content="2026-06-13T15:59:23" datatype="http://www.w3.org/2001/XMLSchema#dateTime">$('#indextable').DataTable();</script><div id="footer">
+    <center style="padding-top:30px;font-size:11px;"><b>published under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> by Research Squirrel Engineers Network (2024)</b><br><a href="https://fthiery.de/legal-notice/">Impressum / Legal Notice</a>
+        | <a href="https://fthiery.de/legal-notice/">Datenschutz / Privacy Policy</a></center>
+</div>
+
+<script>$(document).ready(function(){setSVGDimensions()})</script>
+
+</body></html>

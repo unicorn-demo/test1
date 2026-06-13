@@ -1,0 +1,17 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:37678450-1c30-4756-b89a-75c4021bcefe a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:Pencil,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns1:Name "Pencil"^^xsd:string ;
+    ns1:Time_Period "Mesozoic"^^xsd:string ;
+    ns1:fid 1186 ;
+    geo:hasGeometry ns1:37678450-1c30-4756-b89a-75c4021bcefe_geom ;
+    ns2:hasperiod ns2:Mesozoic ;
+    ns2:hastrench ns2:Trench_B3 .
+

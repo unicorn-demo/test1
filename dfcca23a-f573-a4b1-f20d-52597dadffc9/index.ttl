@@ -1,0 +1,19 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns2: <http://www.github.com/sparqlunicorn#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:dfcca23a-f573-a4b1-f20d-52597dadffc9 a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:LingonberryJar,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns2:Condition "sealed"^^xsd:string ;
+    ns2:Name "Lingonberry Jar"^^xsd:string ;
+    ns2:Time_Period "Cretaceous"^^xsd:string ;
+    ns2:Trench "Showroom Trench"^^xsd:string ;
+    ns2:fid 208 ;
+    geo:hasGeometry ns2:dfcca23a-f573-a4b1-f20d-52597dadffc9_geom ;
+    ns1:hasperiod ns1:Cretaceous ;
+    ns1:hastrench ns1:Trench_B2 .
+

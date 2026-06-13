@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_github.com_Research-Squirrel-Engineers_FAIRyland_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors - fairyland:"@en ;
+    void:linkPredicate rdf:type,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench>,
+        <https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod> ;
+    void:objectsTarget <https://github.com/Research-Squirrel-Engineers/FAIRyland/> ;
+    void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
+    void:triples 6,
+        366 .
+

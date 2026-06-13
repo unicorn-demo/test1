@@ -1,0 +1,17 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:78aacddc-ab6c-49aa-9593-e4cf7472c5df a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:FlatpackPanel,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns1:Name "Flat-pack Panel"^^xsd:string ;
+    ns1:Time_Period "Mesozoic"^^xsd:string ;
+    ns1:fid 1158 ;
+    geo:hasGeometry ns1:78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom ;
+    ns2:hasperiod ns2:Mesozoic ;
+    ns2:hastrench ns2:Trench_C6 .
+
