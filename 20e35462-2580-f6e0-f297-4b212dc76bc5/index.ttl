@@ -1,18 +1,18 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
-@prefix ns2: <http://www.github.com/sparqlunicorn#> .
+@prefix ns1: <http://www.github.com/sparqlunicorn#> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns2:20e35462-2580-f6e0-f297-4b212dc76bc5 a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Banana,
+ns1:20e35462-2580-f6e0-f297-4b212dc76bc5 a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:Banana,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns2:Name "Banana"^^xsd:string ;
-    ns2:Time_Period "Cretaceous"^^xsd:string ;
-    ns2:Trench "Ikea Land"^^xsd:string ;
-    ns2:fid 206 ;
-    geo:hasGeometry ns2:20e35462-2580-f6e0-f297-4b212dc76bc5_geom ;
-    ns1:hasperiod ns1:Cretaceous ;
-    ns1:hastrench ns1:Trench_B6 .
+    void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns1:Name "Banana"^^xsd:string ;
+    ns1:Time_Period "Cretaceous"^^xsd:string ;
+    ns1:Trench "Ikea Land"^^xsd:string ;
+    ns1:fid 206 ;
+    geo:hasGeometry ns1:20e35462-2580-f6e0-f297-4b212dc76bc5_geom ;
+    ns2:hasperiod ns2:Cretaceous ;
+    ns2:hastrench ns2:Trench_B6 .
 

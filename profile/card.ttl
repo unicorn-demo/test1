@@ -1,12 +1,12 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.w3.org/ns/pim/space#> .
-@prefix ns2: <http://www.w3.org/ns/solid/terms#> .
+@prefix ns1: <http://www.w3.org/ns/solid/terms#> .
+@prefix ns2: <http://www.w3.org/ns/pim/space#> .
 
 <docs//profile/card> a foaf:PersonalProfileDocument ;
     foaf:primaryTopic <https://unicorn-demo.github.io/test1//profile/card#Research_Squirrel_Engineers_Network> .
 
 <https://unicorn-demo.github.io/test1//profile/card#Research_Squirrel_Engineers_Network> a foaf:Person ;
-    ns1:storage <https://unicorn-demo.github.io/test1/FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
-    ns2:privateTypeIndex <https://unicorn-demo.github.io/test1//settings/privateTypeIndex.ttl> ;
-    ns2:publicTypeIndex <https://unicorn-demo.github.io/test1//settings/publicTypeIndex.ttl> .
+    ns2:storage <https://unicorn-demo.github.io/test1/FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
+    ns1:privateTypeIndex <https://unicorn-demo.github.io/test1//settings/privateTypeIndex.ttl> ;
+    ns1:publicTypeIndex <https://unicorn-demo.github.io/test1//settings/publicTypeIndex.ttl> .
 

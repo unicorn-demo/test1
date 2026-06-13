@@ -1846,6 +1846,9 @@ var tree={
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
+            "http://www.github.com/sparqlunicorn#Condition": {
+              "instancecount": 1
+            },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
@@ -1882,7 +1885,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 10
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
@@ -2444,6 +2447,9 @@ var tree={
             "http://www.github.com/sparqlunicorn#Time_Period": {
               "instancecount": 1
             },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
             "http://www.github.com/sparqlunicorn#fid": {
               "instancecount": 1
             },
@@ -2471,7 +2477,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e",
@@ -2754,16 +2760,10 @@ var tree={
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
-            "http://www.github.com/sparqlunicorn#Condition": {
-              "instancecount": 1
-            },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#Time_Period": {
-              "instancecount": 1
-            },
-            "http://www.github.com/sparqlunicorn#Trench": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#fid": {
@@ -2793,7 +2793,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 8
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e",
@@ -3054,15 +3054,12 @@ var tree={
             "http://www.github.com/sparqlunicorn#Time_Period": {
               "instancecount": 1
             },
-            "http://www.github.com/sparqlunicorn#Trench": {
-              "instancecount": 1
-            },
             "http://www.github.com/sparqlunicorn#fid": {
               "instancecount": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Point": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -3084,7 +3081,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 8
       },
       {
         "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
@@ -4945,7 +4942,7 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Pencil": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -6582,13 +6579,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey": 1
+              "instancecount": 8,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo": 8
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 12
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
