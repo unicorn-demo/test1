@@ -1,17 +1,17 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.github.com/sparqlunicorn#> .
-@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns2: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:a0283553-5bf3-4d5e-8438-1dbfbd55f352 a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Pencil,
+ns2:a0283553-5bf3-4d5e-8438-1dbfbd55f352 a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Pencil,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns1:Name "Pencil"^^xsd:string ;
-    ns1:Time_Period "Cretaceous"^^xsd:string ;
-    ns1:fid 1183 ;
-    geo:hasGeometry ns1:a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom ;
-    ns2:hasperiod ns2:Cretaceous ;
-    ns2:hastrench ns2:Trench_B1 .
+    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns2:Name "Pencil"^^xsd:string ;
+    ns2:Time_Period "Cretaceous"^^xsd:string ;
+    ns2:fid 1183 ;
+    geo:hasGeometry ns2:a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom ;
+    ns1:hasperiod ns1:Cretaceous ;
+    ns1:hastrench ns1:Trench_B1 .
 

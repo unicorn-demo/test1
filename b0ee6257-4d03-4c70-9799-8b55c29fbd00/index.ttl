@@ -1,17 +1,17 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.github.com/sparqlunicorn#> .
-@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns2: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:b0ee6257-4d03-4c70-9799-8b55c29fbd00 a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Minion,
+ns2:b0ee6257-4d03-4c70-9799-8b55c29fbd00 a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Minion,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns1:Name "Minions"^^xsd:string ;
-    ns1:Time_Period "Jurassic"^^xsd:string ;
-    ns1:fid 1132 ;
-    geo:hasGeometry ns1:b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom ;
-    ns2:hasperiod ns2:Jurassic ;
-    ns2:hastrench ns2:Trench_A1 .
+    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns2:Name "Minions"^^xsd:string ;
+    ns2:Time_Period "Jurassic"^^xsd:string ;
+    ns2:fid 1132 ;
+    geo:hasGeometry ns2:b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom ;
+    ns1:hasperiod ns1:Jurassic ;
+    ns1:hastrench ns1:Trench_A1 .
 
