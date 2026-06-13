@@ -1843,8 +1843,11 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.github.com/sparqlunicorn#Condition": {
+              "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -1852,12 +1855,15 @@ var tree={
             "http://www.github.com/sparqlunicorn#Time_Period": {
               "instancecount": 1
             },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
             "http://www.github.com/sparqlunicorn#fid": {
               "instancecount": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -1879,7 +1885,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 10
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
@@ -2009,8 +2015,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2322,19 +2328,13 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.github.com/sparqlunicorn#Condition": {
-              "instancecount": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#Time_Period": {
-              "instancecount": 1
-            },
-            "http://www.github.com/sparqlunicorn#Trench": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#fid": {
@@ -2364,7 +2364,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 8
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
@@ -2438,16 +2438,13 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#Time_Period": {
-              "instancecount": 1
-            },
-            "http://www.github.com/sparqlunicorn#Trench": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#fid": {
@@ -2477,7 +2474,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 8
       },
       {
         "id": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e",
@@ -2544,8 +2541,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2647,8 +2644,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Condition": {
               "instancecount": 1
@@ -2680,9 +2677,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -2692,7 +2686,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 10
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2",
@@ -2766,19 +2760,13 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.github.com/sparqlunicorn#Condition": {
-              "instancecount": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#Time_Period": {
-              "instancecount": 1
-            },
-            "http://www.github.com/sparqlunicorn#Trench": {
               "instancecount": 1
             },
             "http://www.github.com/sparqlunicorn#fid": {
@@ -2808,7 +2796,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 8
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e",
@@ -2875,8 +2863,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2985,8 +2973,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Condition": {
               "instancecount": 1
@@ -3066,11 +3054,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.github.com/sparqlunicorn#Condition": {
-              "instancecount": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -3078,15 +3063,12 @@ var tree={
             "http://www.github.com/sparqlunicorn#Time_Period": {
               "instancecount": 1
             },
-            "http://www.github.com/sparqlunicorn#Trench": {
-              "instancecount": 1
-            },
             "http://www.github.com/sparqlunicorn#fid": {
               "instancecount": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Point": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -3099,9 +3081,6 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -3111,7 +3090,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 8
       },
       {
         "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
@@ -3129,8 +3108,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -3284,8 +3263,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -4959,8 +4938,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
@@ -6125,8 +6104,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
@@ -6599,8 +6578,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -6609,13 +6588,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 8,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Pencil": 8
+              "instancecount": 9,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/LingonberryJar": 9
             }
           },
           "from": {}
         },
-        "instancecount": 12
+        "instancecount": 13
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -6647,8 +6626,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -6657,13 +6636,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
+              "instancecount": 5,
+              "http://www.w3.org/2002/07/owl#DatatypeProperty": 5
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#Point_collection",
@@ -6688,8 +6667,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
