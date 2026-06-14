@@ -34,7 +34,10 @@ var vowlresult={
    "fairyland": "https://github.com/Research-Squirrel-Engineers/FAIRyland/",
    "ns1": "http://www.opengis.net/ont/crs/",
    "sf": "http://www.opengis.net/ont/sf#",
-   "suni": "http://www.github.com/sparqlunicorn#"
+   "suni": "http://www.github.com/sparqlunicorn#",
+   "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+   "crmarchaeo": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/",
+   "crmgeo": "http://www.ics.forth.gr/isl/CRMgeo/"
   },
   "baseIris": [
    "https://brickschema.org/schema/Brick#",
@@ -69,7 +72,10 @@ var vowlresult={
    "https://github.com/Research-Squirrel-Engineers/FAIRyland/",
    "http://www.opengis.net/ont/crs/",
    "http://www.opengis.net/ont/sf#",
-   "http://www.github.com/sparqlunicorn#"
+   "http://www.github.com/sparqlunicorn#",
+   "http://www.cidoc-crm.org/cidoc-crm/",
+   "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/",
+   "http://www.ics.forth.gr/isl/CRMgeo/"
   ],
   "languages": []
  },
@@ -164,15 +170,15 @@ var vowlresult={
    "type": "http://www.w3.org/2002/07/owl#Class"
   },
   {
-   "id": 850,
+   "id": 1256,
    "type": "http://www.w3.org/2000/01/rdf-schema#Datatype"
   },
   {
-   "id": 851,
+   "id": 1257,
    "type": "http://www.w3.org/2000/01/rdf-schema#Datatype"
   },
   {
-   "id": 852,
+   "id": 1258,
    "type": "http://www.w3.org/2000/01/rdf-schema#Datatype"
   }
  ],
@@ -616,7 +622,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 850,
+   "id": 1256,
    "iri": "http://www.w3.org/2001/XMLSchema#string",
    "baseIRI": "(rdflib.term.URIRef('http://www.github.com/sparqlunicorn#Condition'), rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema",
    "instances": 0,
@@ -628,7 +634,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 851,
+   "id": 1257,
    "iri": "http://www.w3.org/2001/XMLSchema#integer",
    "baseIRI": "(rdflib.term.URIRef('http://www.github.com/sparqlunicorn#fid'), rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema",
    "instances": 0,
@@ -640,7 +646,7 @@ var vowlresult={
    "superClasses": []
   },
   {
-   "id": 852,
+   "id": 1258,
    "iri": "http://www.w3.org/2001/XMLSchema#decimal",
    "baseIRI": "(rdflib.term.URIRef('https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa'), rdflib.term.URIRef('http://www.w3.org/2001/XMLSchema",
    "instances": 0,
@@ -3966,6 +3972,1630 @@ var vowlresult={
   {
    "id": 849,
    "type": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Site"
+  },
+  {
+   "id": 850,
+   "type": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A9_Archaeological_Excavation"
+  },
+  {
+   "id": 851,
+   "type": "http://www.ics.forth.gr/isl/CRMgeo/SP4_Spatial_Coordinate_Reference_System"
+  },
+  {
+   "id": 852,
+   "type": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span"
+  },
+  {
+   "id": 853,
+   "type": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span"
+  },
+  {
+   "id": 854,
+   "type": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span"
+  },
+  {
+   "id": 855,
+   "type": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span"
+  },
+  {
+   "id": 856,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 857,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 858,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 859,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 860,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 861,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 862,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 863,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 864,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 865,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 866,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 867,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 868,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 869,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 870,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 871,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 872,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 873,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 874,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 875,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 876,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 877,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 878,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 879,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 880,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 881,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 882,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 883,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 884,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 885,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 886,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 887,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 888,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 889,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 890,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 891,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 892,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 893,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 894,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 895,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 896,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 897,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 898,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 899,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 900,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 901,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 902,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 903,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 904,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 905,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 906,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 907,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 908,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 909,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 910,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 911,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 912,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 913,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 914,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 915,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 916,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 917,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 918,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 919,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 920,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 921,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 922,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 923,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 924,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 925,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 926,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 927,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 928,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 929,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 930,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 931,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 932,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 933,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 934,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 935,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 936,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 937,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 938,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 939,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 940,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 941,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 942,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 943,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 944,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 945,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 946,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 947,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 948,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 949,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 950,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 951,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 952,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 953,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 954,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 955,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 956,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 957,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 958,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 959,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 960,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 961,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 962,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 963,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 964,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 965,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 966,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 967,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 968,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 969,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 970,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 971,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 972,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 973,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 974,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 975,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 976,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 977,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 978,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 979,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 980,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 981,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 982,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 983,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 984,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 985,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 986,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 987,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 988,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 989,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 990,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 991,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 992,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 993,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 994,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 995,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 996,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 997,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 998,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 999,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1000,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1001,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1002,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1003,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1004,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1005,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1006,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1007,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1008,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1009,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1010,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1011,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1012,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1013,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1014,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1015,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1016,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1017,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1018,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1019,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1020,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1021,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1022,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1023,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1024,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1025,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1026,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1027,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1028,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1029,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1030,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1031,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1032,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1033,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1034,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1035,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1036,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1037,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1038,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1039,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1040,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1041,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1042,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1043,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1044,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1045,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1046,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1047,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1048,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1049,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1050,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1051,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1052,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1053,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1054,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1055,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1056,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1057,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1058,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1059,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1060,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1061,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1062,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1063,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1064,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1065,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1066,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1067,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1068,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1069,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1070,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1071,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1072,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1073,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1074,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1075,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1076,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1077,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1078,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1079,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1080,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1081,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1082,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1083,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1084,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1085,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1086,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1087,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1088,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1089,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1090,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1091,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1092,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1093,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1094,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1095,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1096,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1097,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1098,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1099,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1100,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1101,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1102,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1103,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1104,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1105,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1106,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1107,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1108,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1109,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1110,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1111,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1112,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1113,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1114,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1115,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1116,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1117,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1118,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1119,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1120,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1121,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1122,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1123,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1124,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1125,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1126,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1127,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1128,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1129,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1130,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1131,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1132,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1133,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1134,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1135,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1136,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1137,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1138,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1139,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1140,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1141,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1142,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1143,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1144,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1145,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1146,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1147,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1148,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1149,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1150,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1151,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1152,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1153,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1154,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1155,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1156,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1157,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1158,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1159,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1160,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1161,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1162,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1163,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1164,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1165,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1166,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1167,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1168,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1169,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1170,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1171,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1172,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1173,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1174,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1175,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1176,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1177,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1178,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1179,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1180,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1181,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1182,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1183,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1184,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1185,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1186,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1187,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1188,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1189,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1190,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1191,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1192,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1193,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1194,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1195,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1196,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1197,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1198,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1199,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1200,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1201,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1202,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1203,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1204,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1205,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1206,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1207,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1208,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1209,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1210,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1211,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1212,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1213,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1214,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1215,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1216,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1217,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1218,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1219,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1220,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1221,
+   "type": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "id": 1222,
+   "type": "http://www.opengis.net/ont/sf#LineString"
+  },
+  {
+   "id": 1223,
+   "type": "http://www.opengis.net/ont/sf#MultiPolygon"
+  },
+  {
+   "id": 1224,
+   "type": "http://www.opengis.net/ont/sf#LineString"
+  },
+  {
+   "id": 1225,
+   "type": "http://www.opengis.net/ont/sf#LineString"
+  },
+  {
+   "id": 1226,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1227,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1228,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1229,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1230,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1231,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1232,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1233,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1234,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1235,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1236,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1237,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1238,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1239,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1240,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1241,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1242,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1243,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1244,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1245,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1246,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1247,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1248,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1249,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1250,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1251,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1252,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1253,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1254,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
+  },
+  {
+   "id": 1255,
+   "type": "http://www.opengis.net/ont/sf#Polygon"
   }
  ],
  "propertyAttribute": [
@@ -4023,6 +5653,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom",
       "type": "iri"
      }
     ]
@@ -4096,6 +5734,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4157,6 +5803,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom",
       "type": "iri"
      }
     ]
@@ -4230,6 +5884,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4301,6 +5963,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4362,6 +6032,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#042db47c-d2e0-48b7-992e-31eeed05590b_geom",
       "type": "iri"
      }
     ]
@@ -4435,6 +6113,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4506,6 +6192,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4567,6 +6261,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#06d752cb-22a3-4939-86ee-1e59c2acd696_geom",
       "type": "iri"
      }
     ]
@@ -4648,6 +6350,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4719,6 +6429,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4782,6 +6500,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4843,6 +6569,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0b5f0d63-782a-46bb-b360-3ca60fc75915_geom",
       "type": "iri"
      }
     ]
@@ -4916,6 +6650,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -4977,6 +6719,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0be2725f-e419-4f79-b4e0-31eb6cddeede_geom",
       "type": "iri"
      }
     ]
@@ -5050,6 +6800,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5121,6 +6879,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5182,6 +6948,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0f46981f-21ba-428d-ba69-a833540fdd51_geom",
       "type": "iri"
      }
     ]
@@ -5247,6 +7021,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5310,6 +7092,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0fcef9c2-a38d-4664-b33e-4b523387955f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5371,6 +7161,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#103ff16b-91be-41cc-992e-842e9c717e00_geom",
       "type": "iri"
      }
     ]
@@ -5444,6 +7242,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5515,6 +7321,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5576,6 +7390,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#11d18c0d-68ec-4921-8df7-ecc79095d097_geom",
       "type": "iri"
      }
     ]
@@ -5649,6 +7471,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5710,6 +7540,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#12d29b14-a072-4035-adf3-ce7fc203ef65_geom",
       "type": "iri"
      }
     ]
@@ -5783,6 +7621,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5846,6 +7692,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#15979e00-a3ab-4266-a1ee-15c08536854d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -5907,6 +7761,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1747eb43-675f-4f0b-bf95-60f4740395f5_geom",
       "type": "iri"
      }
     ]
@@ -5988,6 +7850,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6051,6 +7921,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1826370a-8906-47be-b307-4a847bd26c9a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6112,6 +7990,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1888ca6c-cf87-4e68-a0b7-e605ae038610_geom",
       "type": "iri"
      }
     ]
@@ -6185,6 +8071,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6254,6 +8148,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom",
       "type": "iri"
      }
     ]
@@ -6327,6 +8229,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6388,6 +8298,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#22e61b60-371e-47f2-a07c-635d2380e04b_geom",
       "type": "iri"
      }
     ]
@@ -6453,6 +8371,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#24476baf-94f8-460f-b941-8937c65b4476_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6516,6 +8442,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#248542fe-c72e-4120-babb-87611d3e0c72_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6577,6 +8511,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2515e864-e7ed-4e8e-9770-b108580a1f08_geom",
       "type": "iri"
      }
     ]
@@ -6650,6 +8592,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6721,6 +8671,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6782,6 +8740,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom",
       "type": "iri"
      }
     ]
@@ -6855,6 +8821,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -6924,6 +8898,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom",
       "type": "iri"
      }
     ]
@@ -6997,6 +8979,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7068,6 +9058,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7129,6 +9127,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom",
       "type": "iri"
      }
     ]
@@ -7194,6 +9200,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7255,6 +9269,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2e47ae72-b63c-41a9-861b-009aa5454e57_geom",
       "type": "iri"
      }
     ]
@@ -7328,6 +9350,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7397,6 +9427,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom",
       "type": "iri"
      }
     ]
@@ -7470,6 +9508,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7531,6 +9577,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#31a96e29-dddc-46a1-9471-16d91c629005_geom",
       "type": "iri"
      }
     ]
@@ -7604,6 +9658,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7673,6 +9735,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom",
       "type": "iri"
      }
     ]
@@ -7746,6 +9816,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7809,6 +9887,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#32beabf1-b953-4b07-a6ed-1472bca9a279_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -7870,6 +9956,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom",
       "type": "iri"
      }
     ]
@@ -7943,6 +10037,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8006,6 +10108,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8067,6 +10177,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#38880781-0283-43a1-84da-1b842caf34ba_geom",
       "type": "iri"
      }
     ]
@@ -8140,6 +10258,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8201,6 +10327,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom",
       "type": "iri"
      }
     ]
@@ -8282,6 +10416,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8353,6 +10495,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8414,6 +10564,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#415dd66d-5628-4e55-a489-ac2ae21a63d5_geom",
       "type": "iri"
      }
     ]
@@ -8487,6 +10645,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8558,6 +10724,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8619,6 +10793,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#44b999ae-3457-43f6-ad3c-cebf913b3629_geom",
       "type": "iri"
      }
     ]
@@ -8692,6 +10874,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8761,6 +10951,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom",
       "type": "iri"
      }
     ]
@@ -8834,6 +11032,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8905,6 +11111,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -8968,6 +11182,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9029,6 +11251,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom",
       "type": "iri"
      }
     ]
@@ -9102,6 +11332,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9163,6 +11401,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#49a39ab2-4e8f-4991-8297-5a18a5735647_geom",
       "type": "iri"
      }
     ]
@@ -9236,6 +11482,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9297,6 +11551,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom",
       "type": "iri"
      }
     ]
@@ -9370,6 +11632,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9441,6 +11711,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9504,6 +11782,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9565,6 +11851,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4c6f385a-e492-46e7-9488-4fedf6114353_geom",
       "type": "iri"
      }
     ]
@@ -9638,6 +11932,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9699,6 +12001,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4dcec8c0-392b-421c-94de-b7ca326a59ce_geom",
       "type": "iri"
      }
     ]
@@ -9772,6 +12082,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9843,6 +12161,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -9912,6 +12238,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom",
       "type": "iri"
      }
     ]
@@ -9993,6 +12327,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10072,6 +12414,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10143,6 +12493,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10204,6 +12562,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#54418eb6-7220-4d62-8e35-7a3266ae3120_geom",
       "type": "iri"
      }
     ]
@@ -10277,6 +12643,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10346,6 +12720,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom",
       "type": "iri"
      }
     ]
@@ -10419,6 +12801,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10480,6 +12870,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom",
       "type": "iri"
      }
     ]
@@ -10545,6 +12943,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#59667ebc-7204-4355-b5cf-9ec86c280d6a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10606,6 +13012,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#599490bb-6a70-49f9-8d4d-270f7c3792bb_geom",
       "type": "iri"
      }
     ]
@@ -10671,6 +13085,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5a41564a-597e-4b30-aa96-21956e0dcd4d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10734,6 +13156,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5a9dda79-cbe5-47f0-901f-278f4748c48f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10795,6 +13225,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom",
       "type": "iri"
      }
     ]
@@ -10868,6 +13306,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -10939,6 +13385,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11000,6 +13454,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom",
       "type": "iri"
      }
     ]
@@ -11073,6 +13535,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11136,6 +13606,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11197,6 +13675,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#634e698f-f3c3-4363-a8b6-8163b4f476ed_geom",
       "type": "iri"
      }
     ]
@@ -11270,6 +13756,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11339,6 +13833,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom",
       "type": "iri"
      }
     ]
@@ -11412,6 +13914,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11483,6 +13993,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11546,6 +14064,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6726b202-cbe6-4428-bced-528128ba4391_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11607,6 +14133,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#675e393e-a8dd-4abf-8698-75200a6cb8c9_geom",
       "type": "iri"
      }
     ]
@@ -11680,6 +14214,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11741,6 +14283,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom",
       "type": "iri"
      }
     ]
@@ -11814,6 +14364,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11885,6 +14443,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -11948,6 +14514,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12009,6 +14583,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom",
       "type": "iri"
      }
     ]
@@ -12082,6 +14664,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12151,6 +14741,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom",
       "type": "iri"
      }
     ]
@@ -12232,6 +14830,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12301,6 +14907,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom",
       "type": "iri"
      }
     ]
@@ -12374,6 +14988,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12445,6 +15067,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12506,6 +15136,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom",
       "type": "iri"
      }
     ]
@@ -12579,6 +15217,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12640,6 +15286,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#863761bc-1744-4a56-87ca-5a38172397b7_geom",
       "type": "iri"
      }
     ]
@@ -12713,6 +15367,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12784,6 +15446,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12845,6 +15515,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom",
       "type": "iri"
      }
     ]
@@ -12910,6 +15588,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8870c476-f724-4940-a41c-ea4287430711_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -12971,6 +15657,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#88a536c2-f97f-41a1-aec9-4ed80f13707b_geom",
       "type": "iri"
      }
     ]
@@ -13044,6 +15738,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13115,6 +15817,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13176,6 +15886,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8b5fa40a-9651-452e-b0ec-54acee59291b_geom",
       "type": "iri"
      }
     ]
@@ -13241,6 +15959,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13302,6 +16028,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8be34e7d-8ed8-41b4-81b0-30fa20313640_geom",
       "type": "iri"
      }
     ]
@@ -13375,6 +16109,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13436,6 +16178,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8fee201f-da13-42aa-b212-3c44f64bc27e_geom",
       "type": "iri"
      }
     ]
@@ -13517,6 +16267,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13586,6 +16344,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom",
       "type": "iri"
      }
     ]
@@ -13659,6 +16425,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13720,6 +16494,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9341c466-7f3f-4271-a114-d3c94c930f3f_geom",
       "type": "iri"
      }
     ]
@@ -13793,6 +16575,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13856,6 +16646,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#96121114-97f7-4a80-b9a6-510945167a62_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -13917,6 +16715,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#96bc48a7-9318-4690-b6da-6c177bed2142_geom",
       "type": "iri"
      }
     ]
@@ -13990,6 +16796,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14051,6 +16865,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9a5569b3-ad35-413b-bf48-efc5563abc59_geom",
       "type": "iri"
      }
     ]
@@ -14116,6 +16938,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9a828b5f-bd7d-425f-b889-f2852b339898_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14177,6 +17007,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom",
       "type": "iri"
      }
     ]
@@ -14250,6 +17088,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14311,6 +17157,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9e40eb0a-25e5-4622-8b79-1a19b2570330_geom",
       "type": "iri"
      }
     ]
@@ -14384,6 +17238,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14445,6 +17307,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9f2868a0-3143-4024-bb49-c71f9d8dd864_geom",
       "type": "iri"
      }
     ]
@@ -14526,6 +17396,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14595,6 +17473,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom",
       "type": "iri"
      }
     ]
@@ -14668,6 +17554,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14729,6 +17623,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom",
       "type": "iri"
      }
     ]
@@ -14794,6 +17696,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a46ff53a-7708-4b04-96d3-36d25d4f535f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14855,6 +17765,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a51e2e99-0037-4a04-874f-2fb1a64e804e_geom",
       "type": "iri"
      }
     ]
@@ -14928,6 +17846,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -14991,6 +17917,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15052,6 +17986,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a813eea2-fe9a-4314-916e-d18e30428f17_geom",
       "type": "iri"
      }
     ]
@@ -15125,6 +18067,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15194,6 +18144,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom",
       "type": "iri"
      }
     ]
@@ -15275,6 +18233,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15336,6 +18302,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b41c112f-4843-4956-ab84-b90dade27d40_geom",
       "type": "iri"
      }
     ]
@@ -15401,6 +18375,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b4b23818-2422-4145-b162-9feb1559508f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15462,6 +18444,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom",
       "type": "iri"
      }
     ]
@@ -15535,6 +18525,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15596,6 +18594,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b65b8060-5341-4b04-879f-ffebaab6d0b2_geom",
       "type": "iri"
      }
     ]
@@ -15669,6 +18675,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15738,6 +18752,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom",
       "type": "iri"
      }
     ]
@@ -15811,6 +18833,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -15872,6 +18902,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom",
       "type": "iri"
      }
     ]
@@ -15953,6 +18991,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16022,6 +19068,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom",
       "type": "iri"
      }
     ]
@@ -16095,6 +19149,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16156,6 +19218,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom",
       "type": "iri"
      }
     ]
@@ -16229,6 +19299,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16300,6 +19378,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16361,6 +19447,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bd9a273c-41d4-4108-b63b-8f4a0f298268_geom",
       "type": "iri"
      }
     ]
@@ -16426,6 +19520,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bf0c59ea-be3e-466b-b127-3489c46dd15a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16487,6 +19589,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bffc569e-04a3-4506-9399-d6c95e77b3a6_geom",
       "type": "iri"
      }
     ]
@@ -16560,6 +19670,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16621,6 +19739,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c1ab5f63-f9f9-4f75-aae2-428489b43823_geom",
       "type": "iri"
      }
     ]
@@ -16694,6 +19820,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16763,6 +19897,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom",
       "type": "iri"
      }
     ]
@@ -16836,6 +19978,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16899,6 +20049,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -16960,6 +20118,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c5771677-4cc9-44af-91b5-5de6365789b9_geom",
       "type": "iri"
      }
     ]
@@ -17033,6 +20199,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17094,6 +20268,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c67379cd-4787-4016-96aa-b153b932abab_geom",
       "type": "iri"
      }
     ]
@@ -17159,6 +20341,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c72db726-4400-4409-a50b-1217816e158f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17220,6 +20410,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom",
       "type": "iri"
      }
     ]
@@ -17301,6 +20499,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17370,6 +20576,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom",
       "type": "iri"
      }
     ]
@@ -17451,6 +20665,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17520,6 +20742,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom",
       "type": "iri"
      }
     ]
@@ -17601,6 +20831,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17670,6 +20908,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom",
       "type": "iri"
      }
     ]
@@ -17743,6 +20989,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17804,6 +21058,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d115b172-64a5-4db8-ab2d-b556287b2c54_geom",
       "type": "iri"
      }
     ]
@@ -17877,6 +21139,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -17940,6 +21210,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18001,6 +21279,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d366167a-c152-4bae-9b8a-87f3ac3bf275_geom",
       "type": "iri"
      }
     ]
@@ -18074,6 +21360,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18135,6 +21429,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d4313e9d-3616-49e0-b1cc-cea436fd662f_geom",
       "type": "iri"
      }
     ]
@@ -18208,6 +21510,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18269,6 +21579,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d54de471-c174-42dd-90c9-bfd8ad4c482c_geom",
       "type": "iri"
      }
     ]
@@ -18342,6 +21660,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18403,6 +21729,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom",
       "type": "iri"
      }
     ]
@@ -18468,6 +21802,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18529,6 +21871,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom",
       "type": "iri"
      }
     ]
@@ -18594,6 +21944,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#da05f974-2a60-4de2-9cd9-2b06625b3a30_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18657,6 +22015,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#dafdf1be-d473-4b7f-b65e-1b5313478cae_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18718,6 +22084,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#dbf1ab41-a655-4569-883e-1de100632e02_geom",
       "type": "iri"
      }
     ]
@@ -18791,6 +22165,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18862,6 +22244,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -18923,6 +22313,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#dcda68c8-cde0-4d2f-9062-be5e478beb52_geom",
       "type": "iri"
      }
     ]
@@ -18996,6 +22394,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19057,6 +22463,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ddd9a1d8-d2cd-433a-8158-97ae15270207_geom",
       "type": "iri"
      }
     ]
@@ -19128,6 +22542,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom",
       "type": "iri"
      }
     ]
@@ -19209,6 +22631,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19280,6 +22710,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19341,6 +22779,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom",
       "type": "iri"
      }
     ]
@@ -19414,6 +22860,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19475,6 +22929,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom",
       "type": "iri"
      }
     ]
@@ -19548,6 +23010,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19617,6 +23087,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom",
       "type": "iri"
      }
     ]
@@ -19690,6 +23168,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19751,6 +23237,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom",
       "type": "iri"
      }
     ]
@@ -19822,6 +23316,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom",
       "type": "iri"
      }
     ]
@@ -19903,6 +23405,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -19974,6 +23484,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20035,6 +23553,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom",
       "type": "iri"
      }
     ]
@@ -20116,6 +23642,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20177,6 +23711,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ec09119c-d470-45bb-9859-102f53ed944b_geom",
       "type": "iri"
      }
     ]
@@ -20250,6 +23792,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20311,6 +23861,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom",
       "type": "iri"
      }
     ]
@@ -20384,6 +23942,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20455,6 +24021,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20518,6 +24092,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f3fefd10-8b81-4d76-a86b-913d419e60d5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20579,6 +24161,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f4dab308-cda8-4c28-bf6d-8872053307e3_geom",
       "type": "iri"
      }
     ]
@@ -20652,6 +24242,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20713,6 +24311,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom",
       "type": "iri"
      }
     ]
@@ -20778,6 +24384,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f7655a1e-c5a5-4308-b041-a306a98234fa_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20839,6 +24453,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fa1f5594-3452-4476-98a3-fc6146245ae1_geom",
       "type": "iri"
      }
     ]
@@ -20912,6 +24534,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -20975,6 +24605,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21036,6 +24674,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom",
       "type": "iri"
      }
     ]
@@ -21117,6 +24763,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21196,6 +24850,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21257,6 +24919,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fef07810-f623-4efe-987e-9010958b2a15_geom",
       "type": "iri"
      }
     ]
@@ -21322,6 +24992,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21383,6 +25061,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom",
       "type": "iri"
      }
     ]
@@ -21456,6 +25142,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#20e35462-2580-f6e0-f297-4b212dc76bc5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21525,6 +25219,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom",
       "type": "iri"
      }
     ]
@@ -21598,6 +25300,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#36510cec-f627-1951-d6f8-1b0def35b77a_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21669,6 +25379,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#422e5cd2-fcce-0da0-1655-85a795e78e5c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21730,6 +25448,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#48384403-6227-44d7-8327-e1adac8617e7_geom",
       "type": "iri"
      }
     ]
@@ -21803,6 +25529,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21864,6 +25598,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6263bc9a-2c4b-4675-8196-d4232dee23f3_geom",
       "type": "iri"
      }
     ]
@@ -21929,6 +25671,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -21990,6 +25740,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom",
       "type": "iri"
      }
     ]
@@ -22063,6 +25821,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22124,6 +25890,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom",
       "type": "iri"
      }
     ]
@@ -22189,6 +25963,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22252,6 +26034,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ec25566b-1581-4de8-af54-944d78b7756f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22313,6 +26103,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom",
       "type": "iri"
      }
     ]
@@ -22394,6 +26192,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22455,6 +26261,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom",
       "type": "iri"
      }
     ]
@@ -22536,6 +26350,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22597,6 +26419,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1666c930-9460-42e3-99c7-32eef2b60f4b_geom",
       "type": "iri"
      }
     ]
@@ -22678,6 +26508,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22757,6 +26595,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22818,6 +26664,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#26551278-d0f1-4741-950e-47e88d0bfcef_geom",
       "type": "iri"
      }
     ]
@@ -22883,6 +26737,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#303b162c-85ab-4356-abfe-6b6029d8e5d3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -22944,6 +26806,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#31a33e29-ff88-49d0-93ae-bff50577f08c_geom",
       "type": "iri"
      }
     ]
@@ -23025,6 +26895,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23104,6 +26982,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23165,6 +27051,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4a2ac55e-8819-4ffc-971d-4e3255244521_geom",
       "type": "iri"
      }
     ]
@@ -23246,6 +27140,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23309,6 +27211,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#55045191-2b66-482a-b3cf-d027e67cac9c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23370,6 +27280,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#5e927acb-3371-4300-9804-5fc6fb1388d2_geom",
       "type": "iri"
      }
     ]
@@ -23449,6 +27367,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
       "type": "iri"
      }
     ]
@@ -23538,6 +27464,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23599,6 +27533,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom",
       "type": "iri"
      }
     ]
@@ -23680,6 +27622,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23741,6 +27691,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#723174b5-7af2-489a-a766-8c1650beae91_geom",
       "type": "iri"
      }
     ]
@@ -23806,6 +27764,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7354c117-22d8-41c4-b679-3a1cd0357a65_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23869,6 +27835,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -23930,6 +27904,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8852c98d-198f-41a6-ba42-44ea128db271_geom",
       "type": "iri"
      }
     ]
@@ -24011,6 +27993,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -24072,6 +28062,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#99d67f15-27a8-45c3-95bd-6619e211638a_geom",
       "type": "iri"
      }
     ]
@@ -24137,6 +28135,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -24198,6 +28204,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom",
       "type": "iri"
      }
     ]
@@ -24279,6 +28293,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -24356,6 +28378,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
       "type": "iri"
      }
     ]
@@ -24445,6 +28475,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -24506,6 +28544,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom",
       "type": "iri"
      }
     ]
@@ -24595,6 +28641,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIb",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -24656,6 +28710,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#def031d2-a760-4e54-a33d-6754a4780ec2_geom",
       "type": "iri"
      }
     ]
@@ -24721,6 +28783,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e9f24e1d-fdda-420e-b444-66021c3b96e2_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -24782,6 +28852,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f0be2267-3889-4ec6-a50c-87551f9581d3_geom",
       "type": "iri"
      }
     ]
@@ -24861,6 +28939,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
       "type": "iri"
      }
     ]
@@ -24950,6 +29036,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIb",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25029,6 +29123,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25098,6 +29200,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
       "type": "iri"
      }
     ]
@@ -25171,6 +29281,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25232,6 +29350,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#837d4e73-d938-4f86-a89c-1099ce29f33e_geom",
       "type": "iri"
      }
     ]
@@ -25305,6 +29431,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25376,6 +29510,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25437,6 +29579,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom",
       "type": "iri"
      }
     ]
@@ -25502,6 +29652,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#e953f777-8ea1-4ace-a2ad-f0240260c209_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25563,6 +29721,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ea39529e-ec32-490e-8b2d-df1f584a6afb_geom",
       "type": "iri"
      }
     ]
@@ -25628,6 +29794,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fe037d07-6d14-4052-b152-17e83699eafd_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25689,6 +29863,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e_geom",
       "type": "iri"
      }
     ]
@@ -25754,6 +29936,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25815,6 +30005,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#37678450-1c30-4756-b89a-75c4021bcefe_geom",
       "type": "iri"
      }
     ]
@@ -25880,6 +30078,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#42897bc2-5707-42ff-8f01-b6170d542c6c_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -25941,6 +30147,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom",
       "type": "iri"
      }
     ]
@@ -26006,6 +30220,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26067,6 +30289,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c336744b-5e45-446b-ab1a-5c61031669ed_geom",
       "type": "iri"
      }
     ]
@@ -26132,6 +30362,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#ef66850a-2651-4d2b-bcfb-c37803346e55_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26193,6 +30431,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom",
       "type": "iri"
      }
     ]
@@ -26258,6 +30504,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26319,6 +30573,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom",
       "type": "iri"
      }
     ]
@@ -26398,6 +30660,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
       "type": "iri"
      }
     ]
@@ -26487,6 +30757,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionI",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26564,6 +30842,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
       "type": "iri"
      }
     ]
@@ -26645,6 +30931,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26708,6 +31002,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#86d66279-5b89-4d4e-9f94-166f838cbf0d_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26769,6 +31071,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2_geom",
       "type": "iri"
      }
     ]
@@ -26850,6 +31160,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -26911,6 +31229,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom",
       "type": "iri"
      }
     ]
@@ -26992,6 +31318,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#584e153d-4f51-0fa6-8208-40c70e5baf19_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27053,6 +31387,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom",
       "type": "iri"
      }
     ]
@@ -27118,6 +31460,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27181,6 +31531,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c5b30f79-c515-48cf-a077-c5289ec32956_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27242,6 +31600,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom",
       "type": "iri"
      }
     ]
@@ -27323,6 +31689,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27384,6 +31758,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e_geom",
       "type": "iri"
      }
     ]
@@ -27449,6 +31831,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27510,6 +31900,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom",
       "type": "iri"
      }
     ]
@@ -27575,6 +31973,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27636,6 +32042,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#55199184-3a67-4d1d-8361-eebeec4b6615_geom",
       "type": "iri"
      }
     ]
@@ -27701,6 +32115,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#559a292c-9b84-4152-8d12-161347862318_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27764,6 +32186,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#949e43c6-bcb7-4a9e-8686-38c04de30d80_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27825,6 +32255,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#b49637a5-8304-4703-b961-328acd9cfab1_geom",
       "type": "iri"
      }
     ]
@@ -27906,6 +32344,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3413903c-a458-8422-3997-434b1071b02b_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -27967,6 +32413,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#3563f2d3-e971-4dc3-8501-5cc745ce5201_geom",
       "type": "iri"
      }
     ]
@@ -28048,6 +32502,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#43367b68-fbe1-a3c3-2bd8-78f476093f69_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -28109,6 +32571,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom",
       "type": "iri"
      }
     ]
@@ -28174,6 +32644,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#782b5a2d-d383-4856-93eb-e974c77df325_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -28235,6 +32713,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom",
       "type": "iri"
      }
     ]
@@ -28300,6 +32786,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -28361,6 +32855,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#a67d29e2-adec-404e-83e4-1db08e6eedaf_geom",
       "type": "iri"
      }
     ]
@@ -28440,6 +32942,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#dfcca23a-f573-a4b1-f20d-52597dadffc9_geom",
       "type": "iri"
      }
     ]
@@ -28529,6 +33039,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/MinionIIa",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -28600,6 +33118,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -28663,6 +33189,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#983d0582-2a66-4b60-bb5b-979c01ef19c5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -28724,6 +33258,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#c7e1a156-d0a7-4cd4-a519-182fd2078922_geom",
       "type": "iri"
      }
     ]
@@ -28795,6 +33337,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
       "type": "iri"
      }
     ]
@@ -29505,16 +34055,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Smalgangen"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251623 63.8797502)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29528,16 +34069,7 @@ var vowlresult={
    "label": {
     "IRI-based": "005191fc-7128-48b0-a0f4-d1eaaaff3004_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0288033 63.8810208)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29551,16 +34083,7 @@ var vowlresult={
    "label": {
     "IRI-based": "00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280285 63.8795768)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29574,16 +34097,7 @@ var vowlresult={
    "label": {
     "IRI-based": "02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0241243 63.8805275)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29597,16 +34111,7 @@ var vowlresult={
    "label": {
     "IRI-based": "042db47c-d2e0-48b7-992e-31eeed05590b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239981 63.8795771)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29620,16 +34125,7 @@ var vowlresult={
    "label": {
     "IRI-based": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270325 63.8801886)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29643,16 +34139,7 @@ var vowlresult={
    "label": {
     "IRI-based": "04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257365 63.8810188)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29666,16 +34153,7 @@ var vowlresult={
    "label": {
     "IRI-based": "06d752cb-22a3-4939-86ee-1e59c2acd696_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261387 63.8810095)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29689,16 +34167,7 @@ var vowlresult={
    "label": {
     "IRI-based": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0250173 63.8796659)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29712,16 +34181,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261386 63.8795904)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29735,16 +34195,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0b12b1c6-4f43-4635-9437-2eccad89860a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287697 63.8811193)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29758,16 +34209,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268927 63.8805603)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29781,16 +34223,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0b5f0d63-782a-46bb-b360-3ca60fc75915_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251613 63.8810946)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29804,16 +34237,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0be2725f-e419-4f79-b4e0-31eb6cddeede_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292102 63.8791195)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29827,16 +34251,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280818 63.8800230)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29850,16 +34265,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261654 63.8809301)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29873,16 +34279,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0f46981f-21ba-428d-ba69-a833540fdd51_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0269112 63.8809456)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29896,16 +34293,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282226 63.8811046)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29919,16 +34307,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0fcef9c2-a38d-4664-b33e-4b523387955f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290903 63.8797413)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29942,16 +34321,7 @@ var vowlresult={
    "label": {
     "IRI-based": "103ff16b-91be-41cc-992e-842e9c717e00_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236630 63.8795818)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29965,16 +34335,7 @@ var vowlresult={
    "label": {
     "IRI-based": "11d18c0d-68ec-4921-8df7-ecc79095d097_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260028 63.8806618)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -29988,16 +34349,7 @@ var vowlresult={
    "label": {
     "IRI-based": "12d29b14-a072-4035-adf3-ce7fc203ef65_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267633 63.8809482)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30011,16 +34363,7 @@ var vowlresult={
    "label": {
     "IRI-based": "15979e00-a3ab-4266-a1ee-15c08536854d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292052 63.8797523)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30034,16 +34377,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1666c930-9460-42e3-99c7-32eef2b60f4b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290765 63.8793016)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30057,16 +34391,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1747eb43-675f-4f0b-bf95-60f4740395f5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0241297 63.8805949)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30080,16 +34405,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1826370a-8906-47be-b307-4a847bd26c9a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282052 63.8797520)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30103,16 +34419,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1888ca6c-cf87-4e68-a0b7-e605ae038610_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270292 63.8809335)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30126,16 +34433,7 @@ var vowlresult={
    "label": {
     "IRI-based": "18d49631-5a11-48f6-acb7-62cfaf8de742_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292441 63.8811178)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30149,16 +34447,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236738 63.8810492)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30172,16 +34461,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1d935768-ea8d-4be8-884b-a4dff9825021_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287754 63.8804931)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30195,16 +34475,7 @@ var vowlresult={
    "label": {
     "IRI-based": "20e35462-2580-f6e0-f297-4b212dc76bc5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0247076 63.8801213)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30218,16 +34489,7 @@ var vowlresult={
    "label": {
     "IRI-based": "22e61b60-371e-47f2-a07c-635d2380e04b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271509 63.8801100)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30241,16 +34503,7 @@ var vowlresult={
    "label": {
     "IRI-based": "24476baf-94f8-460f-b941-8937c65b4476_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0277522 63.8811149)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30264,16 +34517,7 @@ var vowlresult={
    "label": {
     "IRI-based": "248542fe-c72e-4120-babb-87611d3e0c72_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248275 63.8811147)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30287,16 +34531,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2515e864-e7ed-4e8e-9770-b108580a1f08_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258845 63.8801926)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30310,16 +34545,7 @@ var vowlresult={
    "label": {
     "IRI-based": "26551278-d0f1-4741-950e-47e88d0bfcef_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258528 63.8804888)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30333,16 +34559,7 @@ var vowlresult={
    "label": {
     "IRI-based": "265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0241358 63.8801578)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30356,16 +34573,7 @@ var vowlresult={
    "label": {
     "IRI-based": "28fa130c-4c84-4817-8b2e-855128e2b44e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270250 63.8806411)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30379,16 +34587,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289609 63.8792953)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30402,16 +34601,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267326 63.8804832)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30425,16 +34615,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270529 63.8810258)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30448,16 +34629,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267335 63.8802019)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30471,16 +34643,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2e47ae72-b63c-41a9-861b-009aa5454e57_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251658 63.8809367)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30494,16 +34657,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2f08adaf-d8a8-400b-a410-f011c467324e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0240910 63.8809266)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30517,16 +34671,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260291 63.8809363)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30540,16 +34685,7 @@ var vowlresult={
    "label": {
     "IRI-based": "303b162c-85ab-4356-abfe-6b6029d8e5d3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287983 63.8809410)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30563,16 +34699,7 @@ var vowlresult={
    "label": {
     "IRI-based": "31615fc1-a7de-48af-80a2-777dd77760b2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0281895 63.8792195)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30586,16 +34713,7 @@ var vowlresult={
    "label": {
     "IRI-based": "31a33e29-ff88-49d0-93ae-bff50577f08c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271867 63.8795795)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30609,16 +34727,7 @@ var vowlresult={
    "label": {
     "IRI-based": "31a96e29-dddc-46a1-9471-16d91c629005_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287745 63.8791403)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30632,16 +34741,7 @@ var vowlresult={
    "label": {
     "IRI-based": "323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270212 63.8800260)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30655,16 +34755,7 @@ var vowlresult={
    "label": {
     "IRI-based": "327283ae-3a31-4397-ae77-2566e4d146b6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267585 63.8811031)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30678,16 +34769,7 @@ var vowlresult={
    "label": {
     "IRI-based": "32beabf1-b953-4b07-a6ed-1472bca9a279_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290676 63.8795764)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30701,16 +34783,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3413903c-a458-8422-3997-434b1071b02b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239833 63.8805426)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30724,16 +34797,7 @@ var vowlresult={
    "label": {
     "IRI-based": "34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0238529 63.8795601)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30747,16 +34811,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3563f2d3-e971-4dc3-8501-5cc745ce5201_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248265 63.8806643)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30770,16 +34825,7 @@ var vowlresult={
    "label": {
     "IRI-based": "36510cec-f627-1951-d6f8-1b0def35b77a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268799 63.8793017)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30793,16 +34839,7 @@ var vowlresult={
    "label": {
     "IRI-based": "36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279328 63.8796520)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30816,16 +34853,7 @@ var vowlresult={
    "label": {
     "IRI-based": "373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258682 63.8805585)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30839,16 +34867,7 @@ var vowlresult={
    "label": {
     "IRI-based": "37678450-1c30-4756-b89a-75c4021bcefe_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248381 63.8800257)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30862,16 +34881,7 @@ var vowlresult={
    "label": {
     "IRI-based": "37993191-20c4-49a4-b3bc-2a28960f323d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236998 63.8797675)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30885,16 +34895,7 @@ var vowlresult={
    "label": {
     "IRI-based": "38880781-0283-43a1-84da-1b842caf34ba_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258968 63.8801047)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30908,16 +34909,7 @@ var vowlresult={
    "label": {
     "IRI-based": "389c5712-618e-4532-84fd-4eb084e6c0aa_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282081 63.8801120)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30931,16 +34923,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267204 63.8810213)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30954,16 +34937,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236841 63.8797015)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -30977,16 +34951,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0241228 63.8795766)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31000,16 +34965,7 @@ var vowlresult={
    "label": {
     "IRI-based": "415dd66d-5628-4e55-a489-ac2ae21a63d5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0247279 63.8809497)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31023,16 +34979,7 @@ var vowlresult={
    "label": {
     "IRI-based": "422e5cd2-fcce-0da0-1655-85a795e78e5c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0278933 63.8801272)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31046,16 +34993,7 @@ var vowlresult={
    "label": {
     "IRI-based": "42897bc2-5707-42ff-8f01-b6170d542c6c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239724 63.8809207)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31069,16 +35007,7 @@ var vowlresult={
    "label": {
     "IRI-based": "43367b68-fbe1-a3c3-2bd8-78f476093f69_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251190 63.8796530)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31092,16 +35021,7 @@ var vowlresult={
    "label": {
     "IRI-based": "43445b66-c4c5-4668-8fb7-00186131c6ff_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280487 63.8792985)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31115,16 +35035,7 @@ var vowlresult={
    "label": {
     "IRI-based": "44b999ae-3457-43f6-ad3c-cebf913b3629_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0237114 63.8811135)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31138,16 +35049,7 @@ var vowlresult={
    "label": {
     "IRI-based": "45d241e5-c948-4ae3-860b-668b54894e58_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260384 63.8800217)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31161,16 +35063,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257379 63.8796530)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31184,16 +35077,7 @@ var vowlresult={
    "label": {
     "IRI-based": "48384403-6227-44d7-8327-e1adac8617e7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0249683 63.8801168)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31207,16 +35091,7 @@ var vowlresult={
    "label": {
     "IRI-based": "491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271877 63.8805557)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31230,16 +35105,7 @@ var vowlresult={
    "label": {
     "IRI-based": "49a39ab2-4e8f-4991-8297-5a18a5735647_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289508 63.8802068)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31253,16 +35119,7 @@ var vowlresult={
    "label": {
     "IRI-based": "49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260237 63.8795679)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31276,16 +35133,7 @@ var vowlresult={
    "label": {
     "IRI-based": "49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290948 63.8804953)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31299,16 +35147,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4a2ac55e-8819-4ffc-971d-4e3255244521_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236776 63.8791678)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31322,16 +35161,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248282 63.8801206)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31345,16 +35175,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0238602 63.8805899)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31368,16 +35189,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258684 63.8809322)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31391,16 +35203,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292423 63.8792898)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31414,16 +35217,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4c6f385a-e492-46e7-9488-4fedf6114353_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248626 63.8791145)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31437,16 +35231,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4dcec8c0-392b-421c-94de-b7ca326a59ce_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290677 63.8792200)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31460,16 +35245,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4e1bbd40-75c2-4134-abdf-71a85b238394_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279237 63.8797595)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31483,16 +35259,7 @@ var vowlresult={
    "label": {
     "IRI-based": "51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248704 63.8804765)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31506,16 +35273,7 @@ var vowlresult={
    "label": {
     "IRI-based": "51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290848 63.8806453)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31529,16 +35287,7 @@ var vowlresult={
    "label": {
     "IRI-based": "521dd20c-2456-40a9-8b2b-0064396ccb07_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290521 63.8811164)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31552,16 +35301,7 @@ var vowlresult={
    "label": {
     "IRI-based": "52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0281911 63.8791251)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31575,16 +35315,7 @@ var vowlresult={
    "label": {
     "IRI-based": "54418eb6-7220-4d62-8e35-7a3266ae3120_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289319 63.8805600)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31598,16 +35329,7 @@ var vowlresult={
    "label": {
     "IRI-based": "54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0238376 63.8810566)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31621,16 +35343,7 @@ var vowlresult={
    "label": {
     "IRI-based": "55045191-2b66-482a-b3cf-d027e67cac9c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289082 63.8806566)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31644,16 +35357,7 @@ var vowlresult={
    "label": {
     "IRI-based": "55199184-3a67-4d1d-8361-eebeec4b6615_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289345 63.8801144)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31667,16 +35371,7 @@ var vowlresult={
    "label": {
     "IRI-based": "559a292c-9b84-4152-8d12-161347862318_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0250082 63.8791148)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31690,16 +35385,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239523 63.8796416)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31713,16 +35399,7 @@ var vowlresult={
    "label": {
     "IRI-based": "59667ebc-7204-4355-b5cf-9ec86c280d6a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258696 63.8800259)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31736,16 +35413,7 @@ var vowlresult={
    "label": {
     "IRI-based": "599490bb-6a70-49f9-8d4d-270f7c3792bb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271850 63.8809255)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31759,16 +35427,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5a41564a-597e-4b30-aa96-21956e0dcd4d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0238373 63.8805328)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31782,16 +35441,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5a9dda79-cbe5-47f0-901f-278f4748c48f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0240918 63.8809964)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31805,16 +35455,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280285 63.8805652)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31828,16 +35469,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239891 63.8801477)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31851,16 +35483,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5e927acb-3371-4300-9804-5fc6fb1388d2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0249684 63.8792553)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31874,16 +35497,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6247dd7d-45da-4805-9922-ad78d30ddc00_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0249872 63.8806575)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31897,16 +35511,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6263bc9a-2c4b-4675-8196-d4232dee23f3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258644 63.8806608)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31920,16 +35525,7 @@ var vowlresult={
    "label": {
     "IRI-based": "62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257305 63.8795813)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31943,16 +35539,7 @@ var vowlresult={
    "label": {
     "IRI-based": "634e698f-f3c3-4363-a8b6-8163b4f476ed_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0241301 63.8796331)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31966,16 +35553,7 @@ var vowlresult={
    "label": {
     "IRI-based": "63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0278840 63.8806435)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -31989,16 +35567,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6726b202-cbe6-4428-bced-528128ba4391_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267790 63.8797617)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32012,16 +35581,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280808 63.8806484)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32035,16 +35595,7 @@ var vowlresult={
    "label": {
     "IRI-based": "675e393e-a8dd-4abf-8698-75200a6cb8c9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0247264 63.8806630)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32058,16 +35609,7 @@ var vowlresult={
    "label": {
     "IRI-based": "686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0237187 63.8810031)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32081,16 +35623,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248416 63.8791777)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32104,16 +35637,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0291890 63.8805605)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32127,16 +35651,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257326 63.8806605)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32150,16 +35665,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6f14de57-897a-4758-a984-262ca18baf75_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271551 63.8792120)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32173,16 +35679,7 @@ var vowlresult={
    "label": {
     "IRI-based": "723174b5-7af2-489a-a766-8c1650beae91_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287917 63.8795897)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32196,16 +35693,7 @@ var vowlresult={
    "label": {
     "IRI-based": "7354c117-22d8-41c4-b679-3a1cd0357a65_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251562 63.8801181)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32219,16 +35707,7 @@ var vowlresult={
    "label": {
     "IRI-based": "782b5a2d-d383-4856-93eb-e974c77df325_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279189 63.8810991)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32242,16 +35721,7 @@ var vowlresult={
    "label": {
     "IRI-based": "7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258488 63.8791295)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32265,16 +35735,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0269011 63.8801903)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32288,16 +35749,7 @@ var vowlresult={
    "label": {
     "IRI-based": "837d4e73-d938-4f86-a89c-1099ce29f33e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239935 63.8792341)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32311,16 +35763,7 @@ var vowlresult={
    "label": {
     "IRI-based": "863761bc-1744-4a56-87ca-5a38172397b7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268909 63.8810189)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32334,16 +35777,7 @@ var vowlresult={
    "label": {
     "IRI-based": "866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267575 63.8806592)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32357,16 +35791,7 @@ var vowlresult={
    "label": {
     "IRI-based": "866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270621 63.8791159)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32380,16 +35805,7 @@ var vowlresult={
    "label": {
     "IRI-based": "86d66279-5b89-4d4e-9f94-166f838cbf0d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251528 63.8792534)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32403,16 +35819,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268719 63.8797389)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32426,16 +35833,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8852c98d-198f-41a6-ba42-44ea128db271_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280847 63.8804837)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32449,16 +35847,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8870c476-f724-4940-a41c-ea4287430711_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248447 63.8792538)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32472,16 +35861,7 @@ var vowlresult={
    "label": {
     "IRI-based": "88a536c2-f97f-41a1-aec9-4ed80f13707b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0246878 63.8791293)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32495,16 +35875,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0246873 63.8811186)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32518,16 +35889,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8b5fa40a-9651-452e-b0ec-54acee59291b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270601 63.8792206)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32541,16 +35903,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289178 63.8811097)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32564,16 +35917,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8be34e7d-8ed8-41b4-81b0-30fa20313640_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0250089 63.8800365)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32587,16 +35931,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8fee201f-da13-42aa-b212-3c44f64bc27e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279312 63.8805664)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32610,16 +35945,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9341c466-7f3f-4271-a114-d3c94c930f3f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287686 63.8801880)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32633,16 +35959,7 @@ var vowlresult={
    "label": {
     "IRI-based": "949e43c6-bcb7-4a9e-8686-38c04de30d80_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282048 63.8809422)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32656,16 +35973,7 @@ var vowlresult={
    "label": {
     "IRI-based": "96121114-97f7-4a80-b9a6-510945167a62_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258878 63.8792012)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32679,16 +35987,7 @@ var vowlresult={
    "label": {
     "IRI-based": "96bc48a7-9318-4690-b6da-6c177bed2142_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261571 63.8797407)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32702,16 +36001,7 @@ var vowlresult={
    "label": {
     "IRI-based": "983d0582-2a66-4b60-bb5b-979c01ef19c5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0277880 63.8796590)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32725,16 +36015,7 @@ var vowlresult={
    "label": {
     "IRI-based": "99d67f15-27a8-45c3-95bd-6619e211638a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0250169 63.8797485)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32748,16 +36029,7 @@ var vowlresult={
    "label": {
     "IRI-based": "99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279358 63.8810156)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32771,16 +36043,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9a5569b3-ad35-413b-bf48-efc5563abc59_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0291924 63.8810256)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32794,16 +36057,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9a828b5f-bd7d-425f-b889-f2852b339898_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0278911 63.8792016)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32817,16 +36071,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282133 63.8795879)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32840,16 +36085,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268874 63.8796537)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32863,16 +36099,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0246909 63.8805628)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32886,16 +36113,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9e40eb0a-25e5-4622-8b79-1a19b2570330_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279162 63.8800199)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32909,16 +36127,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9f2868a0-3143-4024-bb49-c71f9d8dd864_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236719 63.8804781)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32932,16 +36141,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290757 63.8809251)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32955,16 +36155,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a3006e8d-46d6-4db0-81aa-23238514e5eb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280442 63.8811089)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -32978,16 +36169,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a3228d61-d64a-4b1f-be73-130b222b1c11_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0238400 63.8800105)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33001,16 +36183,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0279215 63.8809447)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33024,16 +36197,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a46ff53a-7708-4b04-96d3-36d25d4f535f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282240 63.8793030)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33047,16 +36211,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a51e2e99-0037-4a04-874f-2fb1a64e804e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0291964 63.8795754)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33070,16 +36225,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a67d29e2-adec-404e-83e4-1db08e6eedaf_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0249904 63.8795750)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33093,16 +36239,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267623 63.8792112)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33116,16 +36253,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a7f106af-5755-44ed-9ba2-86b1110e21f7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258550 63.8796624)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33139,16 +36267,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257031 63.8804756)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33162,16 +36281,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a813eea2-fe9a-4314-916e-d18e30428f17_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0246885 63.8800300)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33185,16 +36295,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a9d036a7-9001-47c8-89db-54c0fe8d6829_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0238243 63.8810010)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33208,16 +36309,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0277507 63.8800316)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33231,16 +36323,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b1984fb3-ca88-4453-8fa3-b782d735052c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0277928 63.8791253)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33254,16 +36337,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b41c112f-4843-4956-ab84-b90dade27d40_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287619 63.8793063)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33277,16 +36351,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b49637a5-8304-4703-b961-328acd9cfab1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0246825 63.8810331)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33300,16 +36365,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b4b23818-2422-4145-b162-9feb1559508f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0250066 63.8811152)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33323,16 +36379,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292064 63.8796771)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33346,16 +36393,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b65b8060-5341-4b04-879f-ffebaab6d0b2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239584 63.8800787)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33369,16 +36407,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267367 63.8791337)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33392,16 +36421,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282092 63.8810274)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33415,16 +36435,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0272082 63.8806410)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33438,16 +36449,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257353 63.8811021)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33461,16 +36463,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bd9a273c-41d4-4108-b63b-8f4a0f298268_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0240914 63.8791744)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33484,16 +36477,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271597 63.8796623)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33507,16 +36491,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bf0c59ea-be3e-466b-b127-3489c46dd15a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239460 63.8800255)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33530,16 +36505,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bffc569e-04a3-4506-9399-d6c95e77b3a6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260066 63.8796642)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33553,16 +36519,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c1ab5f63-f9f9-4f75-aae2-428489b43823_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289394 63.8796768)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33576,16 +36533,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c336744b-5e45-446b-ab1a-5c61031669ed_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280260 63.8809252)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33599,16 +36547,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267665 63.8795826)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33622,16 +36561,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c5771677-4cc9-44af-91b5-5de6365789b9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0237013 63.8800341)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33645,16 +36575,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c67379cd-4787-4016-96aa-b153b932abab_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236965 63.8805292)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33668,16 +36589,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c72db726-4400-4409-a50b-1217816e158f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0237186 63.8809277)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33691,16 +36603,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c7c46dd9-6977-4662-86fa-7bd465591b65_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268779 63.8811191)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33714,16 +36617,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c7e1a156-d0a7-4cd4-a519-182fd2078922_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271564 63.8810223)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33737,16 +36631,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292257 63.8809504)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33760,16 +36645,7 @@ var vowlresult={
    "label": {
     "IRI-based": "cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251486 63.8805699)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33783,16 +36659,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d115b172-64a5-4db8-ab2d-b556287b2c54_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270450 63.8811036)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33806,16 +36673,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280299 63.8792142)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33829,16 +36687,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287845 63.8800286)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33852,16 +36701,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d366167a-c152-4bae-9b8a-87f3ac3bf275_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0287958 63.8805695)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33875,16 +36715,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d4313e9d-3616-49e0-b1cc-cea436fd662f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0258415 63.8797432)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33898,16 +36729,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d54de471-c174-42dd-90c9-bfd8ad4c482c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280641 63.8801960)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33921,16 +36743,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d5710f70-63c7-4107-ac87-3fad0dca5830_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239606 63.8810425)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33944,16 +36757,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280636 63.8797585)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33967,16 +36771,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0291963 63.8802057)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -33990,16 +36785,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239547 63.8791760)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34013,16 +36799,7 @@ var vowlresult={
    "label": {
     "IRI-based": "da05f974-2a60-4de2-9cd9-2b06625b3a30_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0246976 63.8804811)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34036,16 +36813,7 @@ var vowlresult={
    "label": {
     "IRI-based": "dafdf1be-d473-4b7f-b65e-1b5313478cae_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0289188 63.8792074)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34059,16 +36827,7 @@ var vowlresult={
    "label": {
     "IRI-based": "dbf1ab41-a655-4569-883e-1de100632e02_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0249988 63.8805653)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34082,16 +36841,7 @@ var vowlresult={
    "label": {
     "IRI-based": "dc5ba2e0-7975-466e-930f-a5469030df40_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260114 63.8802069)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34105,16 +36855,7 @@ var vowlresult={
    "label": {
     "IRI-based": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0248585 63.8797390)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34128,16 +36869,7 @@ var vowlresult={
    "label": {
     "IRI-based": "dcda68c8-cde0-4d2f-9062-be5e478beb52_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292036 63.8792194)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34151,16 +36883,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ddc25136-83aa-463c-9460-c718847292e0_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0292238 63.8804868)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34174,16 +36897,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ddd9a1d8-d2cd-433a-8158-97ae15270207_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0277492 63.8795759)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34197,16 +36911,7 @@ var vowlresult={
    "label": {
     "IRI-based": "de109b58-0791-4eb7-9fff-d536f15297af_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0236722 63.8802187)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34220,16 +36925,7 @@ var vowlresult={
    "label": {
     "IRI-based": "def031d2-a760-4e54-a33d-6754a4780ec2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251300 63.8804913)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34243,16 +36939,7 @@ var vowlresult={
    "label": {
     "IRI-based": "dfcca23a-f573-a4b1-f20d-52597dadffc9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0277847 63.8809477)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34266,16 +36953,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251545 63.8810139)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34289,16 +36967,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0251295 63.8791068)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34312,16 +36981,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0267454 63.8801082)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34335,16 +36995,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e953f777-8ea1-4ace-a2ad-f0240260c209_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0268757 63.8801108)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34358,16 +37009,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270086 63.8796678)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34381,16 +37023,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e9f24e1d-fdda-420e-b444-66021c3b96e2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0239437 63.8791134)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34404,16 +37037,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ea39529e-ec32-490e-8b2d-df1f584a6afb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261857 63.8791311)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34427,16 +37051,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271975 63.8791170)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34450,16 +37065,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257204 63.8797460)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34473,16 +37079,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ec09119c-d470-45bb-9859-102f53ed944b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0260010 63.8792915)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34496,16 +37093,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ec25566b-1581-4de8-af54-944d78b7756f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0282044 63.8796681)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34519,16 +37107,7 @@ var vowlresult={
    "label": {
     "IRI-based": "edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261693 63.8796703)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34542,16 +37121,7 @@ var vowlresult={
    "label": {
     "IRI-based": "eec807e9-47d0-4801-a3f8-017c818a99e7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0249924 63.8810200)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34565,16 +37135,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ef66850a-2651-4d2b-bcfb-c37803346e55_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0269088 63.8792200)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34588,16 +37149,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270324 63.8797595)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34611,16 +37163,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f0be2267-3889-4ec6-a50c-87551f9581d3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280802 63.8796594)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34634,16 +37177,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f3fefd10-8b81-4d76-a86b-913d419e60d5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257458 63.8791141)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34657,16 +37191,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f4c616a4-3188-45f4-ad66-878498003c20_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0271501 63.8811125)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34680,16 +37205,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f4dab308-cda8-4c28-bf6d-8872053307e3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0261649 63.8800353)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34703,16 +37219,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0241143 63.8800734)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34726,16 +37233,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f7655a1e-c5a5-4308-b041-a306a98234fa_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0247042 63.8796516)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34749,16 +37247,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fa1f5594-3452-4476-98a3-fc6146245ae1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0290722 63.8801893)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34772,16 +37261,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fab26445-cb25-492a-8d8a-47f31706a753_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0257531 63.8801163)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34795,16 +37275,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0280740 63.8810294)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34818,16 +37289,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270184 63.8804724)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34841,16 +37303,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fdf099f7-869f-499e-80c3-00c91f0a4d35_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0270139 63.8795775)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34864,16 +37317,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fe037d07-6d14-4052-b152-17e83699eafd_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POINT(20.0237149 63.8801592)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34887,16 +37331,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fef07810-f623-4efe-987e-9010958b2a15_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0268562 63.8806346, 20.0269092 63.8806346, 20.0269092 63.8806473, 20.0268562 63.8806473, 20.0268562 63.8806346))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34910,16 +37345,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0194d590-c58c-4c97-98f8-303ea8ffe32a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0250807 63.8791806, 20.0251338 63.8791806, 20.0251338 63.8791933, 20.0250807 63.8791933, 20.0250807 63.8791806))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34933,16 +37359,7 @@ var vowlresult={
    "label": {
     "IRI-based": "038d7342-a29b-4fb4-848a-38956486b324_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236589 63.8800666, 20.0237120 63.8800666, 20.0237120 63.8800792, 20.0236589 63.8800792, 20.0236589 63.8800666))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34956,16 +37373,7 @@ var vowlresult={
    "label": {
     "IRI-based": "03bf5218-bda5-4791-b190-b302c4d8d6ce_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261120 63.8791993, 20.0261650 63.8791993, 20.0261650 63.8792119, 20.0261120 63.8792119, 20.0261120 63.8791993))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -34979,16 +37387,7 @@ var vowlresult={
    "label": {
     "IRI-based": "069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0271360 63.8800195, 20.0271891 63.8800195, 20.0271891 63.8800321, 20.0271360 63.8800321, 20.0271360 63.8800195))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35002,16 +37401,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0800c7da-7e10-4ba2-a020-7db1bc018572_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0238023 63.8804771, 20.0238553 63.8804771, 20.0238553 63.8804898, 20.0238023 63.8804898, 20.0238023 63.8804771))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35025,16 +37415,7 @@ var vowlresult={
    "label": {
     "IRI-based": "09625e57-e1e3-4819-baac-8154feac0fe6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277201 63.8792780, 20.0277732 63.8792780, 20.0277732 63.8792907, 20.0277201 63.8792907, 20.0277201 63.8792780))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35048,16 +37429,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0b959b96-55fd-4550-b4de-68e2c4f9625f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0290558 63.8791142, 20.0291088 63.8791142, 20.0291088 63.8791269, 20.0290558 63.8791269, 20.0290558 63.8791142))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35071,16 +37443,7 @@ var vowlresult={
    "label": {
     "IRI-based": "0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277175 63.8797483, 20.0277705 63.8797483, 20.0277705 63.8797609, 20.0277175 63.8797609, 20.0277175 63.8797483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35094,16 +37457,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1073f60f-73b2-4193-8bd7-951995224dbb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0251064 63.8806421, 20.0251595 63.8806421, 20.0251595 63.8806547, 20.0251064 63.8806547, 20.0251064 63.8806421))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35117,16 +37471,7 @@ var vowlresult={
    "label": {
     "IRI-based": "10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0289007 63.8809337, 20.0289537 63.8809337, 20.0289537 63.8809464, 20.0289007 63.8809464, 20.0289007 63.8809337))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35140,16 +37485,7 @@ var vowlresult={
    "label": {
     "IRI-based": "12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0246687 63.8792886, 20.0247217 63.8792886, 20.0247217 63.8793012, 20.0246687 63.8793012, 20.0246687 63.8792886))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35163,16 +37499,7 @@ var vowlresult={
    "label": {
     "IRI-based": "12d61444-88ae-43b3-95d4-15e5fecd4180_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0249707 63.8801879, 20.0250238 63.8801879, 20.0250238 63.8802006, 20.0249707 63.8802006, 20.0249707 63.8801879))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35186,16 +37513,7 @@ var vowlresult={
    "label": {
     "IRI-based": "180a5320-3833-4133-aa46-aab7f0d80d84_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236714 63.8792306, 20.0237245 63.8792306, 20.0237245 63.8792433, 20.0236714 63.8792433, 20.0236714 63.8792306))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35209,16 +37527,7 @@ var vowlresult={
    "label": {
     "IRI-based": "19793c7f-6cc9-462c-99da-e3e33ff97461_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0249947 63.8791658, 20.0250478 63.8791658, 20.0250478 63.8791785, 20.0249947 63.8791785, 20.0249947 63.8791658))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35232,16 +37541,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1a2be1c9-acaf-4659-839d-0146401472f2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0268825 63.8800204, 20.0269356 63.8800204, 20.0269356 63.8800330, 20.0268825 63.8800330, 20.0268825 63.8800204))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35255,16 +37555,7 @@ var vowlresult={
    "label": {
     "IRI-based": "1fcfa357-13f8-4cb5-8e28-f98280989898_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0248404 63.8805627, 20.0248934 63.8805627, 20.0248934 63.8805753, 20.0248404 63.8805753, 20.0248404 63.8805627))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35278,16 +37569,7 @@ var vowlresult={
    "label": {
     "IRI-based": "25d0c170-da08-47ed-8bf8-78f36d0f558e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0251049 63.8800189, 20.0251579 63.8800189, 20.0251579 63.8800315, 20.0251049 63.8800315, 20.0251049 63.8800189))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35301,16 +37583,7 @@ var vowlresult={
    "label": {
     "IRI-based": "264aceda-0df9-48de-9c9a-bfac46e9d790_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0239216 63.8804789, 20.0239747 63.8804789, 20.0239747 63.8804916, 20.0239216 63.8804916, 20.0239216 63.8804789))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35324,16 +37597,7 @@ var vowlresult={
    "label": {
     "IRI-based": "275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0257186 63.8800177, 20.0257717 63.8800177, 20.0257717 63.8800303, 20.0257186 63.8800303, 20.0257186 63.8800177))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35347,16 +37611,7 @@ var vowlresult={
    "label": {
     "IRI-based": "28ec2dbf-6806-4a32-a35d-78764bfda459_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0268661 63.8795707, 20.0269192 63.8795707, 20.0269192 63.8795834, 20.0268661 63.8795834, 20.0268661 63.8795707))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35370,16 +37625,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2abb9a90-732f-4e75-b764-6b3df7dfa173_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0257041 63.8792041, 20.0257571 63.8792041, 20.0257571 63.8792167, 20.0257041 63.8792167, 20.0257041 63.8792041))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35393,16 +37639,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0240799 63.8791239, 20.0241330 63.8791239, 20.0241330 63.8791366, 20.0240799 63.8791366, 20.0240799 63.8791239))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35416,16 +37653,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2df381ca-154e-4368-bc83-b6d74e5130a2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277189 63.8810051, 20.0277719 63.8810051, 20.0277719 63.8810177, 20.0277189 63.8810177, 20.0277189 63.8810051))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35439,16 +37667,7 @@ var vowlresult={
    "label": {
     "IRI-based": "2e711592-9068-438a-80b9-0c7725e1d6bb_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0259758 63.8792178, 20.0260288 63.8792178, 20.0260288 63.8792305, 20.0259758 63.8792305, 20.0259758 63.8792178))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35462,16 +37681,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3018eba9-3c11-41e8-901e-7377167b58e4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0270332 63.8801019, 20.0270862 63.8801019, 20.0270862 63.8801146, 20.0270332 63.8801146, 20.0270332 63.8801019))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35485,16 +37695,7 @@ var vowlresult={
    "label": {
     "IRI-based": "32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0281627 63.8800165, 20.0282157 63.8800165, 20.0282157 63.8800291, 20.0281627 63.8800291, 20.0281627 63.8800165))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35508,16 +37709,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3280d786-1bb7-4913-9be9-9041f65ef4b6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0290362 63.8796585, 20.0290893 63.8796585, 20.0290893 63.8796712, 20.0290362 63.8796712, 20.0290362 63.8796585))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35531,16 +37723,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3672902d-7362-4069-9769-21296706d028_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0290181 63.8805508, 20.0290711 63.8805508, 20.0290711 63.8805635, 20.0290181 63.8805635, 20.0290181 63.8805508))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35554,16 +37737,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3a55458f-5c2f-4368-9a03-384f6377e301_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0278561 63.8791286, 20.0279092 63.8791286, 20.0279092 63.8791412, 20.0278561 63.8791412, 20.0278561 63.8791286))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35577,16 +37751,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3cd74fe7-9b31-4361-ad28-08afb3097edc_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261056 63.8806527, 20.0261586 63.8806527, 20.0261586 63.8806654, 20.0261056 63.8806654, 20.0261056 63.8806527))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35600,16 +37765,7 @@ var vowlresult={
    "label": {
     "IRI-based": "3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0240774 63.8804554, 20.0241304 63.8804554, 20.0241304 63.8804681, 20.0240774 63.8804681, 20.0240774 63.8804554))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35623,16 +37779,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0271572 63.8804872, 20.0272103 63.8804872, 20.0272103 63.8804999, 20.0271572 63.8804999, 20.0271572 63.8804872))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35646,16 +37793,7 @@ var vowlresult={
    "label": {
     "IRI-based": "41bc9d9f-999b-4c03-868d-e3823fc03184_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0258376 63.8810141, 20.0258906 63.8810141, 20.0258906 63.8810267, 20.0258376 63.8810267, 20.0258376 63.8810141))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35669,16 +37807,7 @@ var vowlresult={
    "label": {
     "IRI-based": "435bca7b-b840-4894-9bff-df7c45b2c20c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0291642 63.8800278, 20.0292173 63.8800278, 20.0292173 63.8800405, 20.0291642 63.8800405, 20.0291642 63.8800278))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35692,16 +37821,7 @@ var vowlresult={
    "label": {
     "IRI-based": "464f2805-ec4f-4d89-858e-f56a4378062d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261259 63.8805732, 20.0261790 63.8805732, 20.0261790 63.8805859, 20.0261259 63.8805859, 20.0261259 63.8805732))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35715,16 +37835,7 @@ var vowlresult={
    "label": {
     "IRI-based": "467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0237915 63.8796296, 20.0238446 63.8796296, 20.0238446 63.8796423, 20.0237915 63.8796423, 20.0237915 63.8796296))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35738,16 +37849,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4692f53e-797d-4457-bbc3-55273889566f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0288782 63.8800257, 20.0289312 63.8800257, 20.0289312 63.8800383, 20.0288782 63.8800383, 20.0288782 63.8800257))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35761,16 +37863,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4960c3ef-c969-4930-8f87-3e9250c5b716_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0271348 63.8797436, 20.0271879 63.8797436, 20.0271879 63.8797562, 20.0271348 63.8797562, 20.0271348 63.8797436))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35784,16 +37877,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4bb458df-e06c-4d79-bcdb-663a09168b93_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0248408 63.8801929, 20.0248939 63.8801929, 20.0248939 63.8802055, 20.0248408 63.8802055, 20.0248408 63.8801929))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35807,16 +37891,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4ccf2904-a68a-4c88-81de-8d549bc421e9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0237753 63.8800796, 20.0238283 63.8800796, 20.0238283 63.8800923, 20.0237753 63.8800923, 20.0237753 63.8800796))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35830,16 +37905,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4db030c2-2331-4dad-b17c-da023bceff9f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0258164 63.8795713, 20.0258694 63.8795713, 20.0258694 63.8795839, 20.0258164 63.8795839, 20.0258164 63.8795713))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35853,16 +37919,7 @@ var vowlresult={
    "label": {
     "IRI-based": "4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0237855 63.8791045, 20.0238385 63.8791045, 20.0238385 63.8791172, 20.0237855 63.8791172, 20.0237855 63.8791045))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35876,16 +37933,7 @@ var vowlresult={
    "label": {
     "IRI-based": "526eb9a7-2805-4a93-b49c-df9a922b279c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0259622 63.8805514, 20.0260152 63.8805514, 20.0260152 63.8805640, 20.0259622 63.8805640, 20.0259622 63.8805514))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35899,16 +37947,7 @@ var vowlresult={
    "label": {
     "IRI-based": "52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236754 63.8796263, 20.0237284 63.8796263, 20.0237284 63.8796389, 20.0236754 63.8796389, 20.0236754 63.8796263))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35922,16 +37961,7 @@ var vowlresult={
    "label": {
     "IRI-based": "53bf2db7-7718-4835-bc3c-2baf3068207f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0257231 63.8805759, 20.0257761 63.8805759, 20.0257761 63.8805886, 20.0257231 63.8805886, 20.0257231 63.8805759))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35945,16 +37975,7 @@ var vowlresult={
    "label": {
     "IRI-based": "53ed429c-06e1-419a-9002-12d7bcf18ba0_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261424 63.8811110, 20.0261955 63.8811110, 20.0261955 63.8811237, 20.0261424 63.8811237, 20.0261424 63.8811110))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35968,16 +37989,7 @@ var vowlresult={
    "label": {
     "IRI-based": "55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0249839 63.8809389, 20.0250370 63.8809389, 20.0250370 63.8809515, 20.0249839 63.8809515, 20.0249839 63.8809389))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -35991,16 +38003,7 @@ var vowlresult={
    "label": {
     "IRI-based": "569674c9-3895-4cb5-8f2c-38e608cab577_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0280494 63.8801151, 20.0281025 63.8801151, 20.0281025 63.8801277, 20.0280494 63.8801277, 20.0280494 63.8801151))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36014,16 +38017,7 @@ var vowlresult={
    "label": {
     "IRI-based": "584e153d-4f51-0fa6-8208-40c70e5baf19_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0257082 63.8801925, 20.0257613 63.8801925, 20.0257613 63.8802052, 20.0257082 63.8802052, 20.0257082 63.8801925))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36037,16 +38031,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5bcc0471-f0ba-417c-bae1-abb3223cd352_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277347 63.8804784, 20.0277877 63.8804784, 20.0277877 63.8804911, 20.0277347 63.8804911, 20.0277347 63.8804784))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36060,16 +38045,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0287571 63.8792095, 20.0288102 63.8792095, 20.0288102 63.8792221, 20.0287571 63.8792221, 20.0287571 63.8792095))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36083,16 +38059,7 @@ var vowlresult={
    "label": {
     "IRI-based": "5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0271207 63.8802052, 20.0271738 63.8802052, 20.0271738 63.8802179, 20.0271207 63.8802179, 20.0271207 63.8802052))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36106,16 +38073,7 @@ var vowlresult={
    "label": {
     "IRI-based": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0246920 63.8795773, 20.0247451 63.8795773, 20.0247451 63.8795900, 20.0246920 63.8795900, 20.0246920 63.8795773))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36129,16 +38087,7 @@ var vowlresult={
    "label": {
     "IRI-based": "62c65c41-af9e-4af8-af61-97602598da5c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277698 63.8792040, 20.0278229 63.8792040, 20.0278229 63.8792166, 20.0277698 63.8792166, 20.0277698 63.8792040))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36152,16 +38101,7 @@ var vowlresult={
    "label": {
     "IRI-based": "64586be1-1d82-4160-a5fb-5af067a6276b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0246718 63.8791693, 20.0247248 63.8791693, 20.0247248 63.8791820, 20.0246718 63.8791820, 20.0246718 63.8791693))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36175,16 +38115,7 @@ var vowlresult={
    "label": {
     "IRI-based": "646cf01d-f91f-454d-96f3-69f122d90cf1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0281559 63.8801918, 20.0282090 63.8801918, 20.0282090 63.8802045, 20.0281559 63.8802045, 20.0281559 63.8801918))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36198,16 +38129,7 @@ var vowlresult={
    "label": {
     "IRI-based": "65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0268577 63.8804885, 20.0269107 63.8804885, 20.0269107 63.8805012, 20.0268577 63.8805012, 20.0268577 63.8804885))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36221,16 +38143,7 @@ var vowlresult={
    "label": {
     "IRI-based": "66424eb1-6ec0-4f2a-9003-e2143babe975_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0258351 63.8811118, 20.0258881 63.8811118, 20.0258881 63.8811245, 20.0258351 63.8811245, 20.0258351 63.8811118))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36244,16 +38157,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6839545f-3c21-456c-8e65-a34518a8bf7c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0281848 63.8806358, 20.0282378 63.8806358, 20.0282378 63.8806484, 20.0281848 63.8806484, 20.0281848 63.8806358))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36267,16 +38171,7 @@ var vowlresult={
    "label": {
     "IRI-based": "69195ab5-0241-4995-8079-fee9d5509376_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0260066 63.8810032, 20.0260596 63.8810032, 20.0260596 63.8810158, 20.0260066 63.8810158, 20.0260066 63.8810032))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36290,16 +38185,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6939e3db-546a-4041-a823-e729a2d4b694_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0267393 63.8800330, 20.0267924 63.8800330, 20.0267924 63.8800457, 20.0267393 63.8800457, 20.0267393 63.8800330))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36313,16 +38199,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6daab534-65db-49f5-9b1b-5842930184c6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0238216 63.8792263, 20.0238747 63.8792263, 20.0238747 63.8792390, 20.0238216 63.8792390, 20.0238216 63.8792263))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36336,16 +38213,7 @@ var vowlresult={
    "label": {
     "IRI-based": "6fa013cb-f86c-4978-ac06-999760a58991_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0290365 63.8801005, 20.0290896 63.8801005, 20.0290896 63.8801131, 20.0290365 63.8801131, 20.0290365 63.8801005))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36359,16 +38227,7 @@ var vowlresult={
    "label": {
     "IRI-based": "78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0246670 63.8792256, 20.0247201 63.8792256, 20.0247201 63.8792383, 20.0246670 63.8792383, 20.0246670 63.8792256))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36382,16 +38241,7 @@ var vowlresult={
    "label": {
     "IRI-based": "7a2b1560-c346-41b6-915b-a10547cd3440_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277360 63.8801936, 20.0277891 63.8801936, 20.0277891 63.8802063, 20.0277360 63.8802063, 20.0277360 63.8801936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36405,16 +38255,7 @@ var vowlresult={
    "label": {
     "IRI-based": "7abeb59f-2759-4736-897c-69d50f0cdb27_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0251273 63.8795814, 20.0251804 63.8795814, 20.0251804 63.8795941, 20.0251273 63.8795941, 20.0251273 63.8795814))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36428,16 +38269,7 @@ var vowlresult={
    "label": {
     "IRI-based": "7c93771e-f108-4c1a-8ede-799d87629036_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236737 63.8790984, 20.0237267 63.8790984, 20.0237267 63.8791111, 20.0236737 63.8791111, 20.0236737 63.8790984))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36451,16 +38283,7 @@ var vowlresult={
    "label": {
     "IRI-based": "7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0259938 63.8801219, 20.0260469 63.8801219, 20.0260469 63.8801345, 20.0259938 63.8801345, 20.0259938 63.8801219))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36474,16 +38297,7 @@ var vowlresult={
    "label": {
     "IRI-based": "81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0281680 63.8804815, 20.0282211 63.8804815, 20.0282211 63.8804942, 20.0281680 63.8804942, 20.0281680 63.8804815))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36497,16 +38311,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8522a6f2-b165-4529-9dd6-30bc0da88476_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0268712 63.8791296, 20.0269243 63.8791296, 20.0269243 63.8791423, 20.0268712 63.8791423, 20.0268712 63.8791296))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36520,16 +38325,7 @@ var vowlresult={
    "label": {
     "IRI-based": "86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0287510 63.8801110, 20.0288041 63.8801110, 20.0288041 63.8801237, 20.0287510 63.8801237, 20.0287510 63.8801110))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36543,16 +38339,7 @@ var vowlresult={
    "label": {
     "IRI-based": "86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0271732 63.8792891, 20.0272262 63.8792891, 20.0272262 63.8793018, 20.0271732 63.8793018, 20.0271732 63.8792891))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36566,16 +38353,7 @@ var vowlresult={
    "label": {
     "IRI-based": "89b07983-8e6c-4b79-a97f-618a913945ee_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0287857 63.8797541, 20.0288387 63.8797541, 20.0288387 63.8797668, 20.0287857 63.8797668, 20.0287857 63.8797541))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36589,16 +38367,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8a782006-277b-43df-b476-622e770433ba_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0240821 63.8810467, 20.0241352 63.8810467, 20.0241352 63.8810593, 20.0240821 63.8810593, 20.0240821 63.8810467))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36612,16 +38381,7 @@ var vowlresult={
    "label": {
     "IRI-based": "8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236496 63.8793043, 20.0237027 63.8793043, 20.0237027 63.8793169, 20.0236496 63.8793169, 20.0236496 63.8793043))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36635,16 +38395,7 @@ var vowlresult={
    "label": {
     "IRI-based": "90d8c5f4-021b-414b-8219-47f4e39bbff6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0287422 63.8806583, 20.0287952 63.8806583, 20.0287952 63.8806710, 20.0287422 63.8806710, 20.0287422 63.8806583))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36658,16 +38409,7 @@ var vowlresult={
    "label": {
     "IRI-based": "91417e18-f9c7-49d7-80b2-ec408b898147_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0278649 63.8795647, 20.0279180 63.8795647, 20.0279180 63.8795774, 20.0278649 63.8795774, 20.0278649 63.8795647))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36681,16 +38423,7 @@ var vowlresult={
    "label": {
     "IRI-based": "92bc7954-d3e5-456e-a3f9-15ed633ca086_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277431 63.8806514, 20.0277961 63.8806514, 20.0277961 63.8806641, 20.0277431 63.8806641, 20.0277431 63.8806514))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36704,16 +38437,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9460842b-7734-4665-82a2-0085a33ce453_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0290556 63.8800136, 20.0291086 63.8800136, 20.0291086 63.8800263, 20.0290556 63.8800263, 20.0290556 63.8800136))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36727,16 +38451,7 @@ var vowlresult={
    "label": {
     "IRI-based": "96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0280470 63.8791252, 20.0281000 63.8791252, 20.0281000 63.8791379, 20.0280470 63.8791379, 20.0280470 63.8791252))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36750,16 +38465,7 @@ var vowlresult={
    "label": {
     "IRI-based": "97e0311e-f072-4b6c-8619-4c8b81cb2232_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0248512 63.8810158, 20.0249042 63.8810158, 20.0249042 63.8810285, 20.0248512 63.8810285, 20.0248512 63.8810158))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36773,16 +38479,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9a404584-fd22-42a3-ba09-2382a8cc7596_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0237797 63.8801428, 20.0238328 63.8801428, 20.0238328 63.8801554, 20.0237797 63.8801554, 20.0237797 63.8801428))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36796,16 +38493,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9d5f5c58-94c9-426a-862c-0bce70aa017e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261516 63.8792832, 20.0262047 63.8792832, 20.0262047 63.8792959, 20.0261516 63.8792959, 20.0261516 63.8792832))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36819,16 +38507,7 @@ var vowlresult={
    "label": {
     "IRI-based": "9e80e441-dc60-4514-8477-702e7d8ea321_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0247086 63.8797401, 20.0247617 63.8797401, 20.0247617 63.8797528, 20.0247086 63.8797528, 20.0247086 63.8797401))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36842,16 +38521,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a0108469-2166-4732-8aff-f6429f29a82f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0249384 63.8804884, 20.0249914 63.8804884, 20.0249914 63.8805010, 20.0249384 63.8805010, 20.0249384 63.8804884))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36865,16 +38535,7 @@ var vowlresult={
    "label": {
     "IRI-based": "a09111ca-c359-48cc-9a96-e79673caa0b8_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0281630 63.8805709, 20.0282161 63.8805709, 20.0282161 63.8805836, 20.0281630 63.8805836, 20.0281630 63.8805709))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36888,16 +38549,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0238051 63.8797009, 20.0238581 63.8797009, 20.0238581 63.8797135, 20.0238051 63.8797135, 20.0238051 63.8797009))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36911,16 +38563,7 @@ var vowlresult={
    "label": {
     "IRI-based": "abb845a6-5386-459e-938f-5100e0af1f72_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0241185 63.8800121, 20.0241716 63.8800121, 20.0241716 63.8800247, 20.0241185 63.8800247, 20.0241185 63.8800121))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36934,16 +38577,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0291833 63.8801193, 20.0292364 63.8801193, 20.0292364 63.8801320, 20.0291833 63.8801320, 20.0291833 63.8801193))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36957,16 +38591,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b6233e40-079e-447d-b960-2f59a90dcd6e_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0258475 63.8793037, 20.0259005 63.8793037, 20.0259005 63.8793163, 20.0258475 63.8793163, 20.0258475 63.8793037))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -36980,16 +38605,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0248021 63.8809286, 20.0248552 63.8809286, 20.0248552 63.8809413, 20.0248021 63.8809413, 20.0248021 63.8809286))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37003,16 +38619,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0238281 63.8791664, 20.0238812 63.8791664, 20.0238812 63.8791791, 20.0238281 63.8791791, 20.0238281 63.8791664))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37026,16 +38633,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0289204 63.8795702, 20.0289735 63.8795702, 20.0289735 63.8795828, 20.0289204 63.8795828, 20.0289204 63.8795702))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37049,16 +38647,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0248035 63.8795864, 20.0248565 63.8795864, 20.0248565 63.8795991, 20.0248035 63.8795991, 20.0248035 63.8795864))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37072,16 +38661,7 @@ var vowlresult={
    "label": {
     "IRI-based": "b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261193 63.8804844, 20.0261724 63.8804844, 20.0261724 63.8804971, 20.0261193 63.8804971, 20.0261193 63.8804844))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37095,16 +38675,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0246792 63.8801903, 20.0247323 63.8801903, 20.0247323 63.8802030, 20.0246792 63.8802030, 20.0246792 63.8801903))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37118,16 +38689,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ba7170d7-475e-4502-9cbd-054d5d326a7d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0289344 63.8804663, 20.0289875 63.8804663, 20.0289875 63.8804789, 20.0289344 63.8804789, 20.0289344 63.8804663))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37141,16 +38703,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0237932 63.8809088, 20.0238462 63.8809088, 20.0238462 63.8809215, 20.0237932 63.8809215, 20.0237932 63.8809088))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37164,16 +38717,7 @@ var vowlresult={
    "label": {
     "IRI-based": "bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0269869 63.8792830, 20.0270399 63.8792830, 20.0270399 63.8792957, 20.0269869 63.8792957, 20.0269869 63.8792830))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37187,16 +38731,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c08f3cf1-e573-4914-b15f-b249261d9fab_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0279070 63.8802024, 20.0279600 63.8802024, 20.0279600 63.8802151, 20.0279070 63.8802151, 20.0279070 63.8802024))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37210,16 +38745,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c2174141-51b4-4932-b3b3-4526eb6245d5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277623 63.8805719, 20.0278154 63.8805719, 20.0278154 63.8805845, 20.0277623 63.8805845, 20.0277623 63.8805719))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37233,16 +38759,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c2efc23f-47bb-47cc-9786-739739a84f3b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0260091 63.8797308, 20.0260622 63.8797308, 20.0260622 63.8797434, 20.0260091 63.8797434, 20.0260091 63.8797308))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37256,16 +38773,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0241095 63.8796766, 20.0241626 63.8796766, 20.0241626 63.8796893, 20.0241095 63.8796893, 20.0241095 63.8796766))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37279,16 +38787,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c5b30f79-c515-48cf-a077-c5289ec32956_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0267253 63.8796489, 20.0267783 63.8796489, 20.0267783 63.8796615, 20.0267253 63.8796615, 20.0267253 63.8796489))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37302,16 +38801,7 @@ var vowlresult={
    "label": {
     "IRI-based": "c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0278637 63.8792985, 20.0279168 63.8792985, 20.0279168 63.8793112, 20.0278637 63.8793112, 20.0278637 63.8792985))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37325,16 +38815,7 @@ var vowlresult={
    "label": {
     "IRI-based": "cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0250907 63.8801964, 20.0251437 63.8801964, 20.0251437 63.8802090, 20.0250907 63.8802090, 20.0250907 63.8801964))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37348,16 +38829,7 @@ var vowlresult={
    "label": {
     "IRI-based": "cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236598 63.8806650, 20.0237128 63.8806650, 20.0237128 63.8806776, 20.0236598 63.8806776, 20.0236598 63.8806650))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37371,16 +38843,7 @@ var vowlresult={
    "label": {
     "IRI-based": "cc774e18-df41-45a3-976b-bbbbc25ecff1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0236608 63.8805940, 20.0237139 63.8805940, 20.0237139 63.8806067, 20.0236608 63.8806067, 20.0236608 63.8805940))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37394,16 +38857,7 @@ var vowlresult={
    "label": {
     "IRI-based": "cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0266925 63.8793019, 20.0267455 63.8793019, 20.0267455 63.8793146, 20.0266925 63.8793146, 20.0266925 63.8793019))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37417,16 +38871,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0248410 63.8796554, 20.0248940 63.8796554, 20.0248940 63.8796680, 20.0248410 63.8796680, 20.0248410 63.8796554))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37440,16 +38885,7 @@ var vowlresult={
    "label": {
     "IRI-based": "cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0267038 63.8805512, 20.0267569 63.8805512, 20.0267569 63.8805639, 20.0267038 63.8805639, 20.0267038 63.8805512))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37463,16 +38899,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0278660 63.8804648, 20.0279190 63.8804648, 20.0279190 63.8804775, 20.0278660 63.8804775, 20.0278660 63.8804648))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37486,16 +38913,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d1248c32-d156-418a-a10f-104d770ca6fd_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0289301 63.8797488, 20.0289831 63.8797488, 20.0289831 63.8797615, 20.0289301 63.8797615, 20.0289301 63.8797488))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37509,16 +38927,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d39b0a02-169d-40a8-897d-7c7a5eee497d_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0239739 63.8809719, 20.0240270 63.8809719, 20.0240270 63.8809845, 20.0239739 63.8809845, 20.0239739 63.8809719))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37532,16 +38941,7 @@ var vowlresult={
    "label": {
     "IRI-based": "d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0287374 63.8796508, 20.0287904 63.8796508, 20.0287904 63.8796634, 20.0287374 63.8796634, 20.0287374 63.8796508))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37555,16 +38955,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0256837 63.8809318, 20.0257368 63.8809318, 20.0257368 63.8809444, 20.0256837 63.8809444, 20.0256837 63.8809318))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37578,16 +38969,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e2bb5213-40ec-467b-ab58-dfd191d67b15_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0290448 63.8810262, 20.0290979 63.8810262, 20.0290979 63.8810389, 20.0290448 63.8810389, 20.0290448 63.8810262))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37601,16 +38983,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0259601 63.8811062, 20.0260131 63.8811062, 20.0260131 63.8811188, 20.0259601 63.8811188, 20.0259601 63.8811062))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37624,16 +38997,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e4f0d99c-176b-4354-872f-84ea358ac1d1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0270145 63.8805702, 20.0270676 63.8805702, 20.0270676 63.8805829, 20.0270145 63.8805829, 20.0270145 63.8805702))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37647,16 +39011,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0277716 63.8801190, 20.0278247 63.8801190, 20.0278247 63.8801316, 20.0277716 63.8801316, 20.0277716 63.8801190))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37670,16 +39025,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0259895 63.8804774, 20.0260426 63.8804774, 20.0260426 63.8804901, 20.0259895 63.8804901, 20.0259895 63.8804774))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37693,16 +39039,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0259597 63.8791272, 20.0260127 63.8791272, 20.0260127 63.8791398, 20.0259597 63.8791398, 20.0259597 63.8791272))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37716,16 +39053,7 @@ var vowlresult={
    "label": {
     "IRI-based": "e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0257201 63.8792767, 20.0257732 63.8792767, 20.0257732 63.8792893, 20.0257201 63.8792893, 20.0257201 63.8792767))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37739,16 +39067,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0291862 63.8806477, 20.0292392 63.8806477, 20.0292392 63.8806603, 20.0291862 63.8806603, 20.0291862 63.8806477))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37762,16 +39081,7 @@ var vowlresult={
    "label": {
     "IRI-based": "ec69643d-e636-443f-95a0-bb55b9614841_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0289082 63.8810117, 20.0289613 63.8810117, 20.0289613 63.8810243, 20.0289082 63.8810243, 20.0289082 63.8810117))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37785,16 +39095,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f148606b-a850-4d16-a627-606fb8ee5577_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0239303 63.8805941, 20.0239833 63.8805941, 20.0239833 63.8806068, 20.0239303 63.8806068, 20.0239303 63.8805941))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37808,16 +39109,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f533c183-22fb-43cf-9bd1-265caaa661a0_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0289046 63.8791238, 20.0289577 63.8791238, 20.0289577 63.8791365, 20.0289046 63.8791365, 20.0289046 63.8791238))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37831,16 +39123,7 @@ var vowlresult={
    "label": {
     "IRI-based": "f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0239630 63.8796916, 20.0240161 63.8796916, 20.0240161 63.8797043, 20.0239630 63.8797043, 20.0239630 63.8796916))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37854,16 +39137,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261036 63.8800975, 20.0261566 63.8800975, 20.0261566 63.8801101, 20.0261036 63.8801101, 20.0261036 63.8800975))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37877,16 +39151,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fd82485d-f6e8-4413-9120-c739f0cc1e82_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0240957 63.8792345, 20.0241487 63.8792345, 20.0241487 63.8792472, 20.0240957 63.8792472, 20.0240957 63.8792345))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37900,16 +39165,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.0261195 63.8801843, 20.0261725 63.8801843, 20.0261725 63.8801970, 20.0261195 63.8801970, 20.0261195 63.8801843))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37923,16 +39179,7 @@ var vowlresult={
    "label": {
     "IRI-based": "fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.024311 63.880840, 20.024311 63.881202, 20.023495 63.881202, 20.023495 63.880840, 20.024311 63.880840))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37946,16 +39193,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_A1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.025331 63.880840, 20.025331 63.881202, 20.024515 63.881202, 20.024515 63.880840, 20.025331 63.880840))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37969,16 +39207,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_A2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.026351 63.880840, 20.026351 63.881202, 20.025535 63.881202, 20.025535 63.880840, 20.026351 63.880840))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -37992,16 +39221,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_A3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.027371 63.880840, 20.027371 63.881202, 20.026555 63.881202, 20.026555 63.880840, 20.027371 63.880840))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38015,16 +39235,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_A4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.028392 63.880840, 20.028392 63.881202, 20.027575 63.881202, 20.027575 63.880840, 20.028392 63.880840))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38038,16 +39249,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_A5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.029412 63.880840, 20.029412 63.881202, 20.028596 63.881202, 20.028596 63.880840, 20.029412 63.880840))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38061,16 +39263,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_A6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.024311 63.880388, 20.024311 63.880750, 20.023495 63.880750, 20.023495 63.880388, 20.024311 63.880388))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38084,16 +39277,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_B1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.025331 63.880388, 20.025331 63.880750, 20.024515 63.880750, 20.024515 63.880388, 20.025331 63.880388))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38107,16 +39291,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_B2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.026351 63.880388, 20.026351 63.880750, 20.025535 63.880750, 20.025535 63.880388, 20.026351 63.880388))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38130,16 +39305,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_B3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.027371 63.880388, 20.027371 63.880750, 20.026555 63.880750, 20.026555 63.880388, 20.027371 63.880388))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38153,16 +39319,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_B4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.028392 63.880388, 20.028392 63.880750, 20.027575 63.880750, 20.027575 63.880388, 20.028392 63.880388))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38176,16 +39333,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_B5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.029412 63.880388, 20.029412 63.880750, 20.028596 63.880750, 20.028596 63.880388, 20.029412 63.880388))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38199,16 +39347,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_B6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.024311 63.879936, 20.024311 63.880298, 20.023495 63.880298, 20.023495 63.879936, 20.024311 63.879936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38222,16 +39361,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_C1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.025331 63.879936, 20.025331 63.880298, 20.024515 63.880298, 20.024515 63.879936, 20.025331 63.879936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38245,16 +39375,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_C2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.026351 63.879936, 20.026351 63.880298, 20.025535 63.880298, 20.025535 63.879936, 20.026351 63.879936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38268,16 +39389,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_C3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.027371 63.879936, 20.027371 63.880298, 20.026555 63.880298, 20.026555 63.879936, 20.027371 63.879936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38291,16 +39403,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_C4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.028392 63.879936, 20.028392 63.880298, 20.027575 63.880298, 20.027575 63.879936, 20.028392 63.879936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38314,16 +39417,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_C5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.029412 63.879936, 20.029412 63.880298, 20.028596 63.880298, 20.028596 63.879936, 20.029412 63.879936))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38337,16 +39431,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_C6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.024311 63.879483, 20.024311 63.879845, 20.023495 63.879845, 20.023495 63.879483, 20.024311 63.879483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38360,16 +39445,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_D1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.025331 63.879483, 20.025331 63.879845, 20.024515 63.879845, 20.024515 63.879483, 20.025331 63.879483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38383,16 +39459,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_D2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.026351 63.879483, 20.026351 63.879845, 20.025535 63.879845, 20.025535 63.879483, 20.026351 63.879483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38406,16 +39473,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_D3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.027371 63.879483, 20.027371 63.879845, 20.026555 63.879845, 20.026555 63.879483, 20.027371 63.879483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38429,16 +39487,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_D4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.028392 63.879483, 20.028392 63.879845, 20.027575 63.879845, 20.027575 63.879483, 20.028392 63.879483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38452,16 +39501,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_D5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.029412 63.879483, 20.029412 63.879845, 20.028596 63.879845, 20.028596 63.879483, 20.029412 63.879483))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38475,16 +39515,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_D6_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.024311 63.879031, 20.024311 63.879393, 20.023495 63.879393, 20.023495 63.879031, 20.024311 63.879031))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38498,16 +39529,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_E1_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.025331 63.879031, 20.025331 63.879393, 20.024515 63.879393, 20.024515 63.879031, 20.025331 63.879031))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38521,16 +39543,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_E2_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.026351 63.879031, 20.026351 63.879393, 20.025535 63.879393, 20.025535 63.879031, 20.026351 63.879031))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38544,16 +39557,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_E3_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.027371 63.879031, 20.027371 63.879393, 20.026555 63.879393, 20.026555 63.879031, 20.027371 63.879031))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38567,16 +39571,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_E4_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.028392 63.879031, 20.028392 63.879393, 20.027575 63.879393, 20.027575 63.879031, 20.028392 63.879031))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38590,16 +39585,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Trench_E5_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "POLYGON((20.029412 63.879031, 20.029412 63.879393, 20.028596 63.879393, 20.028596 63.879031, 20.029412 63.879031))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38786,16 +39772,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Geodetic_longitude_degree_east"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "LINESTRING(20.023372 63.880117, 20.029534 63.880117)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38809,16 +39786,7 @@ var vowlresult={
    "label": {
     "IRI-based": "DenGulaVagen_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "LINESTRING(20.026453 63.878977, 20.026453 63.881257)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38832,16 +39800,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Returvagen_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "LINESTRING(20.023372 63.881021, 20.029534 63.881021)",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38855,16 +39814,7 @@ var vowlresult={
    "label": {
     "IRI-based": "Smalgangen_geom"
    },
-   "annotations": {
-    "http://www.opengis.net/ont/geosparql#asWKT": [
-     {
-      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
-      "language": "undefined",
-      "value": "MULTIPOLYGON(((20.029657 63.878923, 20.029657 63.881311, 20.023250 63.881311, 20.023250 63.878923, 20.029657 63.878923)))",
-      "type": "label"
-     }
-    ]
-   },
+   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
@@ -38898,6 +39848,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2_geom",
       "type": "iri"
      }
     ]
@@ -38937,6 +39895,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -38972,6 +39938,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4_geom",
       "type": "iri"
      }
     ]
@@ -39011,6 +39985,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39046,6 +40028,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6_geom",
       "type": "iri"
      }
     ]
@@ -39085,6 +40075,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39120,6 +40118,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3_geom",
       "type": "iri"
      }
     ]
@@ -39159,6 +40165,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39194,6 +40208,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5_geom",
       "type": "iri"
      }
     ]
@@ -39233,6 +40255,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39268,6 +40298,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2_geom",
       "type": "iri"
      }
     ]
@@ -39307,6 +40345,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39342,6 +40388,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4_geom",
       "type": "iri"
      }
     ]
@@ -39381,6 +40435,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39416,6 +40478,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6_geom",
       "type": "iri"
      }
     ]
@@ -39455,6 +40525,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39490,6 +40568,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3_geom",
       "type": "iri"
      }
     ]
@@ -39529,6 +40615,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39564,6 +40658,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5_geom",
       "type": "iri"
      }
     ]
@@ -39603,6 +40705,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39638,6 +40748,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3_geom",
       "type": "iri"
      }
     ]
@@ -39677,6 +40795,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39712,6 +40838,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5_geom",
       "type": "iri"
      }
     ]
@@ -39751,6 +40885,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39786,6 +40928,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1_geom",
       "type": "iri"
      }
     ]
@@ -39825,6 +40975,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39860,6 +41018,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1_geom",
       "type": "iri"
      }
     ]
@@ -39899,6 +41065,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39936,6 +41110,14 @@ var vowlresult={
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
       "type": "iri"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1_geom",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -39971,6 +41153,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/withinSite",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2_geom",
       "type": "iri"
      }
     ]
@@ -40026,6 +41216,14 @@ var vowlresult={
       "value": "252",
       "type": "label"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Triassic_ts",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -40078,6 +41276,14 @@ var vowlresult={
       "language": "undefined",
       "value": "201",
       "type": "label"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Jurassic_ts",
+      "type": "iri"
      }
     ]
    },
@@ -40132,6 +41338,14 @@ var vowlresult={
       "value": "145",
       "type": "label"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Cretaceous_ts",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -40185,6 +41399,14 @@ var vowlresult={
       "value": "252",
       "type": "label"
      }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Mesozoic_ts",
+      "type": "iri"
+     }
     ]
    },
    "range": [],
@@ -40226,8 +41448,9357 @@ var vowlresult={
    "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
    "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
    "instances": 0,
+   "label": "FAIRyland excavation at the Norrfors outpost",
+   "annotations": {
+    "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+      "language": "undefined",
+      "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 850,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsExcavation",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": "WGS84 / CRS84 (lon, lat; EPSG:4326)",
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 851,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/CRS84",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": "145\u201366 Ma",
+   "annotations": {
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa",
+      "language": "undefined",
+      "value": "145",
+      "type": "label"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa",
+      "language": "undefined",
+      "value": "66",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 852,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Cretaceous_ts",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": "201\u2013145 Ma",
+   "annotations": {
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa",
+      "language": "undefined",
+      "value": "201",
+      "type": "label"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa",
+      "language": "undefined",
+      "value": "145",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 853,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Jurassic_ts",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": "252\u201366 Ma",
+   "annotations": {
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa",
+      "language": "undefined",
+      "value": "252",
+      "type": "label"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa",
+      "language": "undefined",
+      "value": "66",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 854,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Mesozoic_ts",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": "252\u2013201 Ma",
+   "annotations": {
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa",
+      "language": "undefined",
+      "value": "252",
+      "type": "label"
+     }
+    ],
+    "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa": [
+     {
+      "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa",
+      "language": "undefined",
+      "value": "201",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 855,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Triassic_ts",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
    "label": {
-    "IRI-based": "NorrforsOutpost"
+    "IRI-based": "Triassic_ts"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251623 63.8797502)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 856,
+   "iri": "http://www.github.com/sparqlunicorn#005191fc-7128-48b0-a0f4-d1eaaaff3004_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "005191fc-7128-48b0-a0f4-d1eaaaff3004_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0288033 63.8810208)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 857,
+   "iri": "http://www.github.com/sparqlunicorn#00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0268562 63.8806346, 20.0269092 63.8806346, 20.0269092 63.8806473, 20.0268562 63.8806473, 20.0268562 63.8806346))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 858,
+   "iri": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0194d590-c58c-4c97-98f8-303ea8ffe32a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280285 63.8795768)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 859,
+   "iri": "http://www.github.com/sparqlunicorn#02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0250807 63.8791806, 20.0251338 63.8791806, 20.0251338 63.8791933, 20.0250807 63.8791933, 20.0250807 63.8791806))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 860,
+   "iri": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "038d7342-a29b-4fb4-848a-38956486b324_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236589 63.8800666, 20.0237120 63.8800666, 20.0237120 63.8800792, 20.0236589 63.8800792, 20.0236589 63.8800666))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 861,
+   "iri": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "03bf5218-bda5-4791-b190-b302c4d8d6ce_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0241243 63.8805275)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 862,
+   "iri": "http://www.github.com/sparqlunicorn#042db47c-d2e0-48b7-992e-31eeed05590b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "042db47c-d2e0-48b7-992e-31eeed05590b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239981 63.8795771)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 863,
+   "iri": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270325 63.8801886)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 864,
+   "iri": "http://www.github.com/sparqlunicorn#04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261120 63.8791993, 20.0261650 63.8791993, 20.0261650 63.8792119, 20.0261120 63.8792119, 20.0261120 63.8791993))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 865,
+   "iri": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257365 63.8810188)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 866,
+   "iri": "http://www.github.com/sparqlunicorn#06d752cb-22a3-4939-86ee-1e59c2acd696_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "06d752cb-22a3-4939-86ee-1e59c2acd696_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0271360 63.8800195, 20.0271891 63.8800195, 20.0271891 63.8800321, 20.0271360 63.8800321, 20.0271360 63.8800195))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 867,
+   "iri": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0800c7da-7e10-4ba2-a020-7db1bc018572_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0238023 63.8804771, 20.0238553 63.8804771, 20.0238553 63.8804898, 20.0238023 63.8804898, 20.0238023 63.8804771))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 868,
+   "iri": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "09625e57-e1e3-4819-baac-8154feac0fe6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261387 63.8810095)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 869,
+   "iri": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0250173 63.8796659)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 870,
+   "iri": "http://www.github.com/sparqlunicorn#0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261386 63.8795904)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 871,
+   "iri": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0b12b1c6-4f43-4635-9437-2eccad89860a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287697 63.8811193)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 872,
+   "iri": "http://www.github.com/sparqlunicorn#0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268927 63.8805603)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 873,
+   "iri": "http://www.github.com/sparqlunicorn#0b5f0d63-782a-46bb-b360-3ca60fc75915_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0b5f0d63-782a-46bb-b360-3ca60fc75915_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277201 63.8792780, 20.0277732 63.8792780, 20.0277732 63.8792907, 20.0277201 63.8792907, 20.0277201 63.8792780))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 874,
+   "iri": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0b959b96-55fd-4550-b4de-68e2c4f9625f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251613 63.8810946)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 875,
+   "iri": "http://www.github.com/sparqlunicorn#0be2725f-e419-4f79-b4e0-31eb6cddeede_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0be2725f-e419-4f79-b4e0-31eb6cddeede_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292102 63.8791195)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 876,
+   "iri": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0290558 63.8791142, 20.0291088 63.8791142, 20.0291088 63.8791269, 20.0290558 63.8791269, 20.0290558 63.8791142))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 877,
+   "iri": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280818 63.8800230)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 878,
+   "iri": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261654 63.8809301)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 879,
+   "iri": "http://www.github.com/sparqlunicorn#0f46981f-21ba-428d-ba69-a833540fdd51_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0f46981f-21ba-428d-ba69-a833540fdd51_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0269112 63.8809456)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 880,
+   "iri": "http://www.github.com/sparqlunicorn#0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282226 63.8811046)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 881,
+   "iri": "http://www.github.com/sparqlunicorn#0fcef9c2-a38d-4664-b33e-4b523387955f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "0fcef9c2-a38d-4664-b33e-4b523387955f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290903 63.8797413)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 882,
+   "iri": "http://www.github.com/sparqlunicorn#103ff16b-91be-41cc-992e-842e9c717e00_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "103ff16b-91be-41cc-992e-842e9c717e00_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277175 63.8797483, 20.0277705 63.8797483, 20.0277705 63.8797609, 20.0277175 63.8797609, 20.0277175 63.8797483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 883,
+   "iri": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1073f60f-73b2-4193-8bd7-951995224dbb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0251064 63.8806421, 20.0251595 63.8806421, 20.0251595 63.8806547, 20.0251064 63.8806547, 20.0251064 63.8806421))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 884,
+   "iri": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236630 63.8795818)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 885,
+   "iri": "http://www.github.com/sparqlunicorn#11d18c0d-68ec-4921-8df7-ecc79095d097_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "11d18c0d-68ec-4921-8df7-ecc79095d097_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0289007 63.8809337, 20.0289537 63.8809337, 20.0289537 63.8809464, 20.0289007 63.8809464, 20.0289007 63.8809337))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 886,
+   "iri": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260028 63.8806618)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 887,
+   "iri": "http://www.github.com/sparqlunicorn#12d29b14-a072-4035-adf3-ce7fc203ef65_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "12d29b14-a072-4035-adf3-ce7fc203ef65_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0246687 63.8792886, 20.0247217 63.8792886, 20.0247217 63.8793012, 20.0246687 63.8793012, 20.0246687 63.8792886))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 888,
+   "iri": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "12d61444-88ae-43b3-95d4-15e5fecd4180_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267633 63.8809482)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 889,
+   "iri": "http://www.github.com/sparqlunicorn#15979e00-a3ab-4266-a1ee-15c08536854d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "15979e00-a3ab-4266-a1ee-15c08536854d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292052 63.8797523)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 890,
+   "iri": "http://www.github.com/sparqlunicorn#1666c930-9460-42e3-99c7-32eef2b60f4b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1666c930-9460-42e3-99c7-32eef2b60f4b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290765 63.8793016)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 891,
+   "iri": "http://www.github.com/sparqlunicorn#1747eb43-675f-4f0b-bf95-60f4740395f5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1747eb43-675f-4f0b-bf95-60f4740395f5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0249707 63.8801879, 20.0250238 63.8801879, 20.0250238 63.8802006, 20.0249707 63.8802006, 20.0249707 63.8801879))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 892,
+   "iri": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "180a5320-3833-4133-aa46-aab7f0d80d84_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0241297 63.8805949)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 893,
+   "iri": "http://www.github.com/sparqlunicorn#1826370a-8906-47be-b307-4a847bd26c9a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1826370a-8906-47be-b307-4a847bd26c9a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282052 63.8797520)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 894,
+   "iri": "http://www.github.com/sparqlunicorn#1888ca6c-cf87-4e68-a0b7-e605ae038610_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1888ca6c-cf87-4e68-a0b7-e605ae038610_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270292 63.8809335)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 895,
+   "iri": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "18d49631-5a11-48f6-acb7-62cfaf8de742_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236714 63.8792306, 20.0237245 63.8792306, 20.0237245 63.8792433, 20.0236714 63.8792433, 20.0236714 63.8792306))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 896,
+   "iri": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "19793c7f-6cc9-462c-99da-e3e33ff97461_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0249947 63.8791658, 20.0250478 63.8791658, 20.0250478 63.8791785, 20.0249947 63.8791785, 20.0249947 63.8791658))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 897,
+   "iri": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1a2be1c9-acaf-4659-839d-0146401472f2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292441 63.8811178)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 898,
+   "iri": "http://www.github.com/sparqlunicorn#1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236738 63.8810492)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 899,
+   "iri": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1d935768-ea8d-4be8-884b-a4dff9825021_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0268825 63.8800204, 20.0269356 63.8800204, 20.0269356 63.8800330, 20.0268825 63.8800330, 20.0268825 63.8800204))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 900,
+   "iri": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "1fcfa357-13f8-4cb5-8e28-f98280989898_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287754 63.8804931)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 901,
+   "iri": "http://www.github.com/sparqlunicorn#20e35462-2580-f6e0-f297-4b212dc76bc5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "20e35462-2580-f6e0-f297-4b212dc76bc5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0247076 63.8801213)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 902,
+   "iri": "http://www.github.com/sparqlunicorn#22e61b60-371e-47f2-a07c-635d2380e04b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "22e61b60-371e-47f2-a07c-635d2380e04b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271509 63.8801100)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 903,
+   "iri": "http://www.github.com/sparqlunicorn#24476baf-94f8-460f-b941-8937c65b4476_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "24476baf-94f8-460f-b941-8937c65b4476_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0277522 63.8811149)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 904,
+   "iri": "http://www.github.com/sparqlunicorn#248542fe-c72e-4120-babb-87611d3e0c72_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "248542fe-c72e-4120-babb-87611d3e0c72_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248275 63.8811147)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 905,
+   "iri": "http://www.github.com/sparqlunicorn#2515e864-e7ed-4e8e-9770-b108580a1f08_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2515e864-e7ed-4e8e-9770-b108580a1f08_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0248404 63.8805627, 20.0248934 63.8805627, 20.0248934 63.8805753, 20.0248404 63.8805753, 20.0248404 63.8805627))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 906,
+   "iri": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "25d0c170-da08-47ed-8bf8-78f36d0f558e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0251049 63.8800189, 20.0251579 63.8800189, 20.0251579 63.8800315, 20.0251049 63.8800315, 20.0251049 63.8800189))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 907,
+   "iri": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "264aceda-0df9-48de-9c9a-bfac46e9d790_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258845 63.8801926)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 908,
+   "iri": "http://www.github.com/sparqlunicorn#26551278-d0f1-4741-950e-47e88d0bfcef_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "26551278-d0f1-4741-950e-47e88d0bfcef_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258528 63.8804888)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 909,
+   "iri": "http://www.github.com/sparqlunicorn#265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0239216 63.8804789, 20.0239747 63.8804789, 20.0239747 63.8804916, 20.0239216 63.8804916, 20.0239216 63.8804789))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 910,
+   "iri": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0257186 63.8800177, 20.0257717 63.8800177, 20.0257717 63.8800303, 20.0257186 63.8800303, 20.0257186 63.8800177))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 911,
+   "iri": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "28ec2dbf-6806-4a32-a35d-78764bfda459_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0241358 63.8801578)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 912,
+   "iri": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "28fa130c-4c84-4817-8b2e-855128e2b44e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270250 63.8806411)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 913,
+   "iri": "http://www.github.com/sparqlunicorn#2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289609 63.8792953)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 914,
+   "iri": "http://www.github.com/sparqlunicorn#2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0268661 63.8795707, 20.0269192 63.8795707, 20.0269192 63.8795834, 20.0268661 63.8795834, 20.0268661 63.8795707))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 915,
+   "iri": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2abb9a90-732f-4e75-b764-6b3df7dfa173_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0257041 63.8792041, 20.0257571 63.8792041, 20.0257571 63.8792167, 20.0257041 63.8792167, 20.0257041 63.8792041))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 916,
+   "iri": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0240799 63.8791239, 20.0241330 63.8791239, 20.0241330 63.8791366, 20.0240799 63.8791366, 20.0240799 63.8791239))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 917,
+   "iri": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2df381ca-154e-4368-bc83-b6d74e5130a2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267326 63.8804832)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 918,
+   "iri": "http://www.github.com/sparqlunicorn#2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270529 63.8810258)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 919,
+   "iri": "http://www.github.com/sparqlunicorn#2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267335 63.8802019)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 920,
+   "iri": "http://www.github.com/sparqlunicorn#2e47ae72-b63c-41a9-861b-009aa5454e57_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2e47ae72-b63c-41a9-861b-009aa5454e57_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277189 63.8810051, 20.0277719 63.8810051, 20.0277719 63.8810177, 20.0277189 63.8810177, 20.0277189 63.8810051))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 921,
+   "iri": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2e711592-9068-438a-80b9-0c7725e1d6bb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251658 63.8809367)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 922,
+   "iri": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2f08adaf-d8a8-400b-a410-f011c467324e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0240910 63.8809266)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 923,
+   "iri": "http://www.github.com/sparqlunicorn#2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0259758 63.8792178, 20.0260288 63.8792178, 20.0260288 63.8792305, 20.0259758 63.8792305, 20.0259758 63.8792178))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 924,
+   "iri": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3018eba9-3c11-41e8-901e-7377167b58e4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260291 63.8809363)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 925,
+   "iri": "http://www.github.com/sparqlunicorn#303b162c-85ab-4356-abfe-6b6029d8e5d3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "303b162c-85ab-4356-abfe-6b6029d8e5d3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287983 63.8809410)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 926,
+   "iri": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "31615fc1-a7de-48af-80a2-777dd77760b2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0281895 63.8792195)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 927,
+   "iri": "http://www.github.com/sparqlunicorn#31a33e29-ff88-49d0-93ae-bff50577f08c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "31a33e29-ff88-49d0-93ae-bff50577f08c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271867 63.8795795)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 928,
+   "iri": "http://www.github.com/sparqlunicorn#31a96e29-dddc-46a1-9471-16d91c629005_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "31a96e29-dddc-46a1-9471-16d91c629005_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0270332 63.8801019, 20.0270862 63.8801019, 20.0270862 63.8801146, 20.0270332 63.8801146, 20.0270332 63.8801019))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 929,
+   "iri": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287745 63.8791403)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 930,
+   "iri": "http://www.github.com/sparqlunicorn#323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270212 63.8800260)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 931,
+   "iri": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "327283ae-3a31-4397-ae77-2566e4d146b6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0281627 63.8800165, 20.0282157 63.8800165, 20.0282157 63.8800291, 20.0281627 63.8800291, 20.0281627 63.8800165))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 932,
+   "iri": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3280d786-1bb7-4913-9be9-9041f65ef4b6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267585 63.8811031)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 933,
+   "iri": "http://www.github.com/sparqlunicorn#32beabf1-b953-4b07-a6ed-1472bca9a279_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "32beabf1-b953-4b07-a6ed-1472bca9a279_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290676 63.8795764)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 934,
+   "iri": "http://www.github.com/sparqlunicorn#3413903c-a458-8422-3997-434b1071b02b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3413903c-a458-8422-3997-434b1071b02b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239833 63.8805426)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 935,
+   "iri": "http://www.github.com/sparqlunicorn#34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0238529 63.8795601)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 936,
+   "iri": "http://www.github.com/sparqlunicorn#3563f2d3-e971-4dc3-8501-5cc745ce5201_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3563f2d3-e971-4dc3-8501-5cc745ce5201_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248265 63.8806643)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 937,
+   "iri": "http://www.github.com/sparqlunicorn#36510cec-f627-1951-d6f8-1b0def35b77a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "36510cec-f627-1951-d6f8-1b0def35b77a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0290362 63.8796585, 20.0290893 63.8796585, 20.0290893 63.8796712, 20.0290362 63.8796712, 20.0290362 63.8796585))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 938,
+   "iri": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3672902d-7362-4069-9769-21296706d028_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268799 63.8793017)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 939,
+   "iri": "http://www.github.com/sparqlunicorn#36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279328 63.8796520)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 940,
+   "iri": "http://www.github.com/sparqlunicorn#373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258682 63.8805585)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 941,
+   "iri": "http://www.github.com/sparqlunicorn#37678450-1c30-4756-b89a-75c4021bcefe_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "37678450-1c30-4756-b89a-75c4021bcefe_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248381 63.8800257)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 942,
+   "iri": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "37993191-20c4-49a4-b3bc-2a28960f323d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236998 63.8797675)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 943,
+   "iri": "http://www.github.com/sparqlunicorn#38880781-0283-43a1-84da-1b842caf34ba_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "38880781-0283-43a1-84da-1b842caf34ba_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258968 63.8801047)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 944,
+   "iri": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "389c5712-618e-4532-84fd-4eb084e6c0aa_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0290181 63.8805508, 20.0290711 63.8805508, 20.0290711 63.8805635, 20.0290181 63.8805635, 20.0290181 63.8805508))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 945,
+   "iri": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3a55458f-5c2f-4368-9a03-384f6377e301_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282081 63.8801120)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 946,
+   "iri": "http://www.github.com/sparqlunicorn#3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0278561 63.8791286, 20.0279092 63.8791286, 20.0279092 63.8791412, 20.0278561 63.8791412, 20.0278561 63.8791286))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 947,
+   "iri": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3cd74fe7-9b31-4361-ad28-08afb3097edc_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267204 63.8810213)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 948,
+   "iri": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236841 63.8797015)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 949,
+   "iri": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261056 63.8806527, 20.0261586 63.8806527, 20.0261586 63.8806654, 20.0261056 63.8806654, 20.0261056 63.8806527))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 950,
+   "iri": "http://www.github.com/sparqlunicorn#3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0241228 63.8795766)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 951,
+   "iri": "http://www.github.com/sparqlunicorn#415dd66d-5628-4e55-a489-ac2ae21a63d5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "415dd66d-5628-4e55-a489-ac2ae21a63d5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0240774 63.8804554, 20.0241304 63.8804554, 20.0241304 63.8804681, 20.0240774 63.8804681, 20.0240774 63.8804554))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 952,
+   "iri": "http://www.github.com/sparqlunicorn#4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0271572 63.8804872, 20.0272103 63.8804872, 20.0272103 63.8804999, 20.0271572 63.8804999, 20.0271572 63.8804872))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 953,
+   "iri": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "41bc9d9f-999b-4c03-868d-e3823fc03184_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0247279 63.8809497)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 954,
+   "iri": "http://www.github.com/sparqlunicorn#422e5cd2-fcce-0da0-1655-85a795e78e5c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "422e5cd2-fcce-0da0-1655-85a795e78e5c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0278933 63.8801272)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 955,
+   "iri": "http://www.github.com/sparqlunicorn#42897bc2-5707-42ff-8f01-b6170d542c6c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "42897bc2-5707-42ff-8f01-b6170d542c6c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239724 63.8809207)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 956,
+   "iri": "http://www.github.com/sparqlunicorn#43367b68-fbe1-a3c3-2bd8-78f476093f69_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "43367b68-fbe1-a3c3-2bd8-78f476093f69_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251190 63.8796530)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 957,
+   "iri": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "43445b66-c4c5-4668-8fb7-00186131c6ff_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0258376 63.8810141, 20.0258906 63.8810141, 20.0258906 63.8810267, 20.0258376 63.8810267, 20.0258376 63.8810141))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 958,
+   "iri": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "435bca7b-b840-4894-9bff-df7c45b2c20c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280487 63.8792985)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 959,
+   "iri": "http://www.github.com/sparqlunicorn#44b999ae-3457-43f6-ad3c-cebf913b3629_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "44b999ae-3457-43f6-ad3c-cebf913b3629_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0237114 63.8811135)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 960,
+   "iri": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "45d241e5-c948-4ae3-860b-668b54894e58_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0291642 63.8800278, 20.0292173 63.8800278, 20.0292173 63.8800405, 20.0291642 63.8800405, 20.0291642 63.8800278))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 961,
+   "iri": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "464f2805-ec4f-4d89-858e-f56a4378062d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261259 63.8805732, 20.0261790 63.8805732, 20.0261790 63.8805859, 20.0261259 63.8805859, 20.0261259 63.8805732))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 962,
+   "iri": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0237915 63.8796296, 20.0238446 63.8796296, 20.0238446 63.8796423, 20.0237915 63.8796423, 20.0237915 63.8796296))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 963,
+   "iri": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4692f53e-797d-4457-bbc3-55273889566f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260384 63.8800217)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 964,
+   "iri": "http://www.github.com/sparqlunicorn#4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257379 63.8796530)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 965,
+   "iri": "http://www.github.com/sparqlunicorn#48384403-6227-44d7-8327-e1adac8617e7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "48384403-6227-44d7-8327-e1adac8617e7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0249683 63.8801168)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 966,
+   "iri": "http://www.github.com/sparqlunicorn#491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0288782 63.8800257, 20.0289312 63.8800257, 20.0289312 63.8800383, 20.0288782 63.8800383, 20.0288782 63.8800257))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 967,
+   "iri": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4960c3ef-c969-4930-8f87-3e9250c5b716_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271877 63.8805557)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 968,
+   "iri": "http://www.github.com/sparqlunicorn#49a39ab2-4e8f-4991-8297-5a18a5735647_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "49a39ab2-4e8f-4991-8297-5a18a5735647_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289508 63.8802068)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 969,
+   "iri": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260237 63.8795679)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 970,
+   "iri": "http://www.github.com/sparqlunicorn#49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290948 63.8804953)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 971,
+   "iri": "http://www.github.com/sparqlunicorn#4a2ac55e-8819-4ffc-971d-4e3255244521_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4a2ac55e-8819-4ffc-971d-4e3255244521_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236776 63.8791678)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 972,
+   "iri": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248282 63.8801206)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 973,
+   "iri": "http://www.github.com/sparqlunicorn#4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0271348 63.8797436, 20.0271879 63.8797436, 20.0271879 63.8797562, 20.0271348 63.8797562, 20.0271348 63.8797436))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 974,
+   "iri": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4bb458df-e06c-4d79-bcdb-663a09168b93_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0238602 63.8805899)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 975,
+   "iri": "http://www.github.com/sparqlunicorn#4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258684 63.8809322)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 976,
+   "iri": "http://www.github.com/sparqlunicorn#4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292423 63.8792898)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 977,
+   "iri": "http://www.github.com/sparqlunicorn#4c6f385a-e492-46e7-9488-4fedf6114353_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4c6f385a-e492-46e7-9488-4fedf6114353_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0248408 63.8801929, 20.0248939 63.8801929, 20.0248939 63.8802055, 20.0248408 63.8802055, 20.0248408 63.8801929))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 978,
+   "iri": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4ccf2904-a68a-4c88-81de-8d549bc421e9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0237753 63.8800796, 20.0238283 63.8800796, 20.0238283 63.8800923, 20.0237753 63.8800923, 20.0237753 63.8800796))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 979,
+   "iri": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4db030c2-2331-4dad-b17c-da023bceff9f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248626 63.8791145)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 980,
+   "iri": "http://www.github.com/sparqlunicorn#4dcec8c0-392b-421c-94de-b7ca326a59ce_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4dcec8c0-392b-421c-94de-b7ca326a59ce_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290677 63.8792200)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 981,
+   "iri": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4e1bbd40-75c2-4134-abdf-71a85b238394_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0258164 63.8795713, 20.0258694 63.8795713, 20.0258694 63.8795839, 20.0258164 63.8795839, 20.0258164 63.8795713))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 982,
+   "iri": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279237 63.8797595)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 983,
+   "iri": "http://www.github.com/sparqlunicorn#51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248704 63.8804765)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 984,
+   "iri": "http://www.github.com/sparqlunicorn#51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290848 63.8806453)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 985,
+   "iri": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "521dd20c-2456-40a9-8b2b-0064396ccb07_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0237855 63.8791045, 20.0238385 63.8791045, 20.0238385 63.8791172, 20.0237855 63.8791172, 20.0237855 63.8791045))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 986,
+   "iri": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "526eb9a7-2805-4a93-b49c-df9a922b279c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290521 63.8811164)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 987,
+   "iri": "http://www.github.com/sparqlunicorn#52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0259622 63.8805514, 20.0260152 63.8805514, 20.0260152 63.8805640, 20.0259622 63.8805640, 20.0259622 63.8805514))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 988,
+   "iri": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236754 63.8796263, 20.0237284 63.8796263, 20.0237284 63.8796389, 20.0236754 63.8796389, 20.0236754 63.8796263))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 989,
+   "iri": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "53bf2db7-7718-4835-bc3c-2baf3068207f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0257231 63.8805759, 20.0257761 63.8805759, 20.0257761 63.8805886, 20.0257231 63.8805886, 20.0257231 63.8805759))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 990,
+   "iri": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "53ed429c-06e1-419a-9002-12d7bcf18ba0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0281911 63.8791251)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 991,
+   "iri": "http://www.github.com/sparqlunicorn#54418eb6-7220-4d62-8e35-7a3266ae3120_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "54418eb6-7220-4d62-8e35-7a3266ae3120_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289319 63.8805600)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 992,
+   "iri": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0238376 63.8810566)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 993,
+   "iri": "http://www.github.com/sparqlunicorn#55045191-2b66-482a-b3cf-d027e67cac9c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "55045191-2b66-482a-b3cf-d027e67cac9c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289082 63.8806566)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 994,
+   "iri": "http://www.github.com/sparqlunicorn#55199184-3a67-4d1d-8361-eebeec4b6615_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "55199184-3a67-4d1d-8361-eebeec4b6615_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289345 63.8801144)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 995,
+   "iri": "http://www.github.com/sparqlunicorn#559a292c-9b84-4152-8d12-161347862318_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "559a292c-9b84-4152-8d12-161347862318_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261424 63.8811110, 20.0261955 63.8811110, 20.0261955 63.8811237, 20.0261424 63.8811237, 20.0261424 63.8811110))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 996,
+   "iri": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0249839 63.8809389, 20.0250370 63.8809389, 20.0250370 63.8809515, 20.0249839 63.8809515, 20.0249839 63.8809389))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 997,
+   "iri": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "569674c9-3895-4cb5-8f2c-38e608cab577_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0250082 63.8791148)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 998,
+   "iri": "http://www.github.com/sparqlunicorn#5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0280494 63.8801151, 20.0281025 63.8801151, 20.0281025 63.8801277, 20.0280494 63.8801277, 20.0280494 63.8801151))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 999,
+   "iri": "http://www.github.com/sparqlunicorn#584e153d-4f51-0fa6-8208-40c70e5baf19_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "584e153d-4f51-0fa6-8208-40c70e5baf19_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239523 63.8796416)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1000,
+   "iri": "http://www.github.com/sparqlunicorn#59667ebc-7204-4355-b5cf-9ec86c280d6a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "59667ebc-7204-4355-b5cf-9ec86c280d6a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258696 63.8800259)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1001,
+   "iri": "http://www.github.com/sparqlunicorn#599490bb-6a70-49f9-8d4d-270f7c3792bb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "599490bb-6a70-49f9-8d4d-270f7c3792bb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271850 63.8809255)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1002,
+   "iri": "http://www.github.com/sparqlunicorn#5a41564a-597e-4b30-aa96-21956e0dcd4d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5a41564a-597e-4b30-aa96-21956e0dcd4d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0238373 63.8805328)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1003,
+   "iri": "http://www.github.com/sparqlunicorn#5a9dda79-cbe5-47f0-901f-278f4748c48f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5a9dda79-cbe5-47f0-901f-278f4748c48f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0240918 63.8809964)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1004,
+   "iri": "http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0257082 63.8801925, 20.0257613 63.8801925, 20.0257613 63.8802052, 20.0257082 63.8802052, 20.0257082 63.8801925))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1005,
+   "iri": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5bcc0471-f0ba-417c-bae1-abb3223cd352_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277347 63.8804784, 20.0277877 63.8804784, 20.0277877 63.8804911, 20.0277347 63.8804911, 20.0277347 63.8804784))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1006,
+   "iri": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280285 63.8805652)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1007,
+   "iri": "http://www.github.com/sparqlunicorn#5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239891 63.8801477)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1008,
+   "iri": "http://www.github.com/sparqlunicorn#5e927acb-3371-4300-9804-5fc6fb1388d2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5e927acb-3371-4300-9804-5fc6fb1388d2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0287571 63.8792095, 20.0288102 63.8792095, 20.0288102 63.8792221, 20.0287571 63.8792221, 20.0287571 63.8792095))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1009,
+   "iri": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0271207 63.8802052, 20.0271738 63.8802052, 20.0271738 63.8802179, 20.0271207 63.8802179, 20.0271207 63.8802052))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1010,
+   "iri": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0249684 63.8792553)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1011,
+   "iri": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6247dd7d-45da-4805-9922-ad78d30ddc00_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0249872 63.8806575)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1012,
+   "iri": "http://www.github.com/sparqlunicorn#6263bc9a-2c4b-4675-8196-d4232dee23f3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6263bc9a-2c4b-4675-8196-d4232dee23f3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0246920 63.8795773, 20.0247451 63.8795773, 20.0247451 63.8795900, 20.0246920 63.8795900, 20.0246920 63.8795773))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1013,
+   "iri": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "62c65c41-af9e-4af8-af61-97602598da5c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258644 63.8806608)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1014,
+   "iri": "http://www.github.com/sparqlunicorn#62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257305 63.8795813)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1015,
+   "iri": "http://www.github.com/sparqlunicorn#634e698f-f3c3-4363-a8b6-8163b4f476ed_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "634e698f-f3c3-4363-a8b6-8163b4f476ed_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0241301 63.8796331)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1016,
+   "iri": "http://www.github.com/sparqlunicorn#63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277698 63.8792040, 20.0278229 63.8792040, 20.0278229 63.8792166, 20.0277698 63.8792166, 20.0277698 63.8792040))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1017,
+   "iri": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "64586be1-1d82-4160-a5fb-5af067a6276b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0246718 63.8791693, 20.0247248 63.8791693, 20.0247248 63.8791820, 20.0246718 63.8791820, 20.0246718 63.8791693))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1018,
+   "iri": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "646cf01d-f91f-454d-96f3-69f122d90cf1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0281559 63.8801918, 20.0282090 63.8801918, 20.0282090 63.8802045, 20.0281559 63.8802045, 20.0281559 63.8801918))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1019,
+   "iri": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0268577 63.8804885, 20.0269107 63.8804885, 20.0269107 63.8805012, 20.0268577 63.8805012, 20.0268577 63.8804885))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1020,
+   "iri": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "66424eb1-6ec0-4f2a-9003-e2143babe975_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0278840 63.8806435)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1021,
+   "iri": "http://www.github.com/sparqlunicorn#6726b202-cbe6-4428-bced-528128ba4391_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6726b202-cbe6-4428-bced-528128ba4391_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267790 63.8797617)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1022,
+   "iri": "http://www.github.com/sparqlunicorn#6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280808 63.8806484)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1023,
+   "iri": "http://www.github.com/sparqlunicorn#675e393e-a8dd-4abf-8698-75200a6cb8c9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "675e393e-a8dd-4abf-8698-75200a6cb8c9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0258351 63.8811118, 20.0258881 63.8811118, 20.0258881 63.8811245, 20.0258351 63.8811245, 20.0258351 63.8811118))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1024,
+   "iri": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6839545f-3c21-456c-8e65-a34518a8bf7c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0247264 63.8806630)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1025,
+   "iri": "http://www.github.com/sparqlunicorn#686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0281848 63.8806358, 20.0282378 63.8806358, 20.0282378 63.8806484, 20.0281848 63.8806484, 20.0281848 63.8806358))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1026,
+   "iri": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "69195ab5-0241-4995-8079-fee9d5509376_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0260066 63.8810032, 20.0260596 63.8810032, 20.0260596 63.8810158, 20.0260066 63.8810158, 20.0260066 63.8810032))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1027,
+   "iri": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6939e3db-546a-4041-a823-e729a2d4b694_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0237187 63.8810031)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1028,
+   "iri": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248416 63.8791777)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1029,
+   "iri": "http://www.github.com/sparqlunicorn#6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0291890 63.8805605)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1030,
+   "iri": "http://www.github.com/sparqlunicorn#6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0267393 63.8800330, 20.0267924 63.8800330, 20.0267924 63.8800457, 20.0267393 63.8800457, 20.0267393 63.8800330))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1031,
+   "iri": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6daab534-65db-49f5-9b1b-5842930184c6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257326 63.8806605)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1032,
+   "iri": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6f14de57-897a-4758-a984-262ca18baf75_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0238216 63.8792263, 20.0238747 63.8792263, 20.0238747 63.8792390, 20.0238216 63.8792390, 20.0238216 63.8792263))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1033,
+   "iri": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "6fa013cb-f86c-4978-ac06-999760a58991_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271551 63.8792120)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1034,
+   "iri": "http://www.github.com/sparqlunicorn#723174b5-7af2-489a-a766-8c1650beae91_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "723174b5-7af2-489a-a766-8c1650beae91_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287917 63.8795897)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1035,
+   "iri": "http://www.github.com/sparqlunicorn#7354c117-22d8-41c4-b679-3a1cd0357a65_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7354c117-22d8-41c4-b679-3a1cd0357a65_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251562 63.8801181)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1036,
+   "iri": "http://www.github.com/sparqlunicorn#782b5a2d-d383-4856-93eb-e974c77df325_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "782b5a2d-d383-4856-93eb-e974c77df325_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0290365 63.8801005, 20.0290896 63.8801005, 20.0290896 63.8801131, 20.0290365 63.8801131, 20.0290365 63.8801005))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1037,
+   "iri": "http://www.github.com/sparqlunicorn#78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0246670 63.8792256, 20.0247201 63.8792256, 20.0247201 63.8792383, 20.0246670 63.8792383, 20.0246670 63.8792256))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1038,
+   "iri": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7a2b1560-c346-41b6-915b-a10547cd3440_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277360 63.8801936, 20.0277891 63.8801936, 20.0277891 63.8802063, 20.0277360 63.8802063, 20.0277360 63.8801936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1039,
+   "iri": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7abeb59f-2759-4736-897c-69d50f0cdb27_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279189 63.8810991)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1040,
+   "iri": "http://www.github.com/sparqlunicorn#7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0251273 63.8795814, 20.0251804 63.8795814, 20.0251804 63.8795941, 20.0251273 63.8795941, 20.0251273 63.8795814))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1041,
+   "iri": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7c93771e-f108-4c1a-8ede-799d87629036_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236737 63.8790984, 20.0237267 63.8790984, 20.0237267 63.8791111, 20.0236737 63.8791111, 20.0236737 63.8790984))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1042,
+   "iri": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258488 63.8791295)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1043,
+   "iri": "http://www.github.com/sparqlunicorn#8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0259938 63.8801219, 20.0260469 63.8801219, 20.0260469 63.8801345, 20.0259938 63.8801345, 20.0259938 63.8801219))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1044,
+   "iri": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0269011 63.8801903)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1045,
+   "iri": "http://www.github.com/sparqlunicorn#837d4e73-d938-4f86-a89c-1099ce29f33e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "837d4e73-d938-4f86-a89c-1099ce29f33e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0281680 63.8804815, 20.0282211 63.8804815, 20.0282211 63.8804942, 20.0281680 63.8804942, 20.0281680 63.8804815))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1046,
+   "iri": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8522a6f2-b165-4529-9dd6-30bc0da88476_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239935 63.8792341)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1047,
+   "iri": "http://www.github.com/sparqlunicorn#863761bc-1744-4a56-87ca-5a38172397b7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "863761bc-1744-4a56-87ca-5a38172397b7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268909 63.8810189)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1048,
+   "iri": "http://www.github.com/sparqlunicorn#866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267575 63.8806592)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1049,
+   "iri": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0268712 63.8791296, 20.0269243 63.8791296, 20.0269243 63.8791423, 20.0268712 63.8791423, 20.0268712 63.8791296))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1050,
+   "iri": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270621 63.8791159)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1051,
+   "iri": "http://www.github.com/sparqlunicorn#86d66279-5b89-4d4e-9f94-166f838cbf0d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "86d66279-5b89-4d4e-9f94-166f838cbf0d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0287510 63.8801110, 20.0288041 63.8801110, 20.0288041 63.8801237, 20.0287510 63.8801237, 20.0287510 63.8801110))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1052,
+   "iri": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251528 63.8792534)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1053,
+   "iri": "http://www.github.com/sparqlunicorn#8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268719 63.8797389)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1054,
+   "iri": "http://www.github.com/sparqlunicorn#8852c98d-198f-41a6-ba42-44ea128db271_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8852c98d-198f-41a6-ba42-44ea128db271_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280847 63.8804837)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1055,
+   "iri": "http://www.github.com/sparqlunicorn#8870c476-f724-4940-a41c-ea4287430711_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8870c476-f724-4940-a41c-ea4287430711_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248447 63.8792538)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1056,
+   "iri": "http://www.github.com/sparqlunicorn#88a536c2-f97f-41a1-aec9-4ed80f13707b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "88a536c2-f97f-41a1-aec9-4ed80f13707b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0271732 63.8792891, 20.0272262 63.8792891, 20.0272262 63.8793018, 20.0271732 63.8793018, 20.0271732 63.8792891))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1057,
+   "iri": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "89b07983-8e6c-4b79-a97f-618a913945ee_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0246878 63.8791293)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1058,
+   "iri": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0287857 63.8797541, 20.0288387 63.8797541, 20.0288387 63.8797668, 20.0287857 63.8797668, 20.0287857 63.8797541))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1059,
+   "iri": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8a782006-277b-43df-b476-622e770433ba_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0246873 63.8811186)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1060,
+   "iri": "http://www.github.com/sparqlunicorn#8b5fa40a-9651-452e-b0ec-54acee59291b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8b5fa40a-9651-452e-b0ec-54acee59291b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270601 63.8792206)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1061,
+   "iri": "http://www.github.com/sparqlunicorn#8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289178 63.8811097)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1062,
+   "iri": "http://www.github.com/sparqlunicorn#8be34e7d-8ed8-41b4-81b0-30fa20313640_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8be34e7d-8ed8-41b4-81b0-30fa20313640_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0240821 63.8810467, 20.0241352 63.8810467, 20.0241352 63.8810593, 20.0240821 63.8810593, 20.0240821 63.8810467))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1063,
+   "iri": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0250089 63.8800365)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1064,
+   "iri": "http://www.github.com/sparqlunicorn#8fee201f-da13-42aa-b212-3c44f64bc27e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "8fee201f-da13-42aa-b212-3c44f64bc27e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236496 63.8793043, 20.0237027 63.8793043, 20.0237027 63.8793169, 20.0236496 63.8793169, 20.0236496 63.8793043))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1065,
+   "iri": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "90d8c5f4-021b-414b-8219-47f4e39bbff6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0287422 63.8806583, 20.0287952 63.8806583, 20.0287952 63.8806710, 20.0287422 63.8806710, 20.0287422 63.8806583))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1066,
+   "iri": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "91417e18-f9c7-49d7-80b2-ec408b898147_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0278649 63.8795647, 20.0279180 63.8795647, 20.0279180 63.8795774, 20.0278649 63.8795774, 20.0278649 63.8795647))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1067,
+   "iri": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "92bc7954-d3e5-456e-a3f9-15ed633ca086_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279312 63.8805664)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1068,
+   "iri": "http://www.github.com/sparqlunicorn#9341c466-7f3f-4271-a114-d3c94c930f3f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9341c466-7f3f-4271-a114-d3c94c930f3f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277431 63.8806514, 20.0277961 63.8806514, 20.0277961 63.8806641, 20.0277431 63.8806641, 20.0277431 63.8806514))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1069,
+   "iri": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9460842b-7734-4665-82a2-0085a33ce453_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287686 63.8801880)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1070,
+   "iri": "http://www.github.com/sparqlunicorn#949e43c6-bcb7-4a9e-8686-38c04de30d80_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "949e43c6-bcb7-4a9e-8686-38c04de30d80_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282048 63.8809422)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1071,
+   "iri": "http://www.github.com/sparqlunicorn#96121114-97f7-4a80-b9a6-510945167a62_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "96121114-97f7-4a80-b9a6-510945167a62_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258878 63.8792012)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1072,
+   "iri": "http://www.github.com/sparqlunicorn#96bc48a7-9318-4690-b6da-6c177bed2142_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "96bc48a7-9318-4690-b6da-6c177bed2142_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0290556 63.8800136, 20.0291086 63.8800136, 20.0291086 63.8800263, 20.0290556 63.8800263, 20.0290556 63.8800136))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1073,
+   "iri": "http://www.github.com/sparqlunicorn#96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0280470 63.8791252, 20.0281000 63.8791252, 20.0281000 63.8791379, 20.0280470 63.8791379, 20.0280470 63.8791252))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1074,
+   "iri": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "97e0311e-f072-4b6c-8619-4c8b81cb2232_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261571 63.8797407)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1075,
+   "iri": "http://www.github.com/sparqlunicorn#983d0582-2a66-4b60-bb5b-979c01ef19c5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "983d0582-2a66-4b60-bb5b-979c01ef19c5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0277880 63.8796590)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1076,
+   "iri": "http://www.github.com/sparqlunicorn#99d67f15-27a8-45c3-95bd-6619e211638a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "99d67f15-27a8-45c3-95bd-6619e211638a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0250169 63.8797485)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1077,
+   "iri": "http://www.github.com/sparqlunicorn#99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0248512 63.8810158, 20.0249042 63.8810158, 20.0249042 63.8810285, 20.0248512 63.8810285, 20.0248512 63.8810158))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1078,
+   "iri": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9a404584-fd22-42a3-ba09-2382a8cc7596_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279358 63.8810156)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1079,
+   "iri": "http://www.github.com/sparqlunicorn#9a5569b3-ad35-413b-bf48-efc5563abc59_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9a5569b3-ad35-413b-bf48-efc5563abc59_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0291924 63.8810256)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1080,
+   "iri": "http://www.github.com/sparqlunicorn#9a828b5f-bd7d-425f-b889-f2852b339898_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9a828b5f-bd7d-425f-b889-f2852b339898_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0278911 63.8792016)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1081,
+   "iri": "http://www.github.com/sparqlunicorn#9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282133 63.8795879)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1082,
+   "iri": "http://www.github.com/sparqlunicorn#9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268874 63.8796537)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1083,
+   "iri": "http://www.github.com/sparqlunicorn#9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0237797 63.8801428, 20.0238328 63.8801428, 20.0238328 63.8801554, 20.0237797 63.8801554, 20.0237797 63.8801428))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1084,
+   "iri": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9d5f5c58-94c9-426a-862c-0bce70aa017e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0246909 63.8805628)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1085,
+   "iri": "http://www.github.com/sparqlunicorn#9e40eb0a-25e5-4622-8b79-1a19b2570330_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9e40eb0a-25e5-4622-8b79-1a19b2570330_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261516 63.8792832, 20.0262047 63.8792832, 20.0262047 63.8792959, 20.0261516 63.8792959, 20.0261516 63.8792832))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1086,
+   "iri": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9e80e441-dc60-4514-8477-702e7d8ea321_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279162 63.8800199)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1087,
+   "iri": "http://www.github.com/sparqlunicorn#9f2868a0-3143-4024-bb49-c71f9d8dd864_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "9f2868a0-3143-4024-bb49-c71f9d8dd864_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0247086 63.8797401, 20.0247617 63.8797401, 20.0247617 63.8797528, 20.0247086 63.8797528, 20.0247086 63.8797401))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1088,
+   "iri": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a0108469-2166-4732-8aff-f6429f29a82f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236719 63.8804781)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1089,
+   "iri": "http://www.github.com/sparqlunicorn#a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0249384 63.8804884, 20.0249914 63.8804884, 20.0249914 63.8805010, 20.0249384 63.8805010, 20.0249384 63.8804884))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1090,
+   "iri": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a09111ca-c359-48cc-9a96-e79673caa0b8_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290757 63.8809251)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1091,
+   "iri": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a3006e8d-46d6-4db0-81aa-23238514e5eb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280442 63.8811089)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1092,
+   "iri": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a3228d61-d64a-4b1f-be73-130b222b1c11_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0238400 63.8800105)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1093,
+   "iri": "http://www.github.com/sparqlunicorn#a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0279215 63.8809447)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1094,
+   "iri": "http://www.github.com/sparqlunicorn#a46ff53a-7708-4b04-96d3-36d25d4f535f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a46ff53a-7708-4b04-96d3-36d25d4f535f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282240 63.8793030)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1095,
+   "iri": "http://www.github.com/sparqlunicorn#a51e2e99-0037-4a04-874f-2fb1a64e804e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a51e2e99-0037-4a04-874f-2fb1a64e804e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0291964 63.8795754)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1096,
+   "iri": "http://www.github.com/sparqlunicorn#a67d29e2-adec-404e-83e4-1db08e6eedaf_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a67d29e2-adec-404e-83e4-1db08e6eedaf_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0249904 63.8795750)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1097,
+   "iri": "http://www.github.com/sparqlunicorn#a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267623 63.8792112)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1098,
+   "iri": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a7f106af-5755-44ed-9ba2-86b1110e21f7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258550 63.8796624)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1099,
+   "iri": "http://www.github.com/sparqlunicorn#a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257031 63.8804756)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1100,
+   "iri": "http://www.github.com/sparqlunicorn#a813eea2-fe9a-4314-916e-d18e30428f17_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a813eea2-fe9a-4314-916e-d18e30428f17_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0246885 63.8800300)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1101,
+   "iri": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "a9d036a7-9001-47c8-89db-54c0fe8d6829_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0281630 63.8805709, 20.0282161 63.8805709, 20.0282161 63.8805836, 20.0281630 63.8805836, 20.0281630 63.8805709))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1102,
+   "iri": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0238051 63.8797009, 20.0238581 63.8797009, 20.0238581 63.8797135, 20.0238051 63.8797135, 20.0238051 63.8797009))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1103,
+   "iri": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "abb845a6-5386-459e-938f-5100e0af1f72_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0238243 63.8810010)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1104,
+   "iri": "http://www.github.com/sparqlunicorn#b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0277507 63.8800316)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1105,
+   "iri": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b1984fb3-ca88-4453-8fa3-b782d735052c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0241185 63.8800121, 20.0241716 63.8800121, 20.0241716 63.8800247, 20.0241185 63.8800247, 20.0241185 63.8800121))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1106,
+   "iri": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0277928 63.8791253)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1107,
+   "iri": "http://www.github.com/sparqlunicorn#b41c112f-4843-4956-ab84-b90dade27d40_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b41c112f-4843-4956-ab84-b90dade27d40_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287619 63.8793063)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1108,
+   "iri": "http://www.github.com/sparqlunicorn#b49637a5-8304-4703-b961-328acd9cfab1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b49637a5-8304-4703-b961-328acd9cfab1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0246825 63.8810331)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1109,
+   "iri": "http://www.github.com/sparqlunicorn#b4b23818-2422-4145-b162-9feb1559508f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b4b23818-2422-4145-b162-9feb1559508f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0250066 63.8811152)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1110,
+   "iri": "http://www.github.com/sparqlunicorn#b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0291833 63.8801193, 20.0292364 63.8801193, 20.0292364 63.8801320, 20.0291833 63.8801320, 20.0291833 63.8801193))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1111,
+   "iri": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b6233e40-079e-447d-b960-2f59a90dcd6e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292064 63.8796771)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1112,
+   "iri": "http://www.github.com/sparqlunicorn#b65b8060-5341-4b04-879f-ffebaab6d0b2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b65b8060-5341-4b04-879f-ffebaab6d0b2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0258475 63.8793037, 20.0259005 63.8793037, 20.0259005 63.8793163, 20.0258475 63.8793163, 20.0258475 63.8793037))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1113,
+   "iri": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0248021 63.8809286, 20.0248552 63.8809286, 20.0248552 63.8809413, 20.0248021 63.8809413, 20.0248021 63.8809286))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1114,
+   "iri": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239584 63.8800787)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1115,
+   "iri": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0238281 63.8791664, 20.0238812 63.8791664, 20.0238812 63.8791791, 20.0238281 63.8791791, 20.0238281 63.8791664))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1116,
+   "iri": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267367 63.8791337)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1117,
+   "iri": "http://www.github.com/sparqlunicorn#b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0289204 63.8795702, 20.0289735 63.8795702, 20.0289735 63.8795828, 20.0289204 63.8795828, 20.0289204 63.8795702))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1118,
+   "iri": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0248035 63.8795864, 20.0248565 63.8795864, 20.0248565 63.8795991, 20.0248035 63.8795991, 20.0248035 63.8795864))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1119,
+   "iri": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282092 63.8810274)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1120,
+   "iri": "http://www.github.com/sparqlunicorn#b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261193 63.8804844, 20.0261724 63.8804844, 20.0261724 63.8804971, 20.0261193 63.8804971, 20.0261193 63.8804844))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1121,
+   "iri": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0246792 63.8801903, 20.0247323 63.8801903, 20.0247323 63.8802030, 20.0246792 63.8802030, 20.0246792 63.8801903))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1122,
+   "iri": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ba7170d7-475e-4502-9cbd-054d5d326a7d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0272082 63.8806410)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1123,
+   "iri": "http://www.github.com/sparqlunicorn#bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0289344 63.8804663, 20.0289875 63.8804663, 20.0289875 63.8804789, 20.0289344 63.8804789, 20.0289344 63.8804663))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1124,
+   "iri": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0237932 63.8809088, 20.0238462 63.8809088, 20.0238462 63.8809215, 20.0237932 63.8809215, 20.0237932 63.8809088))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1125,
+   "iri": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257353 63.8811021)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1126,
+   "iri": "http://www.github.com/sparqlunicorn#bd9a273c-41d4-4108-b63b-8f4a0f298268_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bd9a273c-41d4-4108-b63b-8f4a0f298268_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0240914 63.8791744)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1127,
+   "iri": "http://www.github.com/sparqlunicorn#bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271597 63.8796623)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1128,
+   "iri": "http://www.github.com/sparqlunicorn#bf0c59ea-be3e-466b-b127-3489c46dd15a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bf0c59ea-be3e-466b-b127-3489c46dd15a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239460 63.8800255)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1129,
+   "iri": "http://www.github.com/sparqlunicorn#bffc569e-04a3-4506-9399-d6c95e77b3a6_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "bffc569e-04a3-4506-9399-d6c95e77b3a6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0269869 63.8792830, 20.0270399 63.8792830, 20.0270399 63.8792957, 20.0269869 63.8792957, 20.0269869 63.8792830))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1130,
+   "iri": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c08f3cf1-e573-4914-b15f-b249261d9fab_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260066 63.8796642)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1131,
+   "iri": "http://www.github.com/sparqlunicorn#c1ab5f63-f9f9-4f75-aae2-428489b43823_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c1ab5f63-f9f9-4f75-aae2-428489b43823_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0279070 63.8802024, 20.0279600 63.8802024, 20.0279600 63.8802151, 20.0279070 63.8802151, 20.0279070 63.8802024))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1132,
+   "iri": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c2174141-51b4-4932-b3b3-4526eb6245d5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277623 63.8805719, 20.0278154 63.8805719, 20.0278154 63.8805845, 20.0277623 63.8805845, 20.0277623 63.8805719))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1133,
+   "iri": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c2efc23f-47bb-47cc-9786-739739a84f3b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289394 63.8796768)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1134,
+   "iri": "http://www.github.com/sparqlunicorn#c336744b-5e45-446b-ab1a-5c61031669ed_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c336744b-5e45-446b-ab1a-5c61031669ed_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0260091 63.8797308, 20.0260622 63.8797308, 20.0260622 63.8797434, 20.0260091 63.8797434, 20.0260091 63.8797308))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1135,
+   "iri": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280260 63.8809252)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1136,
+   "iri": "http://www.github.com/sparqlunicorn#c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267665 63.8795826)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1137,
+   "iri": "http://www.github.com/sparqlunicorn#c5771677-4cc9-44af-91b5-5de6365789b9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c5771677-4cc9-44af-91b5-5de6365789b9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0241095 63.8796766, 20.0241626 63.8796766, 20.0241626 63.8796893, 20.0241095 63.8796893, 20.0241095 63.8796766))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1138,
+   "iri": "http://www.github.com/sparqlunicorn#c5b30f79-c515-48cf-a077-c5289ec32956_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c5b30f79-c515-48cf-a077-c5289ec32956_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0267253 63.8796489, 20.0267783 63.8796489, 20.0267783 63.8796615, 20.0267253 63.8796615, 20.0267253 63.8796489))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1139,
+   "iri": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0237013 63.8800341)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1140,
+   "iri": "http://www.github.com/sparqlunicorn#c67379cd-4787-4016-96aa-b153b932abab_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c67379cd-4787-4016-96aa-b153b932abab_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236965 63.8805292)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1141,
+   "iri": "http://www.github.com/sparqlunicorn#c72db726-4400-4409-a50b-1217816e158f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c72db726-4400-4409-a50b-1217816e158f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0237186 63.8809277)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1142,
+   "iri": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c7c46dd9-6977-4662-86fa-7bd465591b65_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268779 63.8811191)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1143,
+   "iri": "http://www.github.com/sparqlunicorn#c7e1a156-d0a7-4cd4-a519-182fd2078922_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c7e1a156-d0a7-4cd4-a519-182fd2078922_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271564 63.8810223)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1144,
+   "iri": "http://www.github.com/sparqlunicorn#c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0278637 63.8792985, 20.0279168 63.8792985, 20.0279168 63.8793112, 20.0278637 63.8793112, 20.0278637 63.8792985))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1145,
+   "iri": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0250907 63.8801964, 20.0251437 63.8801964, 20.0251437 63.8802090, 20.0250907 63.8802090, 20.0250907 63.8801964))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1146,
+   "iri": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236598 63.8806650, 20.0237128 63.8806650, 20.0237128 63.8806776, 20.0236598 63.8806776, 20.0236598 63.8806650))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1147,
+   "iri": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "cc774e18-df41-45a3-976b-bbbbc25ecff1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0236608 63.8805940, 20.0237139 63.8805940, 20.0237139 63.8806067, 20.0236608 63.8806067, 20.0236608 63.8805940))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1148,
+   "iri": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292257 63.8809504)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1149,
+   "iri": "http://www.github.com/sparqlunicorn#cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0266925 63.8793019, 20.0267455 63.8793019, 20.0267455 63.8793146, 20.0266925 63.8793146, 20.0266925 63.8793019))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1150,
+   "iri": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0248410 63.8796554, 20.0248940 63.8796554, 20.0248940 63.8796680, 20.0248410 63.8796680, 20.0248410 63.8796554))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1151,
+   "iri": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0267038 63.8805512, 20.0267569 63.8805512, 20.0267569 63.8805639, 20.0267038 63.8805639, 20.0267038 63.8805512))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1152,
+   "iri": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251486 63.8805699)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1153,
+   "iri": "http://www.github.com/sparqlunicorn#d115b172-64a5-4db8-ab2d-b556287b2c54_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d115b172-64a5-4db8-ab2d-b556287b2c54_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0278660 63.8804648, 20.0279190 63.8804648, 20.0279190 63.8804775, 20.0278660 63.8804775, 20.0278660 63.8804648))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1154,
+   "iri": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d1248c32-d156-418a-a10f-104d770ca6fd_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270450 63.8811036)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1155,
+   "iri": "http://www.github.com/sparqlunicorn#d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280299 63.8792142)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1156,
+   "iri": "http://www.github.com/sparqlunicorn#d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287845 63.8800286)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1157,
+   "iri": "http://www.github.com/sparqlunicorn#d366167a-c152-4bae-9b8a-87f3ac3bf275_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d366167a-c152-4bae-9b8a-87f3ac3bf275_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0289301 63.8797488, 20.0289831 63.8797488, 20.0289831 63.8797615, 20.0289301 63.8797615, 20.0289301 63.8797488))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1158,
+   "iri": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d39b0a02-169d-40a8-897d-7c7a5eee497d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0287958 63.8805695)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1159,
+   "iri": "http://www.github.com/sparqlunicorn#d4313e9d-3616-49e0-b1cc-cea436fd662f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d4313e9d-3616-49e0-b1cc-cea436fd662f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0239739 63.8809719, 20.0240270 63.8809719, 20.0240270 63.8809845, 20.0239739 63.8809845, 20.0239739 63.8809719))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1160,
+   "iri": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0258415 63.8797432)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1161,
+   "iri": "http://www.github.com/sparqlunicorn#d54de471-c174-42dd-90c9-bfd8ad4c482c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d54de471-c174-42dd-90c9-bfd8ad4c482c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280641 63.8801960)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1162,
+   "iri": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d5710f70-63c7-4107-ac87-3fad0dca5830_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239606 63.8810425)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1163,
+   "iri": "http://www.github.com/sparqlunicorn#d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280636 63.8797585)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1164,
+   "iri": "http://www.github.com/sparqlunicorn#d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0291963 63.8802057)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1165,
+   "iri": "http://www.github.com/sparqlunicorn#d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239547 63.8791760)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1166,
+   "iri": "http://www.github.com/sparqlunicorn#da05f974-2a60-4de2-9cd9-2b06625b3a30_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "da05f974-2a60-4de2-9cd9-2b06625b3a30_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0246976 63.8804811)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1167,
+   "iri": "http://www.github.com/sparqlunicorn#dafdf1be-d473-4b7f-b65e-1b5313478cae_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dafdf1be-d473-4b7f-b65e-1b5313478cae_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0289188 63.8792074)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1168,
+   "iri": "http://www.github.com/sparqlunicorn#dbf1ab41-a655-4569-883e-1de100632e02_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dbf1ab41-a655-4569-883e-1de100632e02_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0249988 63.8805653)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1169,
+   "iri": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dc5ba2e0-7975-466e-930f-a5469030df40_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260114 63.8802069)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1170,
+   "iri": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0248585 63.8797390)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1171,
+   "iri": "http://www.github.com/sparqlunicorn#dcda68c8-cde0-4d2f-9062-be5e478beb52_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dcda68c8-cde0-4d2f-9062-be5e478beb52_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292036 63.8792194)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1172,
+   "iri": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ddc25136-83aa-463c-9460-c718847292e0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0292238 63.8804868)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1173,
+   "iri": "http://www.github.com/sparqlunicorn#ddd9a1d8-d2cd-433a-8158-97ae15270207_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ddd9a1d8-d2cd-433a-8158-97ae15270207_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0277492 63.8795759)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1174,
+   "iri": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "de109b58-0791-4eb7-9fff-d536f15297af_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0236722 63.8802187)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1175,
+   "iri": "http://www.github.com/sparqlunicorn#def031d2-a760-4e54-a33d-6754a4780ec2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "def031d2-a760-4e54-a33d-6754a4780ec2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251300 63.8804913)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1176,
+   "iri": "http://www.github.com/sparqlunicorn#dfcca23a-f573-a4b1-f20d-52597dadffc9_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "dfcca23a-f573-a4b1-f20d-52597dadffc9_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0287374 63.8796508, 20.0287904 63.8796508, 20.0287904 63.8796634, 20.0287374 63.8796634, 20.0287374 63.8796508))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1177,
+   "iri": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0256837 63.8809318, 20.0257368 63.8809318, 20.0257368 63.8809444, 20.0256837 63.8809444, 20.0256837 63.8809318))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1178,
+   "iri": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e2bb5213-40ec-467b-ab58-dfd191d67b15_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0277847 63.8809477)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1179,
+   "iri": "http://www.github.com/sparqlunicorn#e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0290448 63.8810262, 20.0290979 63.8810262, 20.0290979 63.8810389, 20.0290448 63.8810389, 20.0290448 63.8810262))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1180,
+   "iri": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251545 63.8810139)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1181,
+   "iri": "http://www.github.com/sparqlunicorn#e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0259601 63.8811062, 20.0260131 63.8811062, 20.0260131 63.8811188, 20.0259601 63.8811188, 20.0259601 63.8811062))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1182,
+   "iri": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e4f0d99c-176b-4354-872f-84ea358ac1d1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0270145 63.8805702, 20.0270676 63.8805702, 20.0270676 63.8805829, 20.0270145 63.8805829, 20.0270145 63.8805702))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1183,
+   "iri": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0277716 63.8801190, 20.0278247 63.8801190, 20.0278247 63.8801316, 20.0277716 63.8801316, 20.0277716 63.8801190))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1184,
+   "iri": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0251295 63.8791068)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1185,
+   "iri": "http://www.github.com/sparqlunicorn#e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0259895 63.8804774, 20.0260426 63.8804774, 20.0260426 63.8804901, 20.0259895 63.8804901, 20.0259895 63.8804774))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1186,
+   "iri": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0267454 63.8801082)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1187,
+   "iri": "http://www.github.com/sparqlunicorn#e953f777-8ea1-4ace-a2ad-f0240260c209_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e953f777-8ea1-4ace-a2ad-f0240260c209_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0268757 63.8801108)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1188,
+   "iri": "http://www.github.com/sparqlunicorn#e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0259597 63.8791272, 20.0260127 63.8791272, 20.0260127 63.8791398, 20.0259597 63.8791398, 20.0259597 63.8791272))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1189,
+   "iri": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270086 63.8796678)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1190,
+   "iri": "http://www.github.com/sparqlunicorn#e9f24e1d-fdda-420e-b444-66021c3b96e2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "e9f24e1d-fdda-420e-b444-66021c3b96e2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0239437 63.8791134)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1191,
+   "iri": "http://www.github.com/sparqlunicorn#ea39529e-ec32-490e-8b2d-df1f584a6afb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ea39529e-ec32-490e-8b2d-df1f584a6afb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261857 63.8791311)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1192,
+   "iri": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271975 63.8791170)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1193,
+   "iri": "http://www.github.com/sparqlunicorn#ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0257201 63.8792767, 20.0257732 63.8792767, 20.0257732 63.8792893, 20.0257201 63.8792893, 20.0257201 63.8792767))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1194,
+   "iri": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257204 63.8797460)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1195,
+   "iri": "http://www.github.com/sparqlunicorn#ec09119c-d470-45bb-9859-102f53ed944b_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ec09119c-d470-45bb-9859-102f53ed944b_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0260010 63.8792915)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1196,
+   "iri": "http://www.github.com/sparqlunicorn#ec25566b-1581-4de8-af54-944d78b7756f_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ec25566b-1581-4de8-af54-944d78b7756f_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0291862 63.8806477, 20.0292392 63.8806477, 20.0292392 63.8806603, 20.0291862 63.8806603, 20.0291862 63.8806477))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1197,
+   "iri": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ec69643d-e636-443f-95a0-bb55b9614841_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0282044 63.8796681)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1198,
+   "iri": "http://www.github.com/sparqlunicorn#edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261693 63.8796703)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1199,
+   "iri": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "eec807e9-47d0-4801-a3f8-017c818a99e7_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0249924 63.8810200)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1200,
+   "iri": "http://www.github.com/sparqlunicorn#ef66850a-2651-4d2b-bcfb-c37803346e55_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "ef66850a-2651-4d2b-bcfb-c37803346e55_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0269088 63.8792200)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1201,
+   "iri": "http://www.github.com/sparqlunicorn#f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270324 63.8797595)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1202,
+   "iri": "http://www.github.com/sparqlunicorn#f0be2267-3889-4ec6-a50c-87551f9581d3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f0be2267-3889-4ec6-a50c-87551f9581d3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0289082 63.8810117, 20.0289613 63.8810117, 20.0289613 63.8810243, 20.0289082 63.8810243, 20.0289082 63.8810117))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1203,
+   "iri": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f148606b-a850-4d16-a627-606fb8ee5577_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280802 63.8796594)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1204,
+   "iri": "http://www.github.com/sparqlunicorn#f3fefd10-8b81-4d76-a86b-913d419e60d5_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f3fefd10-8b81-4d76-a86b-913d419e60d5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257458 63.8791141)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1205,
+   "iri": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f4c616a4-3188-45f4-ad66-878498003c20_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0271501 63.8811125)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1206,
+   "iri": "http://www.github.com/sparqlunicorn#f4dab308-cda8-4c28-bf6d-8872053307e3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f4dab308-cda8-4c28-bf6d-8872053307e3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0239303 63.8805941, 20.0239833 63.8805941, 20.0239833 63.8806068, 20.0239303 63.8806068, 20.0239303 63.8805941))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1207,
+   "iri": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f533c183-22fb-43cf-9bd1-265caaa661a0_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0289046 63.8791238, 20.0289577 63.8791238, 20.0289577 63.8791365, 20.0289046 63.8791365, 20.0289046 63.8791238))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1208,
+   "iri": "http://www.github.com/sparqlunicorn#f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0261649 63.8800353)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1209,
+   "iri": "http://www.github.com/sparqlunicorn#f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0241143 63.8800734)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1210,
+   "iri": "http://www.github.com/sparqlunicorn#f7655a1e-c5a5-4308-b041-a306a98234fa_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "f7655a1e-c5a5-4308-b041-a306a98234fa_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0247042 63.8796516)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1211,
+   "iri": "http://www.github.com/sparqlunicorn#fa1f5594-3452-4476-98a3-fc6146245ae1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fa1f5594-3452-4476-98a3-fc6146245ae1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0290722 63.8801893)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1212,
+   "iri": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fab26445-cb25-492a-8d8a-47f31706a753_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0257531 63.8801163)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1213,
+   "iri": "http://www.github.com/sparqlunicorn#fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0239630 63.8796916, 20.0240161 63.8796916, 20.0240161 63.8797043, 20.0239630 63.8797043, 20.0239630 63.8796916))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1214,
+   "iri": "http://www.github.com/sparqlunicorn#fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0280740 63.8810294)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1215,
+   "iri": "http://www.github.com/sparqlunicorn#fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261036 63.8800975, 20.0261566 63.8800975, 20.0261566 63.8801101, 20.0261036 63.8801101, 20.0261036 63.8800975))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1216,
+   "iri": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fd82485d-f6e8-4413-9120-c739f0cc1e82_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0240957 63.8792345, 20.0241487 63.8792345, 20.0241487 63.8792472, 20.0240957 63.8792472, 20.0240957 63.8792345))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1217,
+   "iri": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270184 63.8804724)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1218,
+   "iri": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fdf099f7-869f-499e-80c3-00c91f0a4d35_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0270139 63.8795775)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1219,
+   "iri": "http://www.github.com/sparqlunicorn#fe037d07-6d14-4052-b152-17e83699eafd_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fe037d07-6d14-4052-b152-17e83699eafd_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.0261195 63.8801843, 20.0261725 63.8801843, 20.0261725 63.8801970, 20.0261195 63.8801970, 20.0261195 63.8801843))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1220,
+   "iri": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POINT(20.0237149 63.8801592)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1221,
+   "iri": "http://www.github.com/sparqlunicorn#fef07810-f623-4efe-987e-9010958b2a15_geom",
+   "baseIRI": "http://www.github.com/sparqlunicorn",
+   "instances": 0,
+   "label": {
+    "IRI-based": "fef07810-f623-4efe-987e-9010958b2a15_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "LINESTRING(20.023372 63.880117, 20.029534 63.880117)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1222,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/DenGulaVagen_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "DenGulaVagen_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "MULTIPOLYGON(((20.029657 63.878923, 20.029657 63.881311, 20.023250 63.881311, 20.023250 63.878923, 20.029657 63.878923)))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1223,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "NorrforsOutpost_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "LINESTRING(20.026453 63.878977, 20.026453 63.881257)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1224,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Returvagen_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Returvagen_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "LINESTRING(20.023372 63.881021, 20.029534 63.881021)",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1225,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Smalgangen_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Smalgangen_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.024311 63.880840, 20.024311 63.881202, 20.023495 63.881202, 20.023495 63.880840, 20.024311 63.880840))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1226,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_A1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.025331 63.880840, 20.025331 63.881202, 20.024515 63.881202, 20.024515 63.880840, 20.025331 63.880840))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1227,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_A2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.026351 63.880840, 20.026351 63.881202, 20.025535 63.881202, 20.025535 63.880840, 20.026351 63.880840))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1228,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_A3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.027371 63.880840, 20.027371 63.881202, 20.026555 63.881202, 20.026555 63.880840, 20.027371 63.880840))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1229,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_A4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.028392 63.880840, 20.028392 63.881202, 20.027575 63.881202, 20.027575 63.880840, 20.028392 63.880840))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1230,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_A5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.029412 63.880840, 20.029412 63.881202, 20.028596 63.881202, 20.028596 63.880840, 20.029412 63.880840))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1231,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_A6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.024311 63.880388, 20.024311 63.880750, 20.023495 63.880750, 20.023495 63.880388, 20.024311 63.880388))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1232,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_B1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.025331 63.880388, 20.025331 63.880750, 20.024515 63.880750, 20.024515 63.880388, 20.025331 63.880388))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1233,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_B2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.026351 63.880388, 20.026351 63.880750, 20.025535 63.880750, 20.025535 63.880388, 20.026351 63.880388))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1234,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_B3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.027371 63.880388, 20.027371 63.880750, 20.026555 63.880750, 20.026555 63.880388, 20.027371 63.880388))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1235,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_B4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.028392 63.880388, 20.028392 63.880750, 20.027575 63.880750, 20.027575 63.880388, 20.028392 63.880388))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1236,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_B5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.029412 63.880388, 20.029412 63.880750, 20.028596 63.880750, 20.028596 63.880388, 20.029412 63.880388))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1237,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_B6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.024311 63.879936, 20.024311 63.880298, 20.023495 63.880298, 20.023495 63.879936, 20.024311 63.879936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1238,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_C1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.025331 63.879936, 20.025331 63.880298, 20.024515 63.880298, 20.024515 63.879936, 20.025331 63.879936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1239,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_C2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.026351 63.879936, 20.026351 63.880298, 20.025535 63.880298, 20.025535 63.879936, 20.026351 63.879936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1240,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_C3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.027371 63.879936, 20.027371 63.880298, 20.026555 63.880298, 20.026555 63.879936, 20.027371 63.879936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1241,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_C4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.028392 63.879936, 20.028392 63.880298, 20.027575 63.880298, 20.027575 63.879936, 20.028392 63.879936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1242,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_C5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.029412 63.879936, 20.029412 63.880298, 20.028596 63.880298, 20.028596 63.879936, 20.029412 63.879936))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1243,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_C6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.024311 63.879483, 20.024311 63.879845, 20.023495 63.879845, 20.023495 63.879483, 20.024311 63.879483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1244,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_D1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.025331 63.879483, 20.025331 63.879845, 20.024515 63.879845, 20.024515 63.879483, 20.025331 63.879483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1245,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_D2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.026351 63.879483, 20.026351 63.879845, 20.025535 63.879845, 20.025535 63.879483, 20.026351 63.879483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1246,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_D3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.027371 63.879483, 20.027371 63.879845, 20.026555 63.879845, 20.026555 63.879483, 20.027371 63.879483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1247,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_D4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.028392 63.879483, 20.028392 63.879845, 20.027575 63.879845, 20.027575 63.879483, 20.028392 63.879483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1248,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_D5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.029412 63.879483, 20.029412 63.879845, 20.028596 63.879845, 20.028596 63.879483, 20.029412 63.879483))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1249,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_D6_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.024311 63.879031, 20.024311 63.879393, 20.023495 63.879393, 20.023495 63.879031, 20.024311 63.879031))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1250,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_E1_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.025331 63.879031, 20.025331 63.879393, 20.024515 63.879393, 20.024515 63.879031, 20.025331 63.879031))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1251,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_E2_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.026351 63.879031, 20.026351 63.879393, 20.025535 63.879393, 20.025535 63.879031, 20.026351 63.879031))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1252,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_E3_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.027371 63.879031, 20.027371 63.879393, 20.026555 63.879393, 20.026555 63.879031, 20.027371 63.879031))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1253,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_E4_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.028392 63.879031, 20.028392 63.879393, 20.027575 63.879393, 20.027575 63.879031, 20.028392 63.879031))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1254,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_E5_geom"
+   },
+   "annotations": {
+    "http://www.opengis.net/ont/geosparql#asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#asWKT",
+      "language": "undefined",
+      "value": "POLYGON((20.029412 63.879031, 20.029412 63.879393, 20.028596 63.879393, 20.028596 63.879031, 20.029412 63.879031))",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 1255,
+   "iri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6_geom",
+   "baseIRI": "https://github.com/Research-Squirrel-Engineers/FAIRyland",
+   "instances": 0,
+   "label": {
+    "IRI-based": "Trench_E6_geom"
    },
    "annotations": {
     "http://www.github.com/sparqlunicorn#Name": [
@@ -40275,6 +50846,14 @@ var vowlresult={
       "identifier": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench",
       "language": "undefined",
       "value": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2",
+      "type": "iri"
+     }
+    ],
+    "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": [
+     {
+      "identifier": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location",
+      "language": "undefined",
+      "value": "http://www.github.com/sparqlunicorn#005191fc-7128-48b0-a0f4-d1eaaaff3004_geom",
       "type": "iri"
      }
     ]

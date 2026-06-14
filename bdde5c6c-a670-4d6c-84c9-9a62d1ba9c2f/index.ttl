@@ -1,17 +1,19 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
-@prefix ns2: <http://www.github.com/sparqlunicorn#> .
+@prefix ns1: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns3: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns2:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Pencil,
+ns3:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:Pencil,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns2:Name "Pencil"^^xsd:string ;
-    ns2:Time_Period "Mesozoic"^^xsd:string ;
-    ns2:fid 1187 ;
-    geo:hasGeometry ns2:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom ;
-    ns1:hasperiod ns1:Mesozoic ;
-    ns1:hastrench ns1:Trench_E1 .
+    void:inDataset ns3:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns1:P53_has_former_or_current_location ns3:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom ;
+    ns3:Name "Pencil"^^xsd:string ;
+    ns3:Time_Period "Mesozoic"^^xsd:string ;
+    ns3:fid 1187 ;
+    geo:hasGeometry ns3:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom ;
+    ns2:hasperiod ns2:Mesozoic ;
+    ns2:hastrench ns2:Trench_E1 .
 

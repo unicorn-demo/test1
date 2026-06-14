@@ -42,6 +42,13 @@
     void:triples 6,
         366 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_www.ics.forth.gr_isl_CRMgeo_> a void:Linkset ;
+    rdfs:label "Linkset: FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors - crmgeo:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.ics.forth.gr/isl/CRMgeo/> ;
+    void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
+    void:triples 366 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_www.opengis.net_ont_geosparql_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors - The GeoSPARQL Ontology (gsp:)"@en ;
     void:linkPredicate rdf:type,
@@ -49,7 +56,7 @@
     void:objectsTarget geo: ;
     void:subjectsTarget <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
     void:triples 1,
-        13 .
+        14 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_www.opengis.net_ont_sf_> a void:Linkset ;
     rdfs:label "Linkset: FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors - Simple Features Vocabulary (sf:)"@en ;
@@ -122,7 +129,7 @@
 <http://www.github.com/sparqlunicorn#geo_FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors" ;
     voaf:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
-    voaf:occurrences 28 .
+    voaf:occurrences 30 .
 
 <http://www.github.com/sparqlunicorn#odrl_FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors" ;
@@ -286,6 +293,14 @@ doap: a voaf:Vocabulary ;
     rdfs:label "Class Partition: 29555707-7201-41b5-8ef4-1c59caac6f59"@en ;
     void:class <http://www.github.com/sparqlunicorn#29555707-7201-41b5-8ef4-1c59caac6f59> .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_A1_Excavation_Process_Unit> a void:Dataset ;
+    rdfs:label "Class Partition: A1_Excavation_Process_Unit"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A1_Excavation_Process_Unit> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_A9_Archaeological_Excavation> a void:Dataset ;
+    rdfs:label "Class Partition: A9_Archaeological_Excavation"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A9_Archaeological_Excavation> .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_AllenKey> a void:Dataset ;
     rdfs:label "Class Partition: AllenKey"@en ;
     void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey> ;
@@ -318,6 +333,38 @@ doap: a voaf:Vocabulary ;
     rdfs:label "Class Partition: Crater"@en ;
     void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater> ;
     void:entities 4 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E18_Physical_Thing> a void:Dataset ;
+    rdfs:label "Class Partition: E18_Physical_Thing"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E19_Physical_Object> a void:Dataset ;
+    rdfs:label "Class Partition: E19_Physical_Object"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E20_Biological_Object> a void:Dataset ;
+    rdfs:label "Class Partition: E20_Biological_Object"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E22_Human-Made_Object> a void:Dataset ;
+    rdfs:label "Class Partition: E22_Human-Made_Object"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E26_Physical_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: E26_Physical_Feature"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E27_Site> a void:Dataset ;
+    rdfs:label "Class Partition: E27_Site"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E27_Site> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E4_Period> a void:Dataset ;
+    rdfs:label "Class Partition: E4_Period"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E4_Period> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E52_Time-Span> a void:Dataset ;
+    rdfs:label "Class Partition: E52_Time-Span"@en ;
+    void:class <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Ellipsoid> a void:Dataset ;
     rdfs:label "Class Partition: Ellipsoid"@en ;
@@ -360,7 +407,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_GeometryCollection> a void:Dataset ;
     rdfs:label "Class Partition: GeometryCollection"@en ;
     void:class geo:GeometryCollection ;
-    void:entities 2 .
+    void:entities 3 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Kangaroo> a void:Dataset ;
     rdfs:label "Class Partition: Kangaroo"@en ;
@@ -395,6 +442,21 @@ doap: a voaf:Vocabulary ;
     void:property <http://www.github.com/sparqlunicorn#Name> ;
     void:triples 369 .
 
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_P4_has_time-span> a void:Dataset ;
+    rdfs:label "Property Partition: P4_has_time-span"@en ;
+    void:property <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> ;
+    void:triples 4 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_P53_has_former_or_current_location> a void:Dataset ;
+    rdfs:label "Property Partition: P53_has_former_or_current_location"@en ;
+    void:property <http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location> ;
+    void:triples 366 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_P7_took_place_at> a void:Dataset ;
+    rdfs:label "Property Partition: P7_took_place_at"@en ;
+    void:property <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> ;
+    void:triples 31 .
+
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Pencil> a void:Dataset ;
     rdfs:label "Class Partition: Pencil"@en ;
     void:class <https://github.com/Research-Squirrel-Engineers/FAIRyland/Pencil> ;
@@ -413,6 +475,19 @@ doap: a voaf:Vocabulary ;
     rdfs:label "Class Partition: Polygon"@en ;
     void:class <http://www.opengis.net/ont/sf#Polygon> ;
     void:entities 132 .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SP10_Declarative_Time-Span> a void:Dataset ;
+    rdfs:label "Class Partition: SP10_Declarative_Time-Span"@en ;
+    void:class <http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SP4_Spatial_Coordinate_Reference_System> a void:Dataset ;
+    rdfs:label "Class Partition: SP4_Spatial_Coordinate_Reference_System"@en ;
+    void:class <http://www.ics.forth.gr/isl/CRMgeo/SP4_Spatial_Coordinate_Reference_System> .
+
+<http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SP6_Declarative_Place> a void:Dataset ;
+    rdfs:label "Class Partition: SP6_Declarative_Place"@en ;
+    void:class <http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place> ;
+    void:entities 366 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Site> a void:Dataset ;
     rdfs:label "Class Partition: Site"@en ;
@@ -538,7 +613,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_endMa> a void:Dataset ;
     rdfs:label "Property Partition: endMa"@en ;
     void:property <https://github.com/Research-Squirrel-Engineers/FAIRyland/endMa> ;
-    void:triples 4 .
+    void:triples 8 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_fid> a void:Dataset ;
     rdfs:label "Property Partition: fid"@en ;
@@ -583,7 +658,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 69 .
+    void:triples 75 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_license> a void:Dataset ;
     rdfs:label "Property Partition: license"@en ;
@@ -618,12 +693,12 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_startMa> a void:Dataset ;
     rdfs:label "Property Partition: startMa"@en ;
     void:property <https://github.com/Research-Squirrel-Engineers/FAIRyland/startMa> ;
-    void:triples 4 .
+    void:triples 8 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_subClassOf> a void:Dataset ;
     rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
-    void:triples 20 .
+    void:triples 43 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_timeperiod> a void:Dataset ;
     rdfs:label "Property Partition: timeperiod"@en ;
@@ -638,7 +713,7 @@ doap: a voaf:Vocabulary ;
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 850 .
+    void:triples 1256 .
 
 <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_unit> a void:Dataset ;
     rdfs:label "Property Partition: unit"@en ;
@@ -812,18 +887,18 @@ skos: a voaf:Vocabulary ;
         adms:Asset ;
     rdfs:label "FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors"@en ;
     vext:averageLiteralLength 19 ;
-    vext:averageObjectIRILength 72 ;
-    vext:averagePropertyIRILength 44 ;
+    vext:averageObjectIRILength 71 ;
+    vext:averagePropertyIRILength 45 ;
     vext:averageSubjectIRILength 73 ;
     vext:datatypes 3 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 2336 ;
-    vext:distinctLiterals 780 ;
-    vext:distinctRDFNodes 3116 ;
+    vext:distinctIRIReferences 2376 ;
+    vext:distinctLiterals 781 ;
+    vext:distinctRDFNodes 3157 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2026-06-13T20:30:08"^^xsd:dateTime ;
+    dcterms:modified "2026-06-14T21:20:03"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -833,12 +908,22 @@ skos: a voaf:Vocabulary ;
     vann:preferredNamespacePrefix "unicorn"^^xsd:string ;
     vann:preferredNamespaceUri "http://www.github.com/sparqlunicorn#"^^xsd:anyURI ;
     void:classPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_29555707-7201-41b5-8ef4-1c59caac6f59>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_A1_Excavation_Process_Unit>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_A9_Archaeological_Excavation>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_AllenKey>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_AxisDirection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Banana>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Collection>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_CoordinateSystemAxis>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Crater>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E18_Physical_Thing>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E19_Physical_Object>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E20_Biological_Object>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E22_Human-Made_Object>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E26_Physical_Feature>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E27_Site>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E4_Period>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_E52_Time-Span>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Ellipsoid>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_EllipsoidalCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Entity>,
@@ -859,6 +944,9 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_PlanarCoordinateSystem>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Point>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Polygon>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SP10_Declarative_Time-Span>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SP4_Spatial_Coordinate_Reference_System>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SP6_Declarative_Place>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Site>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SpatialObject>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_SpatialObjectCollection>,
@@ -868,16 +956,19 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Tealight>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_TimePeriod>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Trench> ;
-    void:classes 36 ;
+    void:classes 49 ;
     void:dataDump <https://unicorn-demo.github.io/test1//index.ttl> ;
-    void:distinctObjects 1425 ;
-    void:distinctSubjects 865 ;
-    void:entities 754 ;
+    void:distinctObjects 1449 ;
+    void:distinctSubjects 878 ;
+    void:entities 755 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 46 ;
+    void:properties 49 ;
     void:propertyPartition <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Condition>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Name>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_P4_has_time-span>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_P53_has_former_or_current_location>,
+        <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_P7_took_place_at>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Time_Period>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_Trench>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_abbreviation>,
@@ -921,7 +1012,7 @@ skos: a voaf:Vocabulary ;
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_unit_code>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_unit_conversion_factor>,
         <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors_withinSite> ;
-    void:triples 5483 ;
+    void:triples 6696 ;
     void:uriSpace "http://www.github.com/sparqlunicorn#"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

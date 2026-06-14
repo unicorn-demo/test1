@@ -16,6 +16,7 @@ var search={
   "Pencil Instances Collection": "http://www.github.com/sparqlunicorn#Pencil_collection",
   "Point Instances Collection": "http://www.github.com/sparqlunicorn#Point_collection",
   "Polygon Instances Collection": "http://www.github.com/sparqlunicorn#Polygon_collection",
+  "SP6_Declarative_Place Instances Collection": "http://www.github.com/sparqlunicorn#SP6_Declarative_Place_collection",
   "Stone Instances Collection": "http://www.github.com/sparqlunicorn#Stone_collection",
   "Tealight Instances Collection": "http://www.github.com/sparqlunicorn#Tealight_collection",
   "Trench": "http://www.github.com/sparqlunicorn#nonns_Trench.html",

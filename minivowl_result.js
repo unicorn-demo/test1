@@ -164,200 +164,486 @@ var minivowlresult={
    "name": "Site",
    "type": "class",
    "uri": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Site"
+  },
+  {
+   "name": "A9_Archaeological_Excavation",
+   "type": "class",
+   "uri": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A9_Archaeological_Excavation"
+  },
+  {
+   "name": "SP4_Spatial_Coordinate_Reference_System",
+   "type": "class",
+   "uri": "http://www.ics.forth.gr/isl/CRMgeo/SP4_Spatial_Coordinate_Reference_System"
+  },
+  {
+   "name": "SP10_Declarative_Time-Span",
+   "type": "class",
+   "uri": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span"
+  },
+  {
+   "name": "SP6_Declarative_Place",
+   "type": "class",
+   "uri": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place"
   }
  ],
  "links": [
   {
-   "source": 5,
-   "target": 28,
-   "valueTo": "hasGeometry",
+   "source": 6,
+   "target": 30,
+   "valueTo": "hasperiod",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
   },
   {
-   "source": 5,
-   "target": 22,
-   "valueTo": "hasGeometry",
+   "source": 10,
+   "target": 30,
+   "valueTo": "hasperiod",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 5,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 5,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
   },
   {
    "source": 7,
-   "target": 28,
-   "valueTo": "hasGeometry",
+   "target": 30,
+   "valueTo": "hasperiod",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 4,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 5,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 9,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 3,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 8,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 0,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 2,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 1,
+   "target": 30,
+   "valueTo": "hasperiod",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+  },
+  {
+   "source": 6,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 10,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 7,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 4,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 5,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 9,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 3,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 8,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 0,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 2,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 1,
+   "target": 29,
+   "valueTo": "hastrench",
+   "propertyTo": "class",
+   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
+  },
+  {
+   "source": 6,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 6,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 6,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 10,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 10,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 10,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 7,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 7,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
   },
   {
    "source": 7,
    "target": 22,
-   "valueTo": "hasGeometry",
+   "valueTo": "P53_has_former_or_current_location",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 7,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 7,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 4,
-   "target": 28,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 4,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 4,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
   },
   {
    "source": 4,
    "target": 21,
-   "valueTo": "hasGeometry",
+   "valueTo": "P53_has_former_or_current_location",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 4,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 4,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 5,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 5,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 5,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
   },
   {
    "source": 9,
-   "target": 28,
-   "valueTo": "hasGeometry",
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 9,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
   },
   {
    "source": 9,
    "target": 22,
-   "valueTo": "hasGeometry",
+   "valueTo": "P53_has_former_or_current_location",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
   },
   {
-   "source": 9,
-   "target": 27,
-   "valueTo": "hasGeometry",
+   "source": 3,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
   },
   {
-   "source": 9,
+   "source": 3,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 3,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 8,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 8,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 8,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 0,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 0,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 0,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 2,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 2,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 2,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 1,
+   "target": 21,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 1,
+   "target": 35,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 1,
+   "target": 22,
+   "valueTo": "P53_has_former_or_current_location",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location"
+  },
+  {
+   "source": 6,
    "target": 21,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 20,
+   "source": 6,
    "target": 28,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 20,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 20,
+   "source": 6,
    "target": 27,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 20,
+   "source": 6,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 6,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 10,
    "target": 21,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 31,
+   "source": 10,
    "target": 28,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 31,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 31,
+   "source": 10,
    "target": 27,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 31,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 3,
-   "target": 28,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 3,
+   "source": 10,
    "target": 22,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 3,
-   "target": 27,
+   "source": 10,
+   "target": 35,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 3,
+   "source": 29,
    "target": 21,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -372,13 +658,6 @@ var minivowlresult={
   },
   {
    "source": 29,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 29,
    "target": 27,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -386,174 +665,90 @@ var minivowlresult={
   },
   {
    "source": 29,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 8,
-   "target": 28,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 8,
    "target": 22,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 8,
-   "target": 27,
+   "source": 29,
+   "target": 35,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 8,
+   "source": 7,
    "target": 21,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 0,
+   "source": 7,
    "target": 28,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 0,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 0,
+   "source": 7,
    "target": 27,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 0,
+   "source": 7,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 7,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 4,
    "target": 21,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
+   "source": 4,
    "target": 28,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 2,
+   "source": 4,
    "target": 27,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 10,
-   "target": 28,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 10,
+   "source": 4,
    "target": 22,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 10,
-   "target": 27,
+   "source": 4,
+   "target": 35,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 10,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 1,
-   "target": 28,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 1,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 1,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 1,
-   "target": 21,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 6,
-   "target": 28,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 6,
-   "target": 22,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 6,
-   "target": 27,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 6,
+   "source": 5,
    "target": 21,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -561,199 +756,367 @@ var minivowlresult={
   },
   {
    "source": 5,
-   "target": 29,
-   "valueTo": "hastrench",
+   "target": 28,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 9,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 4,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 7,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 3,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 6,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 0,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 2,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 10,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 1,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 8,
-   "target": 29,
-   "valueTo": "hastrench",
-   "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench"
-  },
-  {
-   "source": 12,
-   "target": 24,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 12,
-   "target": 23,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 14,
-   "target": 24,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 14,
-   "target": 23,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 13,
-   "target": 24,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 13,
-   "target": 23,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 5,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "target": 27,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 7,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 5,
+   "target": 22,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 4,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 5,
+   "target": 35,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 9,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "target": 21,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 9,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 9,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 9,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 9,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 3,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "target": 21,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 6,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 3,
+   "target": 28,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 0,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 3,
+   "target": 27,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 2,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 3,
+   "target": 22,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 10,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 3,
+   "target": 35,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 1,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "source": 31,
+   "target": 21,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 31,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 31,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 31,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 31,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 8,
-   "target": 30,
-   "valueTo": "hasperiod",
+   "target": 21,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 8,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 8,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 8,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 8,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 20,
+   "target": 21,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 20,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 20,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 20,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 20,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 0,
+   "target": 21,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 0,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 0,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 0,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 0,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 21,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 2,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 21,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 28,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 27,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 22,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 1,
+   "target": 35,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 32,
+   "target": 31,
+   "valueTo": "P7_took_place_at",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+  },
+  {
+   "source": 32,
+   "target": 35,
+   "valueTo": "P7_took_place_at",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+  },
+  {
+   "source": 32,
+   "target": 22,
+   "valueTo": "P7_took_place_at",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+  },
+  {
+   "source": 29,
+   "target": 31,
+   "valueTo": "P7_took_place_at",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+  },
+  {
+   "source": 29,
+   "target": 35,
+   "valueTo": "P7_took_place_at",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+  },
+  {
+   "source": 29,
+   "target": 22,
+   "valueTo": "P7_took_place_at",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at"
+  },
+  {
+   "source": 23,
+   "target": 25,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
+  },
+  {
+   "source": 24,
+   "target": 25,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
   },
   {
    "source": 29,
@@ -771,24 +1134,59 @@ var minivowlresult={
   },
   {
    "source": 30,
+   "target": 34,
+   "valueTo": "P4_has_time-span",
+   "propertyTo": "class",
+   "uriTo": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+  },
+  {
+   "source": 30,
    "target": 30,
    "valueTo": "narrower",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2004/02/skos/core#narrower"
   },
   {
-   "source": 24,
-   "target": 25,
-   "valueTo": "axis",
+   "source": 14,
+   "target": 23,
+   "valueTo": "coordinateSystem",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 23,
-   "target": 25,
-   "valueTo": "axis",
+   "source": 14,
+   "target": 24,
+   "valueTo": "coordinateSystem",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 12,
+   "target": 23,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 12,
+   "target": 24,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 13,
+   "target": 23,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
+  },
+  {
+   "source": 13,
+   "target": 24,
+   "valueTo": "coordinateSystem",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   }
  ]
 }

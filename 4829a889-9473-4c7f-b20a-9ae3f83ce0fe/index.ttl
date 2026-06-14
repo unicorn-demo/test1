@@ -1,17 +1,19 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
-@prefix ns2: <http://www.github.com/sparqlunicorn#> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns2:4829a889-9473-4c7f-b20a-9ae3f83ce0fe a <http://www.w3.org/ns/ldp#Resource>,
+ns3:4829a889-9473-4c7f-b20a-9ae3f83ce0fe a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Koetbullar,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns2:Name "Koettbullar"^^xsd:string ;
-    ns2:Time_Period "Jurassic"^^xsd:string ;
-    ns2:fid 1038 ;
-    geo:hasGeometry ns2:4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom ;
+    void:inDataset ns3:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns2:P53_has_former_or_current_location ns3:4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom ;
+    ns3:Name "Koettbullar"^^xsd:string ;
+    ns3:Time_Period "Jurassic"^^xsd:string ;
+    ns3:fid 1038 ;
+    geo:hasGeometry ns3:4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom ;
     ns1:hasperiod ns1:Jurassic ;
     ns1:hastrench ns1:Trench_C3 .
 

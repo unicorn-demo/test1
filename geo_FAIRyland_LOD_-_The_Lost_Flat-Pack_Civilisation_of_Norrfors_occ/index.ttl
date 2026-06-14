@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors" ;
     ns1:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;
-    ns1:occurrences 28 .
+    ns1:occurrences 30 .
 

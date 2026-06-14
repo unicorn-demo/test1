@@ -1,6 +1,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
 @prefix ns2: <http://www.github.com/sparqlunicorn#> .
+@prefix ns3: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,6 +9,7 @@ ns2:4bb458df-e06c-4d79-bcdb-663a09168b93 a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Koetbullar,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns3:P53_has_former_or_current_location ns2:4bb458df-e06c-4d79-bcdb-663a09168b93_geom ;
     ns2:Name "Kötbullar"^^xsd:string ;
     ns2:Time_Period "Minion"^^xsd:string ;
     ns2:Trench "Ikea Land"^^xsd:string ;

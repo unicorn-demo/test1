@@ -1,17 +1,19 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.github.com/sparqlunicorn#> .
-@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:0a8dc582-a78e-41f4-b0ac-86197ec16b46 a <http://www.w3.org/ns/ldp#Resource>,
-        ns2:Koetbullar,
+ns3:0a8dc582-a78e-41f4-b0ac-86197ec16b46 a <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Koetbullar,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns1:Name "Koettbullar"^^xsd:string ;
-    ns1:Time_Period "Mesozoic"^^xsd:string ;
-    ns1:fid 1077 ;
-    geo:hasGeometry ns1:0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom ;
-    ns2:hasperiod ns2:Mesozoic ;
-    ns2:hastrench ns2:Trench_D2 .
+    void:inDataset ns3:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns2:P53_has_former_or_current_location ns3:0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom ;
+    ns3:Name "Koettbullar"^^xsd:string ;
+    ns3:Time_Period "Mesozoic"^^xsd:string ;
+    ns3:fid 1077 ;
+    geo:hasGeometry ns3:0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom ;
+    ns1:hasperiod ns1:Mesozoic ;
+    ns1:hastrench ns1:Trench_D2 .
 

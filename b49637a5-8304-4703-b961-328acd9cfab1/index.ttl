@@ -1,6 +1,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.github.com/sparqlunicorn#> .
 @prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns3: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,6 +9,7 @@ ns1:b49637a5-8304-4703-b961-328acd9cfab1 a <http://www.w3.org/ns/ldp#Resource>,
         ns2:Tealight,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset ns1:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns3:P53_has_former_or_current_location ns1:b49637a5-8304-4703-b961-328acd9cfab1_geom ;
     ns1:Name "Tea light"^^xsd:string ;
     ns1:Time_Period "Mesozoic"^^xsd:string ;
     ns1:fid 1177 ;

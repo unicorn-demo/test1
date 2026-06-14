@@ -1,7 +1,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-<http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom> a <http://www.opengis.net/ont/sf#Point>,
+<http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom> a <http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place>,
+        <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     void:inDataset <http://www.github.com/sparqlunicorn#FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors> ;

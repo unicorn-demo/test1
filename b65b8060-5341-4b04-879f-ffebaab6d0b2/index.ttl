@@ -1,17 +1,19 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
-@prefix ns2: <http://www.github.com/sparqlunicorn#> .
+@prefix ns1: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns2: <https://github.com/Research-Squirrel-Engineers/FAIRyland/> .
+@prefix ns3: <http://www.github.com/sparqlunicorn#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns2:b65b8060-5341-4b04-879f-ffebaab6d0b2 a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Koetbullar,
+ns3:b65b8060-5341-4b04-879f-ffebaab6d0b2 a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:Koetbullar,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    void:inDataset ns2:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
-    ns2:Name "Koettbullar"^^xsd:string ;
-    ns2:Time_Period "Cretaceous"^^xsd:string ;
-    ns2:fid 1052 ;
-    geo:hasGeometry ns2:b65b8060-5341-4b04-879f-ffebaab6d0b2_geom ;
-    ns1:hasperiod ns1:Cretaceous ;
-    ns1:hastrench ns1:Trench_D6 .
+    void:inDataset ns3:FAIRyland_LOD_-_The_Lost_Flat-Pack_Civilisation_of_Norrfors ;
+    ns1:P53_has_former_or_current_location ns3:b65b8060-5341-4b04-879f-ffebaab6d0b2_geom ;
+    ns3:Name "Koettbullar"^^xsd:string ;
+    ns3:Time_Period "Cretaceous"^^xsd:string ;
+    ns3:fid 1052 ;
+    geo:hasGeometry ns3:b65b8060-5341-4b04-879f-ffebaab6d0b2_geom ;
+    ns2:hasperiod ns2:Cretaceous ;
+    ns2:hastrench ns2:Trench_D6 .
 

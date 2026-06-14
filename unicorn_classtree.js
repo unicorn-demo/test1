@@ -1836,7 +1836,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object",
         "type": "geoclass",
         "text": "Koetbullar (fairyland:Koetbullar) [256]",
         "data": {
@@ -1846,8 +1846,10 @@ var tree={
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
             },
-            "http://www.github.com/sparqlunicorn#Condition": {
-              "instancecount": 1
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -1863,7 +1865,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -1888,10 +1891,10 @@ var tree={
         "instancecount": 10
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
-        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object",
+        "parent": "#",
         "type": "class",
-        "text": "Find (fairyland:Find)",
+        "text": "E20_Biological_Object (crm:E20_Biological_Object)",
         "data": {}
       },
       {
@@ -2008,7 +2011,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Banana",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object",
         "type": "geoclass",
         "text": "Banana (fairyland:Banana) [16]",
         "data": {
@@ -2017,6 +2020,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2029,7 +2037,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2051,7 +2060,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb",
@@ -2321,7 +2330,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object",
         "type": "geoclass",
         "text": "Minion (fairyland:Minion) [38]",
         "data": {
@@ -2330,6 +2339,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2342,7 +2356,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2364,7 +2379,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a",
@@ -2431,7 +2446,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Stone",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object",
         "type": "geoclass",
         "text": "Stone (fairyland:Stone) [9]",
         "data": {
@@ -2440,6 +2455,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2452,7 +2472,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2474,7 +2495,14 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object",
+        "parent": "#",
+        "type": "class",
+        "text": "E19_Physical_Object (crm:E19_Physical_Object)",
+        "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e",
@@ -2534,7 +2562,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Pencil",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
         "type": "geoclass",
         "text": "Pencil (fairyland:Pencil) [8]",
         "data": {
@@ -2543,6 +2571,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2555,7 +2588,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2577,7 +2611,14 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
+        "parent": "#",
+        "type": "class",
+        "text": "E22_Human-Made_Object (crm:E22_Human-Made_Object)",
+        "data": {}
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2a991c50-a03f-45bd-a3ba-6e7ab9d661e5",
@@ -2637,7 +2678,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E20_Biological_Object",
         "type": "geoclass",
         "text": "Kangaroo (fairyland:Kangaroo) [8]",
         "data": {
@@ -2646,6 +2687,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Condition": {
               "instancecount": 1
@@ -2664,7 +2710,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2677,6 +2724,9 @@ var tree={
             "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
               "instancecount": 1,
               "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -2686,7 +2736,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 12
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2",
@@ -2753,7 +2803,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/FlatpackPanel",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
         "type": "geoclass",
         "text": "FlatpackPanel (fairyland:FlatpackPanel) [9]",
         "data": {
@@ -2762,6 +2812,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2774,7 +2829,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2796,7 +2852,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e",
@@ -2856,7 +2912,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Tealight",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
         "type": "geoclass",
         "text": "Tealight (fairyland:Tealight) [8]",
         "data": {
@@ -2865,6 +2921,11 @@ var tree={
               "instancecount": 1,
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2877,7 +2938,8 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -2899,7 +2961,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#3413903c-a458-8422-3997-434b1071b02b",
@@ -2966,7 +3028,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/LingonberryJar",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
         "type": "geoclass",
         "text": "LingonberryJar (fairyland:LingonberryJar) [9]",
         "data": {
@@ -2976,8 +3038,10 @@ var tree={
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
             },
-            "http://www.github.com/sparqlunicorn#Condition": {
-              "instancecount": 1
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -2985,15 +3049,13 @@ var tree={
             "http://www.github.com/sparqlunicorn#Time_Period": {
               "instancecount": 1
             },
-            "http://www.github.com/sparqlunicorn#Trench": {
-              "instancecount": 1
-            },
             "http://www.github.com/sparqlunicorn#fid": {
               "instancecount": 1
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
+              "http://www.opengis.net/ont/sf#Point": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -3015,7 +3077,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 9
       },
       {
         "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f",
@@ -3047,7 +3109,7 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Crater",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature",
         "type": "geoclass",
         "text": "Crater (fairyland:Crater) [4]",
         "data": {
@@ -3057,59 +3119,13 @@ var tree={
               "http://rdfs.org/ns/void#Dataset": 1,
               "http://www.w3.org/ns/adms#Asset": 1
             },
-            "http://www.github.com/sparqlunicorn#Name": {
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
+            },
+            "http://www.github.com/sparqlunicorn#Condition": {
               "instancecount": 1
-            },
-            "http://www.github.com/sparqlunicorn#Time_Period": {
-              "instancecount": 1
-            },
-            "http://www.github.com/sparqlunicorn#fid": {
-              "instancecount": 1
-            },
-            "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Point": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
-            },
-            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
-              "instancecount": 1,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
-            }
-          },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
-            }
-          }
-        },
-        "instancecount": 8
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey",
-        "type": "geoinstance",
-        "text": "86f8a06e-51c7-41be-935b-e70bfcaa67b7 (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7)",
-        "data": {}
-      },
-      {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey",
-        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
-        "type": "geoclass",
-        "text": "AllenKey (fairyland:AllenKey) [1]",
-        "data": {
-          "to": {
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.github.com/sparqlunicorn#Name": {
               "instancecount": 1
@@ -3125,7 +3141,81 @@ var tree={
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hasperiod": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/hastrench": {
+              "instancecount": 1,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench": 1
+            },
+            "https://github.com/Research-Squirrel-Engineers/FAIRyland/timeperiod": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 12
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature",
+        "parent": "#",
+        "type": "class",
+        "text": "E26_Physical_Feature (crm:E26_Physical_Feature)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7",
+        "parent": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey",
+        "type": "geoinstance",
+        "text": "86f8a06e-51c7-41be-935b-e70bfcaa67b7 (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/AllenKey",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object",
+        "type": "geoclass",
+        "text": "AllenKey (fairyland:AllenKey) [1]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
+            },
+            "http://www.github.com/sparqlunicorn#Name": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Time_Period": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#Trench": {
+              "instancecount": 1
+            },
+            "http://www.github.com/sparqlunicorn#fid": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1,
@@ -3147,7 +3237,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/def/crs/EPSG/0/4326_suniv0_",
@@ -3249,1681 +3339,1644 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Street",
-        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature",
         "type": "class",
         "text": "Street (fairyland:Street) [3]",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
-        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
-        "type": "class",
-        "text": "Feature (gsp:Feature)",
-        "data": {
-          "to": {
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            }
-          },
-          "from": {
-            "http://rdfs.org/ns/void#class": {
-              "instancecount": 0,
-              "http://rdfs.org/ns/void#Dataset": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#domain": {
-              "instancecount": 0,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 4
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
-            }
-          }
-        },
-        "instancecount": 3
-      },
-      {
-        "id": "http://www.github.com/sparqlunicorn#005191fc-7128-48b0-a0f4-d1eaaaff3004_geom",
+        "id": "http://www.github.com/sparqlunicorn#005191fc-7128-48b0-a0f4-d1eaaaff3004_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "005191fc-7128-48b0-a0f4-d1eaaaff3004_geom (suni:005191fc-7128-48b0-a0f4-d1eaaaff3004_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom",
+        "id": "http://www.github.com/sparqlunicorn#00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom (suni:00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom",
+        "id": "http://www.github.com/sparqlunicorn#02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom (suni:02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#042db47c-d2e0-48b7-992e-31eeed05590b_geom",
+        "id": "http://www.github.com/sparqlunicorn#042db47c-d2e0-48b7-992e-31eeed05590b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "042db47c-d2e0-48b7-992e-31eeed05590b_geom (suni:042db47c-d2e0-48b7-992e-31eeed05590b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom",
+        "id": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom (suni:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom",
+        "id": "http://www.github.com/sparqlunicorn#04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom (suni:04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#06d752cb-22a3-4939-86ee-1e59c2acd696_geom",
+        "id": "http://www.github.com/sparqlunicorn#06d752cb-22a3-4939-86ee-1e59c2acd696_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "06d752cb-22a3-4939-86ee-1e59c2acd696_geom (suni:06d752cb-22a3-4939-86ee-1e59c2acd696_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom",
+        "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom (suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom",
+        "id": "http://www.github.com/sparqlunicorn#0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom (suni:0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom",
+        "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0b12b1c6-4f43-4635-9437-2eccad89860a_geom (suni:0b12b1c6-4f43-4635-9437-2eccad89860a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom",
+        "id": "http://www.github.com/sparqlunicorn#0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom (suni:0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0b5f0d63-782a-46bb-b360-3ca60fc75915_geom",
+        "id": "http://www.github.com/sparqlunicorn#0b5f0d63-782a-46bb-b360-3ca60fc75915_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0b5f0d63-782a-46bb-b360-3ca60fc75915_geom (suni:0b5f0d63-782a-46bb-b360-3ca60fc75915_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0be2725f-e419-4f79-b4e0-31eb6cddeede_geom",
+        "id": "http://www.github.com/sparqlunicorn#0be2725f-e419-4f79-b4e0-31eb6cddeede_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0be2725f-e419-4f79-b4e0-31eb6cddeede_geom (suni:0be2725f-e419-4f79-b4e0-31eb6cddeede_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom",
+        "id": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom (suni:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom",
+        "id": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom (suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0f46981f-21ba-428d-ba69-a833540fdd51_geom",
+        "id": "http://www.github.com/sparqlunicorn#0f46981f-21ba-428d-ba69-a833540fdd51_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0f46981f-21ba-428d-ba69-a833540fdd51_geom (suni:0f46981f-21ba-428d-ba69-a833540fdd51_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom",
+        "id": "http://www.github.com/sparqlunicorn#0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom (suni:0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0fcef9c2-a38d-4664-b33e-4b523387955f_geom",
+        "id": "http://www.github.com/sparqlunicorn#0fcef9c2-a38d-4664-b33e-4b523387955f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "0fcef9c2-a38d-4664-b33e-4b523387955f_geom (suni:0fcef9c2-a38d-4664-b33e-4b523387955f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#103ff16b-91be-41cc-992e-842e9c717e00_geom",
+        "id": "http://www.github.com/sparqlunicorn#103ff16b-91be-41cc-992e-842e9c717e00_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "103ff16b-91be-41cc-992e-842e9c717e00_geom (suni:103ff16b-91be-41cc-992e-842e9c717e00_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#11d18c0d-68ec-4921-8df7-ecc79095d097_geom",
+        "id": "http://www.github.com/sparqlunicorn#11d18c0d-68ec-4921-8df7-ecc79095d097_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "11d18c0d-68ec-4921-8df7-ecc79095d097_geom (suni:11d18c0d-68ec-4921-8df7-ecc79095d097_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#12d29b14-a072-4035-adf3-ce7fc203ef65_geom",
+        "id": "http://www.github.com/sparqlunicorn#12d29b14-a072-4035-adf3-ce7fc203ef65_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "12d29b14-a072-4035-adf3-ce7fc203ef65_geom (suni:12d29b14-a072-4035-adf3-ce7fc203ef65_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#15979e00-a3ab-4266-a1ee-15c08536854d_geom",
+        "id": "http://www.github.com/sparqlunicorn#15979e00-a3ab-4266-a1ee-15c08536854d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "15979e00-a3ab-4266-a1ee-15c08536854d_geom (suni:15979e00-a3ab-4266-a1ee-15c08536854d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1666c930-9460-42e3-99c7-32eef2b60f4b_geom",
+        "id": "http://www.github.com/sparqlunicorn#1666c930-9460-42e3-99c7-32eef2b60f4b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "1666c930-9460-42e3-99c7-32eef2b60f4b_geom (suni:1666c930-9460-42e3-99c7-32eef2b60f4b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1747eb43-675f-4f0b-bf95-60f4740395f5_geom",
+        "id": "http://www.github.com/sparqlunicorn#1747eb43-675f-4f0b-bf95-60f4740395f5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "1747eb43-675f-4f0b-bf95-60f4740395f5_geom (suni:1747eb43-675f-4f0b-bf95-60f4740395f5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1826370a-8906-47be-b307-4a847bd26c9a_geom",
+        "id": "http://www.github.com/sparqlunicorn#1826370a-8906-47be-b307-4a847bd26c9a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "1826370a-8906-47be-b307-4a847bd26c9a_geom (suni:1826370a-8906-47be-b307-4a847bd26c9a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1888ca6c-cf87-4e68-a0b7-e605ae038610_geom",
+        "id": "http://www.github.com/sparqlunicorn#1888ca6c-cf87-4e68-a0b7-e605ae038610_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "1888ca6c-cf87-4e68-a0b7-e605ae038610_geom (suni:1888ca6c-cf87-4e68-a0b7-e605ae038610_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom",
+        "id": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "18d49631-5a11-48f6-acb7-62cfaf8de742_geom (suni:18d49631-5a11-48f6-acb7-62cfaf8de742_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom",
+        "id": "http://www.github.com/sparqlunicorn#1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom (suni:1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom",
+        "id": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "1d935768-ea8d-4be8-884b-a4dff9825021_geom (suni:1d935768-ea8d-4be8-884b-a4dff9825021_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#20e35462-2580-f6e0-f297-4b212dc76bc5_geom",
+        "id": "http://www.github.com/sparqlunicorn#20e35462-2580-f6e0-f297-4b212dc76bc5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "20e35462-2580-f6e0-f297-4b212dc76bc5_geom (suni:20e35462-2580-f6e0-f297-4b212dc76bc5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#22e61b60-371e-47f2-a07c-635d2380e04b_geom",
+        "id": "http://www.github.com/sparqlunicorn#22e61b60-371e-47f2-a07c-635d2380e04b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "22e61b60-371e-47f2-a07c-635d2380e04b_geom (suni:22e61b60-371e-47f2-a07c-635d2380e04b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#24476baf-94f8-460f-b941-8937c65b4476_geom",
+        "id": "http://www.github.com/sparqlunicorn#24476baf-94f8-460f-b941-8937c65b4476_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "24476baf-94f8-460f-b941-8937c65b4476_geom (suni:24476baf-94f8-460f-b941-8937c65b4476_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#248542fe-c72e-4120-babb-87611d3e0c72_geom",
+        "id": "http://www.github.com/sparqlunicorn#248542fe-c72e-4120-babb-87611d3e0c72_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "248542fe-c72e-4120-babb-87611d3e0c72_geom (suni:248542fe-c72e-4120-babb-87611d3e0c72_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2515e864-e7ed-4e8e-9770-b108580a1f08_geom",
+        "id": "http://www.github.com/sparqlunicorn#2515e864-e7ed-4e8e-9770-b108580a1f08_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2515e864-e7ed-4e8e-9770-b108580a1f08_geom (suni:2515e864-e7ed-4e8e-9770-b108580a1f08_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#26551278-d0f1-4741-950e-47e88d0bfcef_geom",
+        "id": "http://www.github.com/sparqlunicorn#26551278-d0f1-4741-950e-47e88d0bfcef_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "26551278-d0f1-4741-950e-47e88d0bfcef_geom (suni:26551278-d0f1-4741-950e-47e88d0bfcef_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom",
+        "id": "http://www.github.com/sparqlunicorn#265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom (suni:265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e_geom",
+        "id": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "28fa130c-4c84-4817-8b2e-855128e2b44e_geom (suni:28fa130c-4c84-4817-8b2e-855128e2b44e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom",
+        "id": "http://www.github.com/sparqlunicorn#2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom (suni:2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom",
+        "id": "http://www.github.com/sparqlunicorn#2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom (suni:2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom",
+        "id": "http://www.github.com/sparqlunicorn#2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom (suni:2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom",
+        "id": "http://www.github.com/sparqlunicorn#2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom (suni:2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2e47ae72-b63c-41a9-861b-009aa5454e57_geom",
+        "id": "http://www.github.com/sparqlunicorn#2e47ae72-b63c-41a9-861b-009aa5454e57_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2e47ae72-b63c-41a9-861b-009aa5454e57_geom (suni:2e47ae72-b63c-41a9-861b-009aa5454e57_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e_geom",
+        "id": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2f08adaf-d8a8-400b-a410-f011c467324e_geom (suni:2f08adaf-d8a8-400b-a410-f011c467324e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom",
+        "id": "http://www.github.com/sparqlunicorn#2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom (suni:2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#303b162c-85ab-4356-abfe-6b6029d8e5d3_geom",
+        "id": "http://www.github.com/sparqlunicorn#303b162c-85ab-4356-abfe-6b6029d8e5d3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "303b162c-85ab-4356-abfe-6b6029d8e5d3_geom (suni:303b162c-85ab-4356-abfe-6b6029d8e5d3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom",
+        "id": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "31615fc1-a7de-48af-80a2-777dd77760b2_geom (suni:31615fc1-a7de-48af-80a2-777dd77760b2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#31a33e29-ff88-49d0-93ae-bff50577f08c_geom",
+        "id": "http://www.github.com/sparqlunicorn#31a33e29-ff88-49d0-93ae-bff50577f08c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "31a33e29-ff88-49d0-93ae-bff50577f08c_geom (suni:31a33e29-ff88-49d0-93ae-bff50577f08c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#31a96e29-dddc-46a1-9471-16d91c629005_geom",
+        "id": "http://www.github.com/sparqlunicorn#31a96e29-dddc-46a1-9471-16d91c629005_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "31a96e29-dddc-46a1-9471-16d91c629005_geom (suni:31a96e29-dddc-46a1-9471-16d91c629005_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom",
+        "id": "http://www.github.com/sparqlunicorn#323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom (suni:323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom",
+        "id": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "327283ae-3a31-4397-ae77-2566e4d146b6_geom (suni:327283ae-3a31-4397-ae77-2566e4d146b6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#32beabf1-b953-4b07-a6ed-1472bca9a279_geom",
+        "id": "http://www.github.com/sparqlunicorn#32beabf1-b953-4b07-a6ed-1472bca9a279_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "32beabf1-b953-4b07-a6ed-1472bca9a279_geom (suni:32beabf1-b953-4b07-a6ed-1472bca9a279_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3413903c-a458-8422-3997-434b1071b02b_geom",
+        "id": "http://www.github.com/sparqlunicorn#3413903c-a458-8422-3997-434b1071b02b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "3413903c-a458-8422-3997-434b1071b02b_geom (suni:3413903c-a458-8422-3997-434b1071b02b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom",
+        "id": "http://www.github.com/sparqlunicorn#34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom (suni:34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3563f2d3-e971-4dc3-8501-5cc745ce5201_geom",
+        "id": "http://www.github.com/sparqlunicorn#3563f2d3-e971-4dc3-8501-5cc745ce5201_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "3563f2d3-e971-4dc3-8501-5cc745ce5201_geom (suni:3563f2d3-e971-4dc3-8501-5cc745ce5201_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#36510cec-f627-1951-d6f8-1b0def35b77a_geom",
+        "id": "http://www.github.com/sparqlunicorn#36510cec-f627-1951-d6f8-1b0def35b77a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "36510cec-f627-1951-d6f8-1b0def35b77a_geom (suni:36510cec-f627-1951-d6f8-1b0def35b77a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom",
+        "id": "http://www.github.com/sparqlunicorn#36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom (suni:36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom",
+        "id": "http://www.github.com/sparqlunicorn#373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom (suni:373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#37678450-1c30-4756-b89a-75c4021bcefe_geom",
+        "id": "http://www.github.com/sparqlunicorn#37678450-1c30-4756-b89a-75c4021bcefe_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "37678450-1c30-4756-b89a-75c4021bcefe_geom (suni:37678450-1c30-4756-b89a-75c4021bcefe_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom",
+        "id": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "37993191-20c4-49a4-b3bc-2a28960f323d_geom (suni:37993191-20c4-49a4-b3bc-2a28960f323d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#38880781-0283-43a1-84da-1b842caf34ba_geom",
+        "id": "http://www.github.com/sparqlunicorn#38880781-0283-43a1-84da-1b842caf34ba_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "38880781-0283-43a1-84da-1b842caf34ba_geom (suni:38880781-0283-43a1-84da-1b842caf34ba_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom",
+        "id": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "389c5712-618e-4532-84fd-4eb084e6c0aa_geom (suni:389c5712-618e-4532-84fd-4eb084e6c0aa_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom",
+        "id": "http://www.github.com/sparqlunicorn#3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom (suni:3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom",
+        "id": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom (suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom",
+        "id": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom (suni:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#415dd66d-5628-4e55-a489-ac2ae21a63d5_geom",
+        "id": "http://www.github.com/sparqlunicorn#415dd66d-5628-4e55-a489-ac2ae21a63d5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "415dd66d-5628-4e55-a489-ac2ae21a63d5_geom (suni:415dd66d-5628-4e55-a489-ac2ae21a63d5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#422e5cd2-fcce-0da0-1655-85a795e78e5c_geom",
+        "id": "http://www.github.com/sparqlunicorn#422e5cd2-fcce-0da0-1655-85a795e78e5c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "422e5cd2-fcce-0da0-1655-85a795e78e5c_geom (suni:422e5cd2-fcce-0da0-1655-85a795e78e5c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#42897bc2-5707-42ff-8f01-b6170d542c6c_geom",
+        "id": "http://www.github.com/sparqlunicorn#42897bc2-5707-42ff-8f01-b6170d542c6c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "42897bc2-5707-42ff-8f01-b6170d542c6c_geom (suni:42897bc2-5707-42ff-8f01-b6170d542c6c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#43367b68-fbe1-a3c3-2bd8-78f476093f69_geom",
+        "id": "http://www.github.com/sparqlunicorn#43367b68-fbe1-a3c3-2bd8-78f476093f69_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "43367b68-fbe1-a3c3-2bd8-78f476093f69_geom (suni:43367b68-fbe1-a3c3-2bd8-78f476093f69_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom",
+        "id": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "43445b66-c4c5-4668-8fb7-00186131c6ff_geom (suni:43445b66-c4c5-4668-8fb7-00186131c6ff_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#44b999ae-3457-43f6-ad3c-cebf913b3629_geom",
+        "id": "http://www.github.com/sparqlunicorn#44b999ae-3457-43f6-ad3c-cebf913b3629_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "44b999ae-3457-43f6-ad3c-cebf913b3629_geom (suni:44b999ae-3457-43f6-ad3c-cebf913b3629_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom",
+        "id": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "45d241e5-c948-4ae3-860b-668b54894e58_geom (suni:45d241e5-c948-4ae3-860b-668b54894e58_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom",
+        "id": "http://www.github.com/sparqlunicorn#4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom (suni:4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#48384403-6227-44d7-8327-e1adac8617e7_geom",
+        "id": "http://www.github.com/sparqlunicorn#48384403-6227-44d7-8327-e1adac8617e7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "48384403-6227-44d7-8327-e1adac8617e7_geom (suni:48384403-6227-44d7-8327-e1adac8617e7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom",
+        "id": "http://www.github.com/sparqlunicorn#491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom (suni:491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#49a39ab2-4e8f-4991-8297-5a18a5735647_geom",
+        "id": "http://www.github.com/sparqlunicorn#49a39ab2-4e8f-4991-8297-5a18a5735647_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "49a39ab2-4e8f-4991-8297-5a18a5735647_geom (suni:49a39ab2-4e8f-4991-8297-5a18a5735647_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom",
+        "id": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom (suni:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom",
+        "id": "http://www.github.com/sparqlunicorn#49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom (suni:49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4a2ac55e-8819-4ffc-971d-4e3255244521_geom",
+        "id": "http://www.github.com/sparqlunicorn#4a2ac55e-8819-4ffc-971d-4e3255244521_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4a2ac55e-8819-4ffc-971d-4e3255244521_geom (suni:4a2ac55e-8819-4ffc-971d-4e3255244521_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom",
+        "id": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom (suni:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom",
+        "id": "http://www.github.com/sparqlunicorn#4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom (suni:4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom",
+        "id": "http://www.github.com/sparqlunicorn#4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom (suni:4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom",
+        "id": "http://www.github.com/sparqlunicorn#4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom (suni:4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4c6f385a-e492-46e7-9488-4fedf6114353_geom",
+        "id": "http://www.github.com/sparqlunicorn#4c6f385a-e492-46e7-9488-4fedf6114353_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4c6f385a-e492-46e7-9488-4fedf6114353_geom (suni:4c6f385a-e492-46e7-9488-4fedf6114353_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4dcec8c0-392b-421c-94de-b7ca326a59ce_geom",
+        "id": "http://www.github.com/sparqlunicorn#4dcec8c0-392b-421c-94de-b7ca326a59ce_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4dcec8c0-392b-421c-94de-b7ca326a59ce_geom (suni:4dcec8c0-392b-421c-94de-b7ca326a59ce_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom",
+        "id": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "4e1bbd40-75c2-4134-abdf-71a85b238394_geom (suni:4e1bbd40-75c2-4134-abdf-71a85b238394_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom",
+        "id": "http://www.github.com/sparqlunicorn#51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom (suni:51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom",
+        "id": "http://www.github.com/sparqlunicorn#51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom (suni:51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom",
+        "id": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "521dd20c-2456-40a9-8b2b-0064396ccb07_geom (suni:521dd20c-2456-40a9-8b2b-0064396ccb07_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom",
+        "id": "http://www.github.com/sparqlunicorn#52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom (suni:52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#54418eb6-7220-4d62-8e35-7a3266ae3120_geom",
+        "id": "http://www.github.com/sparqlunicorn#54418eb6-7220-4d62-8e35-7a3266ae3120_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "54418eb6-7220-4d62-8e35-7a3266ae3120_geom (suni:54418eb6-7220-4d62-8e35-7a3266ae3120_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom",
+        "id": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom (suni:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#55045191-2b66-482a-b3cf-d027e67cac9c_geom",
+        "id": "http://www.github.com/sparqlunicorn#55045191-2b66-482a-b3cf-d027e67cac9c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "55045191-2b66-482a-b3cf-d027e67cac9c_geom (suni:55045191-2b66-482a-b3cf-d027e67cac9c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#55199184-3a67-4d1d-8361-eebeec4b6615_geom",
+        "id": "http://www.github.com/sparqlunicorn#55199184-3a67-4d1d-8361-eebeec4b6615_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "55199184-3a67-4d1d-8361-eebeec4b6615_geom (suni:55199184-3a67-4d1d-8361-eebeec4b6615_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#559a292c-9b84-4152-8d12-161347862318_geom",
+        "id": "http://www.github.com/sparqlunicorn#559a292c-9b84-4152-8d12-161347862318_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "559a292c-9b84-4152-8d12-161347862318_geom (suni:559a292c-9b84-4152-8d12-161347862318_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom",
+        "id": "http://www.github.com/sparqlunicorn#5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom (suni:5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#59667ebc-7204-4355-b5cf-9ec86c280d6a_geom",
+        "id": "http://www.github.com/sparqlunicorn#59667ebc-7204-4355-b5cf-9ec86c280d6a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "59667ebc-7204-4355-b5cf-9ec86c280d6a_geom (suni:59667ebc-7204-4355-b5cf-9ec86c280d6a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#599490bb-6a70-49f9-8d4d-270f7c3792bb_geom",
+        "id": "http://www.github.com/sparqlunicorn#599490bb-6a70-49f9-8d4d-270f7c3792bb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "599490bb-6a70-49f9-8d4d-270f7c3792bb_geom (suni:599490bb-6a70-49f9-8d4d-270f7c3792bb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5a41564a-597e-4b30-aa96-21956e0dcd4d_geom",
+        "id": "http://www.github.com/sparqlunicorn#5a41564a-597e-4b30-aa96-21956e0dcd4d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "5a41564a-597e-4b30-aa96-21956e0dcd4d_geom (suni:5a41564a-597e-4b30-aa96-21956e0dcd4d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5a9dda79-cbe5-47f0-901f-278f4748c48f_geom",
+        "id": "http://www.github.com/sparqlunicorn#5a9dda79-cbe5-47f0-901f-278f4748c48f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "5a9dda79-cbe5-47f0-901f-278f4748c48f_geom (suni:5a9dda79-cbe5-47f0-901f-278f4748c48f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom",
+        "id": "http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom (suni:5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom",
+        "id": "http://www.github.com/sparqlunicorn#5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom (suni:5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5e927acb-3371-4300-9804-5fc6fb1388d2_geom",
+        "id": "http://www.github.com/sparqlunicorn#5e927acb-3371-4300-9804-5fc6fb1388d2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "5e927acb-3371-4300-9804-5fc6fb1388d2_geom (suni:5e927acb-3371-4300-9804-5fc6fb1388d2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom",
+        "id": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6247dd7d-45da-4805-9922-ad78d30ddc00_geom (suni:6247dd7d-45da-4805-9922-ad78d30ddc00_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6263bc9a-2c4b-4675-8196-d4232dee23f3_geom",
+        "id": "http://www.github.com/sparqlunicorn#6263bc9a-2c4b-4675-8196-d4232dee23f3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6263bc9a-2c4b-4675-8196-d4232dee23f3_geom (suni:6263bc9a-2c4b-4675-8196-d4232dee23f3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom",
+        "id": "http://www.github.com/sparqlunicorn#62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom (suni:62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#634e698f-f3c3-4363-a8b6-8163b4f476ed_geom",
+        "id": "http://www.github.com/sparqlunicorn#634e698f-f3c3-4363-a8b6-8163b4f476ed_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "634e698f-f3c3-4363-a8b6-8163b4f476ed_geom (suni:634e698f-f3c3-4363-a8b6-8163b4f476ed_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom",
+        "id": "http://www.github.com/sparqlunicorn#63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom (suni:63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6726b202-cbe6-4428-bced-528128ba4391_geom",
+        "id": "http://www.github.com/sparqlunicorn#6726b202-cbe6-4428-bced-528128ba4391_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6726b202-cbe6-4428-bced-528128ba4391_geom (suni:6726b202-cbe6-4428-bced-528128ba4391_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom",
+        "id": "http://www.github.com/sparqlunicorn#6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom (suni:6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#675e393e-a8dd-4abf-8698-75200a6cb8c9_geom",
+        "id": "http://www.github.com/sparqlunicorn#675e393e-a8dd-4abf-8698-75200a6cb8c9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "675e393e-a8dd-4abf-8698-75200a6cb8c9_geom (suni:675e393e-a8dd-4abf-8698-75200a6cb8c9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom",
+        "id": "http://www.github.com/sparqlunicorn#686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom (suni:686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom",
+        "id": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom (suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom",
+        "id": "http://www.github.com/sparqlunicorn#6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom (suni:6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom",
+        "id": "http://www.github.com/sparqlunicorn#6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom (suni:6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom",
+        "id": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "6f14de57-897a-4758-a984-262ca18baf75_geom (suni:6f14de57-897a-4758-a984-262ca18baf75_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#723174b5-7af2-489a-a766-8c1650beae91_geom",
+        "id": "http://www.github.com/sparqlunicorn#723174b5-7af2-489a-a766-8c1650beae91_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "723174b5-7af2-489a-a766-8c1650beae91_geom (suni:723174b5-7af2-489a-a766-8c1650beae91_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7354c117-22d8-41c4-b679-3a1cd0357a65_geom",
+        "id": "http://www.github.com/sparqlunicorn#7354c117-22d8-41c4-b679-3a1cd0357a65_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "7354c117-22d8-41c4-b679-3a1cd0357a65_geom (suni:7354c117-22d8-41c4-b679-3a1cd0357a65_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#782b5a2d-d383-4856-93eb-e974c77df325_geom",
+        "id": "http://www.github.com/sparqlunicorn#782b5a2d-d383-4856-93eb-e974c77df325_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "782b5a2d-d383-4856-93eb-e974c77df325_geom (suni:782b5a2d-d383-4856-93eb-e974c77df325_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom",
+        "id": "http://www.github.com/sparqlunicorn#7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom (suni:7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom",
+        "id": "http://www.github.com/sparqlunicorn#8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom (suni:8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#837d4e73-d938-4f86-a89c-1099ce29f33e_geom",
+        "id": "http://www.github.com/sparqlunicorn#837d4e73-d938-4f86-a89c-1099ce29f33e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "837d4e73-d938-4f86-a89c-1099ce29f33e_geom (suni:837d4e73-d938-4f86-a89c-1099ce29f33e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#863761bc-1744-4a56-87ca-5a38172397b7_geom",
+        "id": "http://www.github.com/sparqlunicorn#863761bc-1744-4a56-87ca-5a38172397b7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "863761bc-1744-4a56-87ca-5a38172397b7_geom (suni:863761bc-1744-4a56-87ca-5a38172397b7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom",
+        "id": "http://www.github.com/sparqlunicorn#866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom (suni:866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom",
+        "id": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom (suni:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#86d66279-5b89-4d4e-9f94-166f838cbf0d_geom",
+        "id": "http://www.github.com/sparqlunicorn#86d66279-5b89-4d4e-9f94-166f838cbf0d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "86d66279-5b89-4d4e-9f94-166f838cbf0d_geom (suni:86d66279-5b89-4d4e-9f94-166f838cbf0d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom",
+        "id": "http://www.github.com/sparqlunicorn#8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom (suni:8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8852c98d-198f-41a6-ba42-44ea128db271_geom",
+        "id": "http://www.github.com/sparqlunicorn#8852c98d-198f-41a6-ba42-44ea128db271_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8852c98d-198f-41a6-ba42-44ea128db271_geom (suni:8852c98d-198f-41a6-ba42-44ea128db271_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8870c476-f724-4940-a41c-ea4287430711_geom",
+        "id": "http://www.github.com/sparqlunicorn#8870c476-f724-4940-a41c-ea4287430711_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8870c476-f724-4940-a41c-ea4287430711_geom (suni:8870c476-f724-4940-a41c-ea4287430711_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#88a536c2-f97f-41a1-aec9-4ed80f13707b_geom",
+        "id": "http://www.github.com/sparqlunicorn#88a536c2-f97f-41a1-aec9-4ed80f13707b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "88a536c2-f97f-41a1-aec9-4ed80f13707b_geom (suni:88a536c2-f97f-41a1-aec9-4ed80f13707b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom",
+        "id": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom (suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8b5fa40a-9651-452e-b0ec-54acee59291b_geom",
+        "id": "http://www.github.com/sparqlunicorn#8b5fa40a-9651-452e-b0ec-54acee59291b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8b5fa40a-9651-452e-b0ec-54acee59291b_geom (suni:8b5fa40a-9651-452e-b0ec-54acee59291b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom",
+        "id": "http://www.github.com/sparqlunicorn#8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom (suni:8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8be34e7d-8ed8-41b4-81b0-30fa20313640_geom",
+        "id": "http://www.github.com/sparqlunicorn#8be34e7d-8ed8-41b4-81b0-30fa20313640_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8be34e7d-8ed8-41b4-81b0-30fa20313640_geom (suni:8be34e7d-8ed8-41b4-81b0-30fa20313640_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8fee201f-da13-42aa-b212-3c44f64bc27e_geom",
+        "id": "http://www.github.com/sparqlunicorn#8fee201f-da13-42aa-b212-3c44f64bc27e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "8fee201f-da13-42aa-b212-3c44f64bc27e_geom (suni:8fee201f-da13-42aa-b212-3c44f64bc27e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9341c466-7f3f-4271-a114-d3c94c930f3f_geom",
+        "id": "http://www.github.com/sparqlunicorn#9341c466-7f3f-4271-a114-d3c94c930f3f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9341c466-7f3f-4271-a114-d3c94c930f3f_geom (suni:9341c466-7f3f-4271-a114-d3c94c930f3f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#949e43c6-bcb7-4a9e-8686-38c04de30d80_geom",
+        "id": "http://www.github.com/sparqlunicorn#949e43c6-bcb7-4a9e-8686-38c04de30d80_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "949e43c6-bcb7-4a9e-8686-38c04de30d80_geom (suni:949e43c6-bcb7-4a9e-8686-38c04de30d80_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#96121114-97f7-4a80-b9a6-510945167a62_geom",
+        "id": "http://www.github.com/sparqlunicorn#96121114-97f7-4a80-b9a6-510945167a62_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "96121114-97f7-4a80-b9a6-510945167a62_geom (suni:96121114-97f7-4a80-b9a6-510945167a62_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#96bc48a7-9318-4690-b6da-6c177bed2142_geom",
+        "id": "http://www.github.com/sparqlunicorn#96bc48a7-9318-4690-b6da-6c177bed2142_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "96bc48a7-9318-4690-b6da-6c177bed2142_geom (suni:96bc48a7-9318-4690-b6da-6c177bed2142_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#983d0582-2a66-4b60-bb5b-979c01ef19c5_geom",
+        "id": "http://www.github.com/sparqlunicorn#983d0582-2a66-4b60-bb5b-979c01ef19c5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "983d0582-2a66-4b60-bb5b-979c01ef19c5_geom (suni:983d0582-2a66-4b60-bb5b-979c01ef19c5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#99d67f15-27a8-45c3-95bd-6619e211638a_geom",
+        "id": "http://www.github.com/sparqlunicorn#99d67f15-27a8-45c3-95bd-6619e211638a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "99d67f15-27a8-45c3-95bd-6619e211638a_geom (suni:99d67f15-27a8-45c3-95bd-6619e211638a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom",
+        "id": "http://www.github.com/sparqlunicorn#99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom (suni:99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9a5569b3-ad35-413b-bf48-efc5563abc59_geom",
+        "id": "http://www.github.com/sparqlunicorn#9a5569b3-ad35-413b-bf48-efc5563abc59_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9a5569b3-ad35-413b-bf48-efc5563abc59_geom (suni:9a5569b3-ad35-413b-bf48-efc5563abc59_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9a828b5f-bd7d-425f-b889-f2852b339898_geom",
+        "id": "http://www.github.com/sparqlunicorn#9a828b5f-bd7d-425f-b889-f2852b339898_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9a828b5f-bd7d-425f-b889-f2852b339898_geom (suni:9a828b5f-bd7d-425f-b889-f2852b339898_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom",
+        "id": "http://www.github.com/sparqlunicorn#9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom (suni:9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom",
+        "id": "http://www.github.com/sparqlunicorn#9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom (suni:9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom",
+        "id": "http://www.github.com/sparqlunicorn#9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom (suni:9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9e40eb0a-25e5-4622-8b79-1a19b2570330_geom",
+        "id": "http://www.github.com/sparqlunicorn#9e40eb0a-25e5-4622-8b79-1a19b2570330_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9e40eb0a-25e5-4622-8b79-1a19b2570330_geom (suni:9e40eb0a-25e5-4622-8b79-1a19b2570330_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9f2868a0-3143-4024-bb49-c71f9d8dd864_geom",
+        "id": "http://www.github.com/sparqlunicorn#9f2868a0-3143-4024-bb49-c71f9d8dd864_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "9f2868a0-3143-4024-bb49-c71f9d8dd864_geom (suni:9f2868a0-3143-4024-bb49-c71f9d8dd864_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom",
+        "id": "http://www.github.com/sparqlunicorn#a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom (suni:a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom",
+        "id": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a3006e8d-46d6-4db0-81aa-23238514e5eb_geom (suni:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom",
+        "id": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a3228d61-d64a-4b1f-be73-130b222b1c11_geom (suni:a3228d61-d64a-4b1f-be73-130b222b1c11_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom",
+        "id": "http://www.github.com/sparqlunicorn#a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom (suni:a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a46ff53a-7708-4b04-96d3-36d25d4f535f_geom",
+        "id": "http://www.github.com/sparqlunicorn#a46ff53a-7708-4b04-96d3-36d25d4f535f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a46ff53a-7708-4b04-96d3-36d25d4f535f_geom (suni:a46ff53a-7708-4b04-96d3-36d25d4f535f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a51e2e99-0037-4a04-874f-2fb1a64e804e_geom",
+        "id": "http://www.github.com/sparqlunicorn#a51e2e99-0037-4a04-874f-2fb1a64e804e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a51e2e99-0037-4a04-874f-2fb1a64e804e_geom (suni:a51e2e99-0037-4a04-874f-2fb1a64e804e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a67d29e2-adec-404e-83e4-1db08e6eedaf_geom",
+        "id": "http://www.github.com/sparqlunicorn#a67d29e2-adec-404e-83e4-1db08e6eedaf_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a67d29e2-adec-404e-83e4-1db08e6eedaf_geom (suni:a67d29e2-adec-404e-83e4-1db08e6eedaf_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom",
+        "id": "http://www.github.com/sparqlunicorn#a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom (suni:a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom",
+        "id": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a7f106af-5755-44ed-9ba2-86b1110e21f7_geom (suni:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom",
+        "id": "http://www.github.com/sparqlunicorn#a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom (suni:a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a813eea2-fe9a-4314-916e-d18e30428f17_geom",
+        "id": "http://www.github.com/sparqlunicorn#a813eea2-fe9a-4314-916e-d18e30428f17_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a813eea2-fe9a-4314-916e-d18e30428f17_geom (suni:a813eea2-fe9a-4314-916e-d18e30428f17_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom",
+        "id": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "a9d036a7-9001-47c8-89db-54c0fe8d6829_geom (suni:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom",
+        "id": "http://www.github.com/sparqlunicorn#b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom (suni:b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom",
+        "id": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b1984fb3-ca88-4453-8fa3-b782d735052c_geom (suni:b1984fb3-ca88-4453-8fa3-b782d735052c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b41c112f-4843-4956-ab84-b90dade27d40_geom",
+        "id": "http://www.github.com/sparqlunicorn#b41c112f-4843-4956-ab84-b90dade27d40_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b41c112f-4843-4956-ab84-b90dade27d40_geom (suni:b41c112f-4843-4956-ab84-b90dade27d40_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b49637a5-8304-4703-b961-328acd9cfab1_geom",
+        "id": "http://www.github.com/sparqlunicorn#b49637a5-8304-4703-b961-328acd9cfab1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b49637a5-8304-4703-b961-328acd9cfab1_geom (suni:b49637a5-8304-4703-b961-328acd9cfab1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b4b23818-2422-4145-b162-9feb1559508f_geom",
+        "id": "http://www.github.com/sparqlunicorn#b4b23818-2422-4145-b162-9feb1559508f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b4b23818-2422-4145-b162-9feb1559508f_geom (suni:b4b23818-2422-4145-b162-9feb1559508f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom",
+        "id": "http://www.github.com/sparqlunicorn#b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom (suni:b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b65b8060-5341-4b04-879f-ffebaab6d0b2_geom",
+        "id": "http://www.github.com/sparqlunicorn#b65b8060-5341-4b04-879f-ffebaab6d0b2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b65b8060-5341-4b04-879f-ffebaab6d0b2_geom (suni:b65b8060-5341-4b04-879f-ffebaab6d0b2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom",
+        "id": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom (suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom",
+        "id": "http://www.github.com/sparqlunicorn#b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom (suni:b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom",
+        "id": "http://www.github.com/sparqlunicorn#b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom (suni:b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom",
+        "id": "http://www.github.com/sparqlunicorn#bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom (suni:bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bd9a273c-41d4-4108-b63b-8f4a0f298268_geom",
+        "id": "http://www.github.com/sparqlunicorn#bd9a273c-41d4-4108-b63b-8f4a0f298268_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "bd9a273c-41d4-4108-b63b-8f4a0f298268_geom (suni:bd9a273c-41d4-4108-b63b-8f4a0f298268_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom",
+        "id": "http://www.github.com/sparqlunicorn#bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom (suni:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bf0c59ea-be3e-466b-b127-3489c46dd15a_geom",
+        "id": "http://www.github.com/sparqlunicorn#bf0c59ea-be3e-466b-b127-3489c46dd15a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "bf0c59ea-be3e-466b-b127-3489c46dd15a_geom (suni:bf0c59ea-be3e-466b-b127-3489c46dd15a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bffc569e-04a3-4506-9399-d6c95e77b3a6_geom",
+        "id": "http://www.github.com/sparqlunicorn#bffc569e-04a3-4506-9399-d6c95e77b3a6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "bffc569e-04a3-4506-9399-d6c95e77b3a6_geom (suni:bffc569e-04a3-4506-9399-d6c95e77b3a6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c1ab5f63-f9f9-4f75-aae2-428489b43823_geom",
+        "id": "http://www.github.com/sparqlunicorn#c1ab5f63-f9f9-4f75-aae2-428489b43823_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c1ab5f63-f9f9-4f75-aae2-428489b43823_geom (suni:c1ab5f63-f9f9-4f75-aae2-428489b43823_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c336744b-5e45-446b-ab1a-5c61031669ed_geom",
+        "id": "http://www.github.com/sparqlunicorn#c336744b-5e45-446b-ab1a-5c61031669ed_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c336744b-5e45-446b-ab1a-5c61031669ed_geom (suni:c336744b-5e45-446b-ab1a-5c61031669ed_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom",
+        "id": "http://www.github.com/sparqlunicorn#c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom (suni:c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c5771677-4cc9-44af-91b5-5de6365789b9_geom",
+        "id": "http://www.github.com/sparqlunicorn#c5771677-4cc9-44af-91b5-5de6365789b9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c5771677-4cc9-44af-91b5-5de6365789b9_geom (suni:c5771677-4cc9-44af-91b5-5de6365789b9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c67379cd-4787-4016-96aa-b153b932abab_geom",
+        "id": "http://www.github.com/sparqlunicorn#c67379cd-4787-4016-96aa-b153b932abab_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c67379cd-4787-4016-96aa-b153b932abab_geom (suni:c67379cd-4787-4016-96aa-b153b932abab_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c72db726-4400-4409-a50b-1217816e158f_geom",
+        "id": "http://www.github.com/sparqlunicorn#c72db726-4400-4409-a50b-1217816e158f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c72db726-4400-4409-a50b-1217816e158f_geom (suni:c72db726-4400-4409-a50b-1217816e158f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom",
+        "id": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c7c46dd9-6977-4662-86fa-7bd465591b65_geom (suni:c7c46dd9-6977-4662-86fa-7bd465591b65_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c7e1a156-d0a7-4cd4-a519-182fd2078922_geom",
+        "id": "http://www.github.com/sparqlunicorn#c7e1a156-d0a7-4cd4-a519-182fd2078922_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c7e1a156-d0a7-4cd4-a519-182fd2078922_geom (suni:c7e1a156-d0a7-4cd4-a519-182fd2078922_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom",
+        "id": "http://www.github.com/sparqlunicorn#c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom (suni:c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom",
+        "id": "http://www.github.com/sparqlunicorn#cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom (suni:cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d115b172-64a5-4db8-ab2d-b556287b2c54_geom",
+        "id": "http://www.github.com/sparqlunicorn#d115b172-64a5-4db8-ab2d-b556287b2c54_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d115b172-64a5-4db8-ab2d-b556287b2c54_geom (suni:d115b172-64a5-4db8-ab2d-b556287b2c54_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom",
+        "id": "http://www.github.com/sparqlunicorn#d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom (suni:d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom",
+        "id": "http://www.github.com/sparqlunicorn#d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom (suni:d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d366167a-c152-4bae-9b8a-87f3ac3bf275_geom",
+        "id": "http://www.github.com/sparqlunicorn#d366167a-c152-4bae-9b8a-87f3ac3bf275_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d366167a-c152-4bae-9b8a-87f3ac3bf275_geom (suni:d366167a-c152-4bae-9b8a-87f3ac3bf275_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d4313e9d-3616-49e0-b1cc-cea436fd662f_geom",
+        "id": "http://www.github.com/sparqlunicorn#d4313e9d-3616-49e0-b1cc-cea436fd662f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d4313e9d-3616-49e0-b1cc-cea436fd662f_geom (suni:d4313e9d-3616-49e0-b1cc-cea436fd662f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d54de471-c174-42dd-90c9-bfd8ad4c482c_geom",
+        "id": "http://www.github.com/sparqlunicorn#d54de471-c174-42dd-90c9-bfd8ad4c482c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d54de471-c174-42dd-90c9-bfd8ad4c482c_geom (suni:d54de471-c174-42dd-90c9-bfd8ad4c482c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom",
+        "id": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d5710f70-63c7-4107-ac87-3fad0dca5830_geom (suni:d5710f70-63c7-4107-ac87-3fad0dca5830_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom",
+        "id": "http://www.github.com/sparqlunicorn#d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom (suni:d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom",
+        "id": "http://www.github.com/sparqlunicorn#d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom (suni:d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom",
+        "id": "http://www.github.com/sparqlunicorn#d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom (suni:d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#da05f974-2a60-4de2-9cd9-2b06625b3a30_geom",
+        "id": "http://www.github.com/sparqlunicorn#da05f974-2a60-4de2-9cd9-2b06625b3a30_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "da05f974-2a60-4de2-9cd9-2b06625b3a30_geom (suni:da05f974-2a60-4de2-9cd9-2b06625b3a30_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#dafdf1be-d473-4b7f-b65e-1b5313478cae_geom",
+        "id": "http://www.github.com/sparqlunicorn#dafdf1be-d473-4b7f-b65e-1b5313478cae_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "dafdf1be-d473-4b7f-b65e-1b5313478cae_geom (suni:dafdf1be-d473-4b7f-b65e-1b5313478cae_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#dbf1ab41-a655-4569-883e-1de100632e02_geom",
+        "id": "http://www.github.com/sparqlunicorn#dbf1ab41-a655-4569-883e-1de100632e02_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "dbf1ab41-a655-4569-883e-1de100632e02_geom (suni:dbf1ab41-a655-4569-883e-1de100632e02_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom",
+        "id": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "dc5ba2e0-7975-466e-930f-a5469030df40_geom (suni:dc5ba2e0-7975-466e-930f-a5469030df40_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom",
+        "id": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom (suni:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#dcda68c8-cde0-4d2f-9062-be5e478beb52_geom",
+        "id": "http://www.github.com/sparqlunicorn#dcda68c8-cde0-4d2f-9062-be5e478beb52_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "dcda68c8-cde0-4d2f-9062-be5e478beb52_geom (suni:dcda68c8-cde0-4d2f-9062-be5e478beb52_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom",
+        "id": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ddc25136-83aa-463c-9460-c718847292e0_geom (suni:ddc25136-83aa-463c-9460-c718847292e0_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ddd9a1d8-d2cd-433a-8158-97ae15270207_geom",
+        "id": "http://www.github.com/sparqlunicorn#ddd9a1d8-d2cd-433a-8158-97ae15270207_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ddd9a1d8-d2cd-433a-8158-97ae15270207_geom (suni:ddd9a1d8-d2cd-433a-8158-97ae15270207_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom",
+        "id": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "de109b58-0791-4eb7-9fff-d536f15297af_geom (suni:de109b58-0791-4eb7-9fff-d536f15297af_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#def031d2-a760-4e54-a33d-6754a4780ec2_geom",
+        "id": "http://www.github.com/sparqlunicorn#def031d2-a760-4e54-a33d-6754a4780ec2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "def031d2-a760-4e54-a33d-6754a4780ec2_geom (suni:def031d2-a760-4e54-a33d-6754a4780ec2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#dfcca23a-f573-a4b1-f20d-52597dadffc9_geom",
+        "id": "http://www.github.com/sparqlunicorn#dfcca23a-f573-a4b1-f20d-52597dadffc9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "dfcca23a-f573-a4b1-f20d-52597dadffc9_geom (suni:dfcca23a-f573-a4b1-f20d-52597dadffc9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom",
+        "id": "http://www.github.com/sparqlunicorn#e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom (suni:e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom",
+        "id": "http://www.github.com/sparqlunicorn#e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom (suni:e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom",
+        "id": "http://www.github.com/sparqlunicorn#e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom (suni:e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e953f777-8ea1-4ace-a2ad-f0240260c209_geom",
+        "id": "http://www.github.com/sparqlunicorn#e953f777-8ea1-4ace-a2ad-f0240260c209_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "e953f777-8ea1-4ace-a2ad-f0240260c209_geom (suni:e953f777-8ea1-4ace-a2ad-f0240260c209_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom",
+        "id": "http://www.github.com/sparqlunicorn#e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom (suni:e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e9f24e1d-fdda-420e-b444-66021c3b96e2_geom",
+        "id": "http://www.github.com/sparqlunicorn#e9f24e1d-fdda-420e-b444-66021c3b96e2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "e9f24e1d-fdda-420e-b444-66021c3b96e2_geom (suni:e9f24e1d-fdda-420e-b444-66021c3b96e2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ea39529e-ec32-490e-8b2d-df1f584a6afb_geom",
+        "id": "http://www.github.com/sparqlunicorn#ea39529e-ec32-490e-8b2d-df1f584a6afb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ea39529e-ec32-490e-8b2d-df1f584a6afb_geom (suni:ea39529e-ec32-490e-8b2d-df1f584a6afb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom",
+        "id": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom (suni:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom",
+        "id": "http://www.github.com/sparqlunicorn#ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom (suni:ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ec09119c-d470-45bb-9859-102f53ed944b_geom",
+        "id": "http://www.github.com/sparqlunicorn#ec09119c-d470-45bb-9859-102f53ed944b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ec09119c-d470-45bb-9859-102f53ed944b_geom (suni:ec09119c-d470-45bb-9859-102f53ed944b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ec25566b-1581-4de8-af54-944d78b7756f_geom",
+        "id": "http://www.github.com/sparqlunicorn#ec25566b-1581-4de8-af54-944d78b7756f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ec25566b-1581-4de8-af54-944d78b7756f_geom (suni:ec25566b-1581-4de8-af54-944d78b7756f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom",
+        "id": "http://www.github.com/sparqlunicorn#edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom (suni:edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom",
+        "id": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "eec807e9-47d0-4801-a3f8-017c818a99e7_geom (suni:eec807e9-47d0-4801-a3f8-017c818a99e7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ef66850a-2651-4d2b-bcfb-c37803346e55_geom",
+        "id": "http://www.github.com/sparqlunicorn#ef66850a-2651-4d2b-bcfb-c37803346e55_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "ef66850a-2651-4d2b-bcfb-c37803346e55_geom (suni:ef66850a-2651-4d2b-bcfb-c37803346e55_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom",
+        "id": "http://www.github.com/sparqlunicorn#f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom (suni:f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f0be2267-3889-4ec6-a50c-87551f9581d3_geom",
+        "id": "http://www.github.com/sparqlunicorn#f0be2267-3889-4ec6-a50c-87551f9581d3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f0be2267-3889-4ec6-a50c-87551f9581d3_geom (suni:f0be2267-3889-4ec6-a50c-87551f9581d3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f3fefd10-8b81-4d76-a86b-913d419e60d5_geom",
+        "id": "http://www.github.com/sparqlunicorn#f3fefd10-8b81-4d76-a86b-913d419e60d5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f3fefd10-8b81-4d76-a86b-913d419e60d5_geom (suni:f3fefd10-8b81-4d76-a86b-913d419e60d5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom",
+        "id": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f4c616a4-3188-45f4-ad66-878498003c20_geom (suni:f4c616a4-3188-45f4-ad66-878498003c20_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f4dab308-cda8-4c28-bf6d-8872053307e3_geom",
+        "id": "http://www.github.com/sparqlunicorn#f4dab308-cda8-4c28-bf6d-8872053307e3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f4dab308-cda8-4c28-bf6d-8872053307e3_geom (suni:f4dab308-cda8-4c28-bf6d-8872053307e3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom",
+        "id": "http://www.github.com/sparqlunicorn#f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom (suni:f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f7655a1e-c5a5-4308-b041-a306a98234fa_geom",
+        "id": "http://www.github.com/sparqlunicorn#f7655a1e-c5a5-4308-b041-a306a98234fa_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "f7655a1e-c5a5-4308-b041-a306a98234fa_geom (suni:f7655a1e-c5a5-4308-b041-a306a98234fa_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fa1f5594-3452-4476-98a3-fc6146245ae1_geom",
+        "id": "http://www.github.com/sparqlunicorn#fa1f5594-3452-4476-98a3-fc6146245ae1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fa1f5594-3452-4476-98a3-fc6146245ae1_geom (suni:fa1f5594-3452-4476-98a3-fc6146245ae1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom",
+        "id": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fab26445-cb25-492a-8d8a-47f31706a753_geom (suni:fab26445-cb25-492a-8d8a-47f31706a753_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom",
+        "id": "http://www.github.com/sparqlunicorn#fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom (suni:fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom",
+        "id": "http://www.github.com/sparqlunicorn#fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom (suni:fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom",
+        "id": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fdf099f7-869f-499e-80c3-00c91f0a4d35_geom (suni:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fe037d07-6d14-4052-b152-17e83699eafd_geom",
+        "id": "http://www.github.com/sparqlunicorn#fe037d07-6d14-4052-b152-17e83699eafd_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fe037d07-6d14-4052-b152-17e83699eafd_geom (suni:fe037d07-6d14-4052-b152-17e83699eafd_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fef07810-f623-4efe-987e-9010958b2a15_geom",
+        "id": "http://www.github.com/sparqlunicorn#fef07810-f623-4efe-987e-9010958b2a15_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "geoinstance",
         "text": "fef07810-f623-4efe-987e-9010958b2a15_geom (suni:fef07810-f623-4efe-987e-9010958b2a15_geom)",
@@ -4934,1162 +4987,1137 @@ var tree={
         "parent": "#",
         "type": "geoclass",
         "text": "Point (sf:Point) [234]",
-        "data": {
-          "to": {
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
-            },
-            "http://www.opengis.net/ont/geosparql#asWKT": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            }
-          },
-          "from": {
-            "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Minion": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
-            }
-          }
-        },
-        "instancecount": 3
+        "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a_geom",
+        "id": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "0194d590-c58c-4c97-98f8-303ea8ffe32a_geom (suni:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324_geom",
+        "id": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "038d7342-a29b-4fb4-848a-38956486b324_geom (suni:038d7342-a29b-4fb4-848a-38956486b324_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce_geom",
+        "id": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "03bf5218-bda5-4791-b190-b302c4d8d6ce_geom (suni:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom",
+        "id": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom (suni:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom",
+        "id": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "0800c7da-7e10-4ba2-a020-7db1bc018572_geom (suni:0800c7da-7e10-4ba2-a020-7db1bc018572_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom",
+        "id": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "09625e57-e1e3-4819-baac-8154feac0fe6_geom (suni:09625e57-e1e3-4819-baac-8154feac0fe6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom",
+        "id": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "0b959b96-55fd-4550-b4de-68e2c4f9625f_geom (suni:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom",
+        "id": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom (suni:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom",
+        "id": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "1073f60f-73b2-4193-8bd7-951995224dbb_geom (suni:1073f60f-73b2-4193-8bd7-951995224dbb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom",
+        "id": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom (suni:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom",
+        "id": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom (suni:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom",
+        "id": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "12d61444-88ae-43b3-95d4-15e5fecd4180_geom (suni:12d61444-88ae-43b3-95d4-15e5fecd4180_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom",
+        "id": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "180a5320-3833-4133-aa46-aab7f0d80d84_geom (suni:180a5320-3833-4133-aa46-aab7f0d80d84_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom",
+        "id": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "19793c7f-6cc9-462c-99da-e3e33ff97461_geom (suni:19793c7f-6cc9-462c-99da-e3e33ff97461_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom",
+        "id": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "1a2be1c9-acaf-4659-839d-0146401472f2_geom (suni:1a2be1c9-acaf-4659-839d-0146401472f2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom",
+        "id": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "1fcfa357-13f8-4cb5-8e28-f98280989898_geom (suni:1fcfa357-13f8-4cb5-8e28-f98280989898_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom",
+        "id": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "25d0c170-da08-47ed-8bf8-78f36d0f558e_geom (suni:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom",
+        "id": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "264aceda-0df9-48de-9c9a-bfac46e9d790_geom (suni:264aceda-0df9-48de-9c9a-bfac46e9d790_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom",
+        "id": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom (suni:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom",
+        "id": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "28ec2dbf-6806-4a32-a35d-78764bfda459_geom (suni:28ec2dbf-6806-4a32-a35d-78764bfda459_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom",
+        "id": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "2abb9a90-732f-4e75-b764-6b3df7dfa173_geom (suni:2abb9a90-732f-4e75-b764-6b3df7dfa173_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom",
+        "id": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom (suni:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2_geom",
+        "id": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "2df381ca-154e-4368-bc83-b6d74e5130a2_geom (suni:2df381ca-154e-4368-bc83-b6d74e5130a2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom",
+        "id": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "2e711592-9068-438a-80b9-0c7725e1d6bb_geom (suni:2e711592-9068-438a-80b9-0c7725e1d6bb_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom",
+        "id": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "3018eba9-3c11-41e8-901e-7377167b58e4_geom (suni:3018eba9-3c11-41e8-901e-7377167b58e4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom",
+        "id": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom (suni:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom",
+        "id": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "3280d786-1bb7-4913-9be9-9041f65ef4b6_geom (suni:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom",
+        "id": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "3672902d-7362-4069-9769-21296706d028_geom (suni:3672902d-7362-4069-9769-21296706d028_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom",
+        "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "3a55458f-5c2f-4368-9a03-384f6377e301_geom (suni:3a55458f-5c2f-4368-9a03-384f6377e301_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom",
+        "id": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "3cd74fe7-9b31-4361-ad28-08afb3097edc_geom (suni:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom",
+        "id": "http://www.github.com/sparqlunicorn#3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom (suni:3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom",
+        "id": "http://www.github.com/sparqlunicorn#4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom (suni:4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom",
+        "id": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "41bc9d9f-999b-4c03-868d-e3823fc03184_geom (suni:41bc9d9f-999b-4c03-868d-e3823fc03184_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom",
+        "id": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "435bca7b-b840-4894-9bff-df7c45b2c20c_geom (suni:435bca7b-b840-4894-9bff-df7c45b2c20c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom",
+        "id": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "464f2805-ec4f-4d89-858e-f56a4378062d_geom (suni:464f2805-ec4f-4d89-858e-f56a4378062d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom",
+        "id": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom (suni:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom",
+        "id": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4692f53e-797d-4457-bbc3-55273889566f_geom (suni:4692f53e-797d-4457-bbc3-55273889566f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom",
+        "id": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4960c3ef-c969-4930-8f87-3e9250c5b716_geom (suni:4960c3ef-c969-4930-8f87-3e9250c5b716_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom",
+        "id": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4bb458df-e06c-4d79-bcdb-663a09168b93_geom (suni:4bb458df-e06c-4d79-bcdb-663a09168b93_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom",
+        "id": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4ccf2904-a68a-4c88-81de-8d549bc421e9_geom (suni:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom",
+        "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4db030c2-2331-4dad-b17c-da023bceff9f_geom (suni:4db030c2-2331-4dad-b17c-da023bceff9f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom",
+        "id": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom (suni:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom",
+        "id": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "526eb9a7-2805-4a93-b49c-df9a922b279c_geom (suni:526eb9a7-2805-4a93-b49c-df9a922b279c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom",
+        "id": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom (suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom",
+        "id": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "53bf2db7-7718-4835-bc3c-2baf3068207f_geom (suni:53bf2db7-7718-4835-bc3c-2baf3068207f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom",
+        "id": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "53ed429c-06e1-419a-9002-12d7bcf18ba0_geom (suni:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom",
+        "id": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom (suni:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom",
+        "id": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "569674c9-3895-4cb5-8f2c-38e608cab577_geom (suni:569674c9-3895-4cb5-8f2c-38e608cab577_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#584e153d-4f51-0fa6-8208-40c70e5baf19_geom",
+        "id": "http://www.github.com/sparqlunicorn#584e153d-4f51-0fa6-8208-40c70e5baf19_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "584e153d-4f51-0fa6-8208-40c70e5baf19_geom (suni:584e153d-4f51-0fa6-8208-40c70e5baf19_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom",
+        "id": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "5bcc0471-f0ba-417c-bae1-abb3223cd352_geom (suni:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom",
+        "id": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom (suni:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom",
+        "id": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom (suni:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom",
+        "id": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom (suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom",
+        "id": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "62c65c41-af9e-4af8-af61-97602598da5c_geom (suni:62c65c41-af9e-4af8-af61-97602598da5c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom",
+        "id": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "64586be1-1d82-4160-a5fb-5af067a6276b_geom (suni:64586be1-1d82-4160-a5fb-5af067a6276b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom",
+        "id": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "646cf01d-f91f-454d-96f3-69f122d90cf1_geom (suni:646cf01d-f91f-454d-96f3-69f122d90cf1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom",
+        "id": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom (suni:65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom",
+        "id": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "66424eb1-6ec0-4f2a-9003-e2143babe975_geom (suni:66424eb1-6ec0-4f2a-9003-e2143babe975_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom",
+        "id": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "6839545f-3c21-456c-8e65-a34518a8bf7c_geom (suni:6839545f-3c21-456c-8e65-a34518a8bf7c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom",
+        "id": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "69195ab5-0241-4995-8079-fee9d5509376_geom (suni:69195ab5-0241-4995-8079-fee9d5509376_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom",
+        "id": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "6939e3db-546a-4041-a823-e729a2d4b694_geom (suni:6939e3db-546a-4041-a823-e729a2d4b694_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom",
+        "id": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "6daab534-65db-49f5-9b1b-5842930184c6_geom (suni:6daab534-65db-49f5-9b1b-5842930184c6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom",
+        "id": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "6fa013cb-f86c-4978-ac06-999760a58991_geom (suni:6fa013cb-f86c-4978-ac06-999760a58991_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom",
+        "id": "http://www.github.com/sparqlunicorn#78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom (suni:78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom",
+        "id": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "7a2b1560-c346-41b6-915b-a10547cd3440_geom (suni:7a2b1560-c346-41b6-915b-a10547cd3440_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom",
+        "id": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "7abeb59f-2759-4736-897c-69d50f0cdb27_geom (suni:7abeb59f-2759-4736-897c-69d50f0cdb27_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom",
+        "id": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "7c93771e-f108-4c1a-8ede-799d87629036_geom (suni:7c93771e-f108-4c1a-8ede-799d87629036_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom",
+        "id": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom (suni:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom",
+        "id": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom (suni:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom",
+        "id": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "8522a6f2-b165-4529-9dd6-30bc0da88476_geom (suni:8522a6f2-b165-4529-9dd6-30bc0da88476_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom",
+        "id": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom (suni:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom",
+        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom",
+        "id": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "89b07983-8e6c-4b79-a97f-618a913945ee_geom (suni:89b07983-8e6c-4b79-a97f-618a913945ee_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom",
+        "id": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "8a782006-277b-43df-b476-622e770433ba_geom (suni:8a782006-277b-43df-b476-622e770433ba_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom",
+        "id": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom (suni:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom",
+        "id": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "90d8c5f4-021b-414b-8219-47f4e39bbff6_geom (suni:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom",
+        "id": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "91417e18-f9c7-49d7-80b2-ec408b898147_geom (suni:91417e18-f9c7-49d7-80b2-ec408b898147_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom",
+        "id": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "92bc7954-d3e5-456e-a3f9-15ed633ca086_geom (suni:92bc7954-d3e5-456e-a3f9-15ed633ca086_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom",
+        "id": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "9460842b-7734-4665-82a2-0085a33ce453_geom (suni:9460842b-7734-4665-82a2-0085a33ce453_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom",
+        "id": "http://www.github.com/sparqlunicorn#96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom (suni:96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom",
+        "id": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "97e0311e-f072-4b6c-8619-4c8b81cb2232_geom (suni:97e0311e-f072-4b6c-8619-4c8b81cb2232_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom",
+        "id": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "9a404584-fd22-42a3-ba09-2382a8cc7596_geom (suni:9a404584-fd22-42a3-ba09-2382a8cc7596_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom",
+        "id": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "9d5f5c58-94c9-426a-862c-0bce70aa017e_geom (suni:9d5f5c58-94c9-426a-862c-0bce70aa017e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom",
+        "id": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "9e80e441-dc60-4514-8477-702e7d8ea321_geom (suni:9e80e441-dc60-4514-8477-702e7d8ea321_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom",
+        "id": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "a0108469-2166-4732-8aff-f6429f29a82f_geom (suni:a0108469-2166-4732-8aff-f6429f29a82f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom",
+        "id": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "a09111ca-c359-48cc-9a96-e79673caa0b8_geom (suni:a09111ca-c359-48cc-9a96-e79673caa0b8_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom",
+        "id": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom (suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom",
+        "id": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "abb845a6-5386-459e-938f-5100e0af1f72_geom (suni:abb845a6-5386-459e-938f-5100e0af1f72_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom",
+        "id": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom (suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom",
+        "id": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b6233e40-079e-447d-b960-2f59a90dcd6e_geom (suni:b6233e40-079e-447d-b960-2f59a90dcd6e_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom",
+        "id": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom (suni:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom",
+        "id": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom (suni:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom",
+        "id": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom (suni:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom",
+        "id": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom (suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom",
+        "id": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom (suni:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom",
+        "id": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom (suni:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom",
+        "id": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "ba7170d7-475e-4502-9cbd-054d5d326a7d_geom (suni:ba7170d7-475e-4502-9cbd-054d5d326a7d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom",
+        "id": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom (suni:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom",
+        "id": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom (suni:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom",
+        "id": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "c08f3cf1-e573-4914-b15f-b249261d9fab_geom (suni:c08f3cf1-e573-4914-b15f-b249261d9fab_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom",
+        "id": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "c2174141-51b4-4932-b3b3-4526eb6245d5_geom (suni:c2174141-51b4-4932-b3b3-4526eb6245d5_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom",
+        "id": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "c2efc23f-47bb-47cc-9786-739739a84f3b_geom (suni:c2efc23f-47bb-47cc-9786-739739a84f3b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom",
+        "id": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom (suni:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c5b30f79-c515-48cf-a077-c5289ec32956_geom",
+        "id": "http://www.github.com/sparqlunicorn#c5b30f79-c515-48cf-a077-c5289ec32956_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "c5b30f79-c515-48cf-a077-c5289ec32956_geom (suni:c5b30f79-c515-48cf-a077-c5289ec32956_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom",
+        "id": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom (suni:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom",
+        "id": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom (suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom",
+        "id": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom (suni:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom",
+        "id": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "cc774e18-df41-45a3-976b-bbbbc25ecff1_geom (suni:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom",
+        "id": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom (suni:cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom",
+        "id": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom (suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom",
+        "id": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom (suni:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom",
+        "id": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom (suni:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom",
+        "id": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "d1248c32-d156-418a-a10f-104d770ca6fd_geom (suni:d1248c32-d156-418a-a10f-104d770ca6fd_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom",
+        "id": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "d39b0a02-169d-40a8-897d-7c7a5eee497d_geom (suni:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom",
+        "id": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom (suni:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom",
+        "id": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom (suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom",
+        "id": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e2bb5213-40ec-467b-ab58-dfd191d67b15_geom (suni:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom",
+        "id": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom (suni:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom",
+        "id": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e4f0d99c-176b-4354-872f-84ea358ac1d1_geom (suni:e4f0d99c-176b-4354-872f-84ea358ac1d1_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom",
+        "id": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom (suni:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom",
+        "id": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom (suni:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom",
+        "id": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom (suni:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom",
+        "id": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom (suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom",
+        "id": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom (suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom",
+        "id": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "ec69643d-e636-443f-95a0-bb55b9614841_geom (suni:ec69643d-e636-443f-95a0-bb55b9614841_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom",
+        "id": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "f148606b-a850-4d16-a627-606fb8ee5577_geom (suni:f148606b-a850-4d16-a627-606fb8ee5577_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom",
+        "id": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "f533c183-22fb-43cf-9bd1-265caaa661a0_geom (suni:f533c183-22fb-43cf-9bd1-265caaa661a0_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom",
+        "id": "http://www.github.com/sparqlunicorn#f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom (suni:f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom",
+        "id": "http://www.github.com/sparqlunicorn#fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom (suni:fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom",
+        "id": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "fd82485d-f6e8-4413-9120-c739f0cc1e82_geom (suni:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom",
+        "id": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom (suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom)",
         "data": {}
       },
       {
-        "id": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom",
+        "id": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "geoinstance",
         "text": "fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom (suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_A1_geom (fairyland:Trench_A1_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_A2_geom (fairyland:Trench_A2_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_A3_geom (fairyland:Trench_A3_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_A4_geom (fairyland:Trench_A4_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_A5_geom (fairyland:Trench_A5_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_A6_geom (fairyland:Trench_A6_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_B1_geom (fairyland:Trench_B1_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_B2_geom (fairyland:Trench_B2_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_B3_geom (fairyland:Trench_B3_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_B4_geom (fairyland:Trench_B4_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_B5_geom (fairyland:Trench_B5_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_B6_geom (fairyland:Trench_B6_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_C1_geom (fairyland:Trench_C1_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_C2_geom (fairyland:Trench_C2_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_C3_geom (fairyland:Trench_C3_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_C4_geom (fairyland:Trench_C4_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_C5_geom (fairyland:Trench_C5_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_C6_geom (fairyland:Trench_C6_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_D1_geom (fairyland:Trench_D1_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_D2_geom (fairyland:Trench_D2_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_D3_geom (fairyland:Trench_D3_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_D4_geom (fairyland:Trench_D4_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_D5_geom (fairyland:Trench_D5_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_D6_geom (fairyland:Trench_D6_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_E1_geom (fairyland:Trench_E1_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_E2_geom (fairyland:Trench_E2_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_E3_geom (fairyland:Trench_E3_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_E4_geom (fairyland:Trench_E4_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_E5_geom (fairyland:Trench_E5_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
         "text": "Trench_E6_geom (fairyland:Trench_E6_geom)",
@@ -6100,33 +6128,7 @@ var tree={
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "halfgeoclass",
         "text": "Polygon (sf:Polygon) [162]",
-        "data": {
-          "to": {
-            "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
-            },
-            "http://www.opengis.net/ont/geosparql#asWKT": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1,
-              "http://www.w3.org/2002/07/owl#Class": 1
-            }
-          },
-          "from": {
-            "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 0,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Koetbullar": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
-            }
-          }
-        },
-        "instancecount": 3
+        "data": {}
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Geometry",
@@ -6185,21 +6187,21 @@ var tree={
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/DenGulaVagen_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/DenGulaVagen_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#LineString",
         "type": "instance",
         "text": "DenGulaVagen_geom (fairyland:DenGulaVagen_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Returvagen_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Returvagen_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#LineString",
         "type": "instance",
         "text": "Returvagen_geom (fairyland:Returvagen_geom)",
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Smalgangen_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Smalgangen_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#LineString",
         "type": "instance",
         "text": "Smalgangen_geom (fairyland:Smalgangen_geom)",
@@ -6213,7 +6215,7 @@ var tree={
         "data": {}
       },
       {
-        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost_geom",
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost_geom_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#MultiPolygon",
         "type": "instance",
         "text": "NorrforsOutpost_geom (fairyland:NorrforsOutpost_geom)",
@@ -6438,9 +6440,16 @@ var tree={
       },
       {
         "id": "http://www.github.com/sparqlunicorn#nonns_Trench.html",
-        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A1_Excavation_Process_Unit",
         "type": "class",
         "text": "Trench (fairyland:Trench)",
+        "data": {}
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A1_Excavation_Process_Unit",
+        "parent": "#",
+        "type": "class",
+        "text": "A1_Excavation_Process_Unit (crmarchaeo:A1_Excavation_Process_Unit)",
         "data": {}
       },
       {
@@ -6473,9 +6482,16 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/TimePeriod",
-        "parent": "#",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
         "type": "class",
         "text": "TimePeriod (fairyland:TimePeriod) [4]",
+        "data": {}
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+        "parent": "#",
+        "type": "class",
+        "text": "E4_Period (crm:E4_Period)",
         "data": {}
       },
       {
@@ -6487,10 +6503,2924 @@ var tree={
       },
       {
         "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Site",
-        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
         "type": "class",
         "text": "Site (fairyland:Site) [1]",
         "data": {}
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+        "parent": "#",
+        "type": "class",
+        "text": "E27_Site (crm:E27_Site)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsExcavation",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A9_Archaeological_Excavation",
+        "type": "instance",
+        "text": "NorrforsExcavation (fairyland:NorrforsExcavation)",
+        "data": {}
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/CRMarchaeo/A9_Archaeological_Excavation",
+        "parent": "#",
+        "type": "class",
+        "text": "A9_Archaeological_Excavation (crmarchaeo:A9_Archaeological_Excavation) [1]",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/CRS84",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP4_Spatial_Coordinate_Reference_System",
+        "type": "instance",
+        "text": "CRS84 (fairyland:CRS84)",
+        "data": {}
+      },
+      {
+        "id": "http://www.ics.forth.gr/isl/CRMgeo/SP4_Spatial_Coordinate_Reference_System",
+        "parent": "#",
+        "type": "class",
+        "text": "SP4_Spatial_Coordinate_Reference_System (crmgeo:SP4_Spatial_Coordinate_Reference_System) [1]",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Cretaceous_ts",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span",
+        "type": "instance",
+        "text": "Cretaceous_ts (fairyland:Cretaceous_ts)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Jurassic_ts",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span",
+        "type": "instance",
+        "text": "Jurassic_ts (fairyland:Jurassic_ts)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Mesozoic_ts",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span",
+        "type": "instance",
+        "text": "Mesozoic_ts (fairyland:Mesozoic_ts)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Triassic_ts",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span",
+        "type": "instance",
+        "text": "Triassic_ts (fairyland:Triassic_ts)",
+        "data": {}
+      },
+      {
+        "id": "http://www.ics.forth.gr/isl/CRMgeo/SP10_Declarative_Time-Span",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+        "type": "class",
+        "text": "SP10_Declarative_Time-Span (crmgeo:SP10_Declarative_Time-Span) [4]",
+        "data": {}
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+        "parent": "#",
+        "type": "class",
+        "text": "E52_Time-Span (crm:E52_Time-Span)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#005191fc-7128-48b0-a0f4-d1eaaaff3004_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "005191fc-7128-48b0-a0f4-d1eaaaff3004_geom (suni:005191fc-7128-48b0-a0f4-d1eaaaff3004_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom (suni:00a19bd0-5388-4b7e-be49-072e8a1c03f5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0194d590-c58c-4c97-98f8-303ea8ffe32a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0194d590-c58c-4c97-98f8-303ea8ffe32a_geom (suni:0194d590-c58c-4c97-98f8-303ea8ffe32a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom (suni:02075766-1dfe-46ee-8a1e-a2d3a9057ebd_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#038d7342-a29b-4fb4-848a-38956486b324_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "038d7342-a29b-4fb4-848a-38956486b324_geom (suni:038d7342-a29b-4fb4-848a-38956486b324_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#03bf5218-bda5-4791-b190-b302c4d8d6ce_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "03bf5218-bda5-4791-b190-b302c4d8d6ce_geom (suni:03bf5218-bda5-4791-b190-b302c4d8d6ce_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#042db47c-d2e0-48b7-992e-31eeed05590b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "042db47c-d2e0-48b7-992e-31eeed05590b_geom (suni:042db47c-d2e0-48b7-992e-31eeed05590b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom (suni:047d2aa4-c98d-4c8e-bba6-c5bc935b626a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom (suni:04f90f9b-1396-45af-a2f1-e803ea0b65f0_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom (suni:069e7a2d-631d-4338-adf9-5fd2f9bd2155_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#06d752cb-22a3-4939-86ee-1e59c2acd696_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "06d752cb-22a3-4939-86ee-1e59c2acd696_geom (suni:06d752cb-22a3-4939-86ee-1e59c2acd696_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0800c7da-7e10-4ba2-a020-7db1bc018572_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0800c7da-7e10-4ba2-a020-7db1bc018572_geom (suni:0800c7da-7e10-4ba2-a020-7db1bc018572_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#09625e57-e1e3-4819-baac-8154feac0fe6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "09625e57-e1e3-4819-baac-8154feac0fe6_geom (suni:09625e57-e1e3-4819-baac-8154feac0fe6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom (suni:09dd46c1-cd5f-4f5a-b2fa-2341b6d0c9eb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom (suni:0a8dc582-a78e-41f4-b0ac-86197ec16b46_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0b12b1c6-4f43-4635-9437-2eccad89860a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0b12b1c6-4f43-4635-9437-2eccad89860a_geom (suni:0b12b1c6-4f43-4635-9437-2eccad89860a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom (suni:0b4c33f3-63e9-4746-b0ac-25a0eb5e7476_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0b5f0d63-782a-46bb-b360-3ca60fc75915_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0b5f0d63-782a-46bb-b360-3ca60fc75915_geom (suni:0b5f0d63-782a-46bb-b360-3ca60fc75915_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0b959b96-55fd-4550-b4de-68e2c4f9625f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0b959b96-55fd-4550-b4de-68e2c4f9625f_geom (suni:0b959b96-55fd-4550-b4de-68e2c4f9625f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0be2725f-e419-4f79-b4e0-31eb6cddeede_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0be2725f-e419-4f79-b4e0-31eb6cddeede_geom (suni:0be2725f-e419-4f79-b4e0-31eb6cddeede_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom (suni:0cc84bdb-a46b-47fc-851f-925f22e3fd77_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom (suni:0cde71e0-701f-44cd-a025-5cac1d1c7d70_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom (suni:0d9d574e-754a-4f9c-93b7-47fc15d4f2d3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0f46981f-21ba-428d-ba69-a833540fdd51_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0f46981f-21ba-428d-ba69-a833540fdd51_geom (suni:0f46981f-21ba-428d-ba69-a833540fdd51_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom (suni:0fb98a9e-3ca4-4963-b8b3-a58f187efce1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#0fcef9c2-a38d-4664-b33e-4b523387955f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "0fcef9c2-a38d-4664-b33e-4b523387955f_geom (suni:0fcef9c2-a38d-4664-b33e-4b523387955f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#103ff16b-91be-41cc-992e-842e9c717e00_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "103ff16b-91be-41cc-992e-842e9c717e00_geom (suni:103ff16b-91be-41cc-992e-842e9c717e00_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1073f60f-73b2-4193-8bd7-951995224dbb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1073f60f-73b2-4193-8bd7-951995224dbb_geom (suni:1073f60f-73b2-4193-8bd7-951995224dbb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom (suni:10d1a1c2-f56c-485c-a5cc-4d4e48c8e675_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#11d18c0d-68ec-4921-8df7-ecc79095d097_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "11d18c0d-68ec-4921-8df7-ecc79095d097_geom (suni:11d18c0d-68ec-4921-8df7-ecc79095d097_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom (suni:12ce69a0-6b49-4159-8ff6-b468f44d33b5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#12d29b14-a072-4035-adf3-ce7fc203ef65_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "12d29b14-a072-4035-adf3-ce7fc203ef65_geom (suni:12d29b14-a072-4035-adf3-ce7fc203ef65_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#12d61444-88ae-43b3-95d4-15e5fecd4180_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "12d61444-88ae-43b3-95d4-15e5fecd4180_geom (suni:12d61444-88ae-43b3-95d4-15e5fecd4180_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#15979e00-a3ab-4266-a1ee-15c08536854d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "15979e00-a3ab-4266-a1ee-15c08536854d_geom (suni:15979e00-a3ab-4266-a1ee-15c08536854d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1666c930-9460-42e3-99c7-32eef2b60f4b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1666c930-9460-42e3-99c7-32eef2b60f4b_geom (suni:1666c930-9460-42e3-99c7-32eef2b60f4b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1747eb43-675f-4f0b-bf95-60f4740395f5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1747eb43-675f-4f0b-bf95-60f4740395f5_geom (suni:1747eb43-675f-4f0b-bf95-60f4740395f5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#180a5320-3833-4133-aa46-aab7f0d80d84_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "180a5320-3833-4133-aa46-aab7f0d80d84_geom (suni:180a5320-3833-4133-aa46-aab7f0d80d84_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1826370a-8906-47be-b307-4a847bd26c9a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1826370a-8906-47be-b307-4a847bd26c9a_geom (suni:1826370a-8906-47be-b307-4a847bd26c9a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1888ca6c-cf87-4e68-a0b7-e605ae038610_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1888ca6c-cf87-4e68-a0b7-e605ae038610_geom (suni:1888ca6c-cf87-4e68-a0b7-e605ae038610_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#18d49631-5a11-48f6-acb7-62cfaf8de742_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "18d49631-5a11-48f6-acb7-62cfaf8de742_geom (suni:18d49631-5a11-48f6-acb7-62cfaf8de742_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#19793c7f-6cc9-462c-99da-e3e33ff97461_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "19793c7f-6cc9-462c-99da-e3e33ff97461_geom (suni:19793c7f-6cc9-462c-99da-e3e33ff97461_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1a2be1c9-acaf-4659-839d-0146401472f2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1a2be1c9-acaf-4659-839d-0146401472f2_geom (suni:1a2be1c9-acaf-4659-839d-0146401472f2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom (suni:1c886e17-c4d3-4ff0-88bf-d7331214dc8e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1d935768-ea8d-4be8-884b-a4dff9825021_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1d935768-ea8d-4be8-884b-a4dff9825021_geom (suni:1d935768-ea8d-4be8-884b-a4dff9825021_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#1fcfa357-13f8-4cb5-8e28-f98280989898_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "1fcfa357-13f8-4cb5-8e28-f98280989898_geom (suni:1fcfa357-13f8-4cb5-8e28-f98280989898_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#20e35462-2580-f6e0-f297-4b212dc76bc5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "20e35462-2580-f6e0-f297-4b212dc76bc5_geom (suni:20e35462-2580-f6e0-f297-4b212dc76bc5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#22e61b60-371e-47f2-a07c-635d2380e04b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "22e61b60-371e-47f2-a07c-635d2380e04b_geom (suni:22e61b60-371e-47f2-a07c-635d2380e04b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#24476baf-94f8-460f-b941-8937c65b4476_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "24476baf-94f8-460f-b941-8937c65b4476_geom (suni:24476baf-94f8-460f-b941-8937c65b4476_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#248542fe-c72e-4120-babb-87611d3e0c72_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "248542fe-c72e-4120-babb-87611d3e0c72_geom (suni:248542fe-c72e-4120-babb-87611d3e0c72_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2515e864-e7ed-4e8e-9770-b108580a1f08_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2515e864-e7ed-4e8e-9770-b108580a1f08_geom (suni:2515e864-e7ed-4e8e-9770-b108580a1f08_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#25d0c170-da08-47ed-8bf8-78f36d0f558e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "25d0c170-da08-47ed-8bf8-78f36d0f558e_geom (suni:25d0c170-da08-47ed-8bf8-78f36d0f558e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#264aceda-0df9-48de-9c9a-bfac46e9d790_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "264aceda-0df9-48de-9c9a-bfac46e9d790_geom (suni:264aceda-0df9-48de-9c9a-bfac46e9d790_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#26551278-d0f1-4741-950e-47e88d0bfcef_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "26551278-d0f1-4741-950e-47e88d0bfcef_geom (suni:26551278-d0f1-4741-950e-47e88d0bfcef_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom (suni:265ec6a5-fe3a-4364-9a9e-2b99bdae21b5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom (suni:275a5b7f-e28a-41ec-b6b5-9bc82b47f1a0_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#28ec2dbf-6806-4a32-a35d-78764bfda459_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "28ec2dbf-6806-4a32-a35d-78764bfda459_geom (suni:28ec2dbf-6806-4a32-a35d-78764bfda459_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#28fa130c-4c84-4817-8b2e-855128e2b44e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "28fa130c-4c84-4817-8b2e-855128e2b44e_geom (suni:28fa130c-4c84-4817-8b2e-855128e2b44e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom (suni:2a6e27ff-96d7-c446-0392-7c39fb34b9d4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom (suni:2a991c50-a03f-45bd-a3ba-6e7ab9d661e5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2abb9a90-732f-4e75-b764-6b3df7dfa173_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2abb9a90-732f-4e75-b764-6b3df7dfa173_geom (suni:2abb9a90-732f-4e75-b764-6b3df7dfa173_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom (suni:2d3d304e-4ac7-4f2f-93a6-251105f7ace4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2df381ca-154e-4368-bc83-b6d74e5130a2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2df381ca-154e-4368-bc83-b6d74e5130a2_geom (suni:2df381ca-154e-4368-bc83-b6d74e5130a2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom (suni:2e24eb22-bba1-4239-b3d5-b9be34f5fdc3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom (suni:2e2543ec-44ed-4713-a7d9-1bf12cda29f2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2e47ae72-b63c-41a9-861b-009aa5454e57_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2e47ae72-b63c-41a9-861b-009aa5454e57_geom (suni:2e47ae72-b63c-41a9-861b-009aa5454e57_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2e711592-9068-438a-80b9-0c7725e1d6bb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2e711592-9068-438a-80b9-0c7725e1d6bb_geom (suni:2e711592-9068-438a-80b9-0c7725e1d6bb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2f08adaf-d8a8-400b-a410-f011c467324e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2f08adaf-d8a8-400b-a410-f011c467324e_geom (suni:2f08adaf-d8a8-400b-a410-f011c467324e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom (suni:2fa8f77e-c8c0-4efd-b1b0-e508fc116bc6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3018eba9-3c11-41e8-901e-7377167b58e4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3018eba9-3c11-41e8-901e-7377167b58e4_geom (suni:3018eba9-3c11-41e8-901e-7377167b58e4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#303b162c-85ab-4356-abfe-6b6029d8e5d3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "303b162c-85ab-4356-abfe-6b6029d8e5d3_geom (suni:303b162c-85ab-4356-abfe-6b6029d8e5d3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#31615fc1-a7de-48af-80a2-777dd77760b2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "31615fc1-a7de-48af-80a2-777dd77760b2_geom (suni:31615fc1-a7de-48af-80a2-777dd77760b2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#31a33e29-ff88-49d0-93ae-bff50577f08c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "31a33e29-ff88-49d0-93ae-bff50577f08c_geom (suni:31a33e29-ff88-49d0-93ae-bff50577f08c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#31a96e29-dddc-46a1-9471-16d91c629005_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "31a96e29-dddc-46a1-9471-16d91c629005_geom (suni:31a96e29-dddc-46a1-9471-16d91c629005_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom (suni:32126fde-7a0e-46ab-b512-ad9f20ea10ea_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom (suni:323d52f6-0ef2-41c3-a89e-dda98053ce1c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#327283ae-3a31-4397-ae77-2566e4d146b6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "327283ae-3a31-4397-ae77-2566e4d146b6_geom (suni:327283ae-3a31-4397-ae77-2566e4d146b6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3280d786-1bb7-4913-9be9-9041f65ef4b6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3280d786-1bb7-4913-9be9-9041f65ef4b6_geom (suni:3280d786-1bb7-4913-9be9-9041f65ef4b6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#32beabf1-b953-4b07-a6ed-1472bca9a279_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "32beabf1-b953-4b07-a6ed-1472bca9a279_geom (suni:32beabf1-b953-4b07-a6ed-1472bca9a279_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3413903c-a458-8422-3997-434b1071b02b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3413903c-a458-8422-3997-434b1071b02b_geom (suni:3413903c-a458-8422-3997-434b1071b02b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom (suni:34c0ce18-6aa4-426c-a5bd-61ff2453e667_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3563f2d3-e971-4dc3-8501-5cc745ce5201_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3563f2d3-e971-4dc3-8501-5cc745ce5201_geom (suni:3563f2d3-e971-4dc3-8501-5cc745ce5201_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#36510cec-f627-1951-d6f8-1b0def35b77a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "36510cec-f627-1951-d6f8-1b0def35b77a_geom (suni:36510cec-f627-1951-d6f8-1b0def35b77a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3672902d-7362-4069-9769-21296706d028_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3672902d-7362-4069-9769-21296706d028_geom (suni:3672902d-7362-4069-9769-21296706d028_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom (suni:36fcf7f9-5814-47e7-9f27-8519ba6e2f6a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom (suni:373f6f64-9ec2-4aab-b411-679fbdd6d74b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#37678450-1c30-4756-b89a-75c4021bcefe_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "37678450-1c30-4756-b89a-75c4021bcefe_geom (suni:37678450-1c30-4756-b89a-75c4021bcefe_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#37993191-20c4-49a4-b3bc-2a28960f323d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "37993191-20c4-49a4-b3bc-2a28960f323d_geom (suni:37993191-20c4-49a4-b3bc-2a28960f323d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#38880781-0283-43a1-84da-1b842caf34ba_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "38880781-0283-43a1-84da-1b842caf34ba_geom (suni:38880781-0283-43a1-84da-1b842caf34ba_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#389c5712-618e-4532-84fd-4eb084e6c0aa_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "389c5712-618e-4532-84fd-4eb084e6c0aa_geom (suni:389c5712-618e-4532-84fd-4eb084e6c0aa_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3a55458f-5c2f-4368-9a03-384f6377e301_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3a55458f-5c2f-4368-9a03-384f6377e301_geom (suni:3a55458f-5c2f-4368-9a03-384f6377e301_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom (suni:3aa8d348-2bcc-490b-842e-8e6744cf06e1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3cd74fe7-9b31-4361-ad28-08afb3097edc_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3cd74fe7-9b31-4361-ad28-08afb3097edc_geom (suni:3cd74fe7-9b31-4361-ad28-08afb3097edc_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom (suni:3d393a7a-ea8c-45d2-aca7-1453da500bb5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom (suni:3e78afb0-3e1c-4814-a038-dfde669dc4c1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom (suni:3e8bc682-fcf4-7530-d925-3ad986ab01ff_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#415dd66d-5628-4e55-a489-ac2ae21a63d5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "415dd66d-5628-4e55-a489-ac2ae21a63d5_geom (suni:415dd66d-5628-4e55-a489-ac2ae21a63d5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom (suni:4173bcfc-e795-4689-8b67-0d355d9c2f3d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#41bc9d9f-999b-4c03-868d-e3823fc03184_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "41bc9d9f-999b-4c03-868d-e3823fc03184_geom (suni:41bc9d9f-999b-4c03-868d-e3823fc03184_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#422e5cd2-fcce-0da0-1655-85a795e78e5c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "422e5cd2-fcce-0da0-1655-85a795e78e5c_geom (suni:422e5cd2-fcce-0da0-1655-85a795e78e5c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#42897bc2-5707-42ff-8f01-b6170d542c6c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "42897bc2-5707-42ff-8f01-b6170d542c6c_geom (suni:42897bc2-5707-42ff-8f01-b6170d542c6c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#43367b68-fbe1-a3c3-2bd8-78f476093f69_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "43367b68-fbe1-a3c3-2bd8-78f476093f69_geom (suni:43367b68-fbe1-a3c3-2bd8-78f476093f69_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#43445b66-c4c5-4668-8fb7-00186131c6ff_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "43445b66-c4c5-4668-8fb7-00186131c6ff_geom (suni:43445b66-c4c5-4668-8fb7-00186131c6ff_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#435bca7b-b840-4894-9bff-df7c45b2c20c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "435bca7b-b840-4894-9bff-df7c45b2c20c_geom (suni:435bca7b-b840-4894-9bff-df7c45b2c20c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#44b999ae-3457-43f6-ad3c-cebf913b3629_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "44b999ae-3457-43f6-ad3c-cebf913b3629_geom (suni:44b999ae-3457-43f6-ad3c-cebf913b3629_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#45d241e5-c948-4ae3-860b-668b54894e58_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "45d241e5-c948-4ae3-860b-668b54894e58_geom (suni:45d241e5-c948-4ae3-860b-668b54894e58_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#464f2805-ec4f-4d89-858e-f56a4378062d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "464f2805-ec4f-4d89-858e-f56a4378062d_geom (suni:464f2805-ec4f-4d89-858e-f56a4378062d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom (suni:467872e1-4482-4e05-ba2e-2ac81b40dcf7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4692f53e-797d-4457-bbc3-55273889566f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4692f53e-797d-4457-bbc3-55273889566f_geom (suni:4692f53e-797d-4457-bbc3-55273889566f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom (suni:4829a889-9473-4c7f-b20a-9ae3f83ce0fe_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#48384403-6227-44d7-8327-e1adac8617e7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "48384403-6227-44d7-8327-e1adac8617e7_geom (suni:48384403-6227-44d7-8327-e1adac8617e7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom (suni:491c922b-8cb8-41c2-bb0c-c9e9e38e2003_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4960c3ef-c969-4930-8f87-3e9250c5b716_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4960c3ef-c969-4930-8f87-3e9250c5b716_geom (suni:4960c3ef-c969-4930-8f87-3e9250c5b716_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#49a39ab2-4e8f-4991-8297-5a18a5735647_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "49a39ab2-4e8f-4991-8297-5a18a5735647_geom (suni:49a39ab2-4e8f-4991-8297-5a18a5735647_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom (suni:49ca3504-ffe4-4ec4-bd95-72123b14e48e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom (suni:49cdf5f5-4d26-41d3-ac79-cdbcc7ca1004_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4a2ac55e-8819-4ffc-971d-4e3255244521_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4a2ac55e-8819-4ffc-971d-4e3255244521_geom (suni:4a2ac55e-8819-4ffc-971d-4e3255244521_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom (suni:4a4c2cd5-02ce-415c-b812-ec9fd13d73c6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom (suni:4a598935-f4fd-45e1-9a4e-7e7f16b46b00_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4bb458df-e06c-4d79-bcdb-663a09168b93_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4bb458df-e06c-4d79-bcdb-663a09168b93_geom (suni:4bb458df-e06c-4d79-bcdb-663a09168b93_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom (suni:4bf8be3e-19f8-4bfd-945a-1cdcc3a6bfe9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom (suni:4c6d67ee-1eed-470c-bf84-4c6ee11d2083_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4c6f385a-e492-46e7-9488-4fedf6114353_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4c6f385a-e492-46e7-9488-4fedf6114353_geom (suni:4c6f385a-e492-46e7-9488-4fedf6114353_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4ccf2904-a68a-4c88-81de-8d549bc421e9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4ccf2904-a68a-4c88-81de-8d549bc421e9_geom (suni:4ccf2904-a68a-4c88-81de-8d549bc421e9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4db030c2-2331-4dad-b17c-da023bceff9f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4db030c2-2331-4dad-b17c-da023bceff9f_geom (suni:4db030c2-2331-4dad-b17c-da023bceff9f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4dcec8c0-392b-421c-94de-b7ca326a59ce_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4dcec8c0-392b-421c-94de-b7ca326a59ce_geom (suni:4dcec8c0-392b-421c-94de-b7ca326a59ce_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4e1bbd40-75c2-4134-abdf-71a85b238394_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4e1bbd40-75c2-4134-abdf-71a85b238394_geom (suni:4e1bbd40-75c2-4134-abdf-71a85b238394_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom (suni:4f25cbc8-6f89-434b-8988-0e3e965f2aa7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom (suni:51de5778-7249-7fa2-c58c-b1b49d7d96f7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom (suni:51e65249-8f83-4a14-a2a1-a9b53fd3dda3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#521dd20c-2456-40a9-8b2b-0064396ccb07_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "521dd20c-2456-40a9-8b2b-0064396ccb07_geom (suni:521dd20c-2456-40a9-8b2b-0064396ccb07_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#526eb9a7-2805-4a93-b49c-df9a922b279c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "526eb9a7-2805-4a93-b49c-df9a922b279c_geom (suni:526eb9a7-2805-4a93-b49c-df9a922b279c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom (suni:52b852f9-1d33-45bf-b2f6-4d3c2505870f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom (suni:52f8f607-2c6b-4b25-90f8-861ed744e1ca_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#53bf2db7-7718-4835-bc3c-2baf3068207f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "53bf2db7-7718-4835-bc3c-2baf3068207f_geom (suni:53bf2db7-7718-4835-bc3c-2baf3068207f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#53ed429c-06e1-419a-9002-12d7bcf18ba0_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "53ed429c-06e1-419a-9002-12d7bcf18ba0_geom (suni:53ed429c-06e1-419a-9002-12d7bcf18ba0_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#54418eb6-7220-4d62-8e35-7a3266ae3120_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "54418eb6-7220-4d62-8e35-7a3266ae3120_geom (suni:54418eb6-7220-4d62-8e35-7a3266ae3120_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom (suni:54e13ec0-7b5a-4f4a-892f-615ab97d9000_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#55045191-2b66-482a-b3cf-d027e67cac9c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "55045191-2b66-482a-b3cf-d027e67cac9c_geom (suni:55045191-2b66-482a-b3cf-d027e67cac9c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#55199184-3a67-4d1d-8361-eebeec4b6615_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "55199184-3a67-4d1d-8361-eebeec4b6615_geom (suni:55199184-3a67-4d1d-8361-eebeec4b6615_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#559a292c-9b84-4152-8d12-161347862318_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "559a292c-9b84-4152-8d12-161347862318_geom (suni:559a292c-9b84-4152-8d12-161347862318_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom (suni:55eee8ec-2c4a-4924-8d2e-89b0d57b2d74_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#569674c9-3895-4cb5-8f2c-38e608cab577_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "569674c9-3895-4cb5-8f2c-38e608cab577_geom (suni:569674c9-3895-4cb5-8f2c-38e608cab577_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom (suni:5782e555-a422-4ffb-a9d1-dff3b4e41abd_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#584e153d-4f51-0fa6-8208-40c70e5baf19_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "584e153d-4f51-0fa6-8208-40c70e5baf19_geom (suni:584e153d-4f51-0fa6-8208-40c70e5baf19_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#59667ebc-7204-4355-b5cf-9ec86c280d6a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "59667ebc-7204-4355-b5cf-9ec86c280d6a_geom (suni:59667ebc-7204-4355-b5cf-9ec86c280d6a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#599490bb-6a70-49f9-8d4d-270f7c3792bb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "599490bb-6a70-49f9-8d4d-270f7c3792bb_geom (suni:599490bb-6a70-49f9-8d4d-270f7c3792bb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5a41564a-597e-4b30-aa96-21956e0dcd4d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5a41564a-597e-4b30-aa96-21956e0dcd4d_geom (suni:5a41564a-597e-4b30-aa96-21956e0dcd4d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5a9dda79-cbe5-47f0-901f-278f4748c48f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5a9dda79-cbe5-47f0-901f-278f4748c48f_geom (suni:5a9dda79-cbe5-47f0-901f-278f4748c48f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom (suni:5b605b04-b1fe-4eca-aebe-28f0de9beb21_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5bcc0471-f0ba-417c-bae1-abb3223cd352_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5bcc0471-f0ba-417c-bae1-abb3223cd352_geom (suni:5bcc0471-f0ba-417c-bae1-abb3223cd352_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom (suni:5c6ce17c-cdde-459e-a423-ad5d827e5d4e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom (suni:5dd05dc5-c26a-4b1f-87e0-d4de74565250_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5e927acb-3371-4300-9804-5fc6fb1388d2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5e927acb-3371-4300-9804-5fc6fb1388d2_geom (suni:5e927acb-3371-4300-9804-5fc6fb1388d2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom (suni:5f5d079d-712c-4ad0-842c-c04d0d0763e5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom (suni:622ce224-fab0-4fbd-8a79-d8ecc9b26a49_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6247dd7d-45da-4805-9922-ad78d30ddc00_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6247dd7d-45da-4805-9922-ad78d30ddc00_geom (suni:6247dd7d-45da-4805-9922-ad78d30ddc00_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6263bc9a-2c4b-4675-8196-d4232dee23f3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6263bc9a-2c4b-4675-8196-d4232dee23f3_geom (suni:6263bc9a-2c4b-4675-8196-d4232dee23f3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#62c65c41-af9e-4af8-af61-97602598da5c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "62c65c41-af9e-4af8-af61-97602598da5c_geom (suni:62c65c41-af9e-4af8-af61-97602598da5c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom (suni:62ef3b61-4e7b-4e83-95c3-8e4d497806d1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#634e698f-f3c3-4363-a8b6-8163b4f476ed_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "634e698f-f3c3-4363-a8b6-8163b4f476ed_geom (suni:634e698f-f3c3-4363-a8b6-8163b4f476ed_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom (suni:63be4da8-6a22-4dc6-98c0-43ac8d0a802e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#64586be1-1d82-4160-a5fb-5af067a6276b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "64586be1-1d82-4160-a5fb-5af067a6276b_geom (suni:64586be1-1d82-4160-a5fb-5af067a6276b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#646cf01d-f91f-454d-96f3-69f122d90cf1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "646cf01d-f91f-454d-96f3-69f122d90cf1_geom (suni:646cf01d-f91f-454d-96f3-69f122d90cf1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom (suni:65f7355b-9621-4b7e-a716-8fa0a4f07a0e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#66424eb1-6ec0-4f2a-9003-e2143babe975_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "66424eb1-6ec0-4f2a-9003-e2143babe975_geom (suni:66424eb1-6ec0-4f2a-9003-e2143babe975_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6726b202-cbe6-4428-bced-528128ba4391_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6726b202-cbe6-4428-bced-528128ba4391_geom (suni:6726b202-cbe6-4428-bced-528128ba4391_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom (suni:6740d0c7-d1e0-4906-aeda-93cc5fb7ae1c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#675e393e-a8dd-4abf-8698-75200a6cb8c9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "675e393e-a8dd-4abf-8698-75200a6cb8c9_geom (suni:675e393e-a8dd-4abf-8698-75200a6cb8c9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6839545f-3c21-456c-8e65-a34518a8bf7c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6839545f-3c21-456c-8e65-a34518a8bf7c_geom (suni:6839545f-3c21-456c-8e65-a34518a8bf7c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom (suni:686e5e16-5a34-4c74-8fe1-04b1d9bf8aab_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#69195ab5-0241-4995-8079-fee9d5509376_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "69195ab5-0241-4995-8079-fee9d5509376_geom (suni:69195ab5-0241-4995-8079-fee9d5509376_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6939e3db-546a-4041-a823-e729a2d4b694_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6939e3db-546a-4041-a823-e729a2d4b694_geom (suni:6939e3db-546a-4041-a823-e729a2d4b694_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom (suni:6a176aee-0f30-4da3-bd88-b48f61a6a5ca_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom (suni:6ae2aa80-be6a-4bef-9c0c-fc442424a340_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom (suni:6b4aa5ad-ec66-4929-874d-7eedd1b446b2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6daab534-65db-49f5-9b1b-5842930184c6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6daab534-65db-49f5-9b1b-5842930184c6_geom (suni:6daab534-65db-49f5-9b1b-5842930184c6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6f14de57-897a-4758-a984-262ca18baf75_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6f14de57-897a-4758-a984-262ca18baf75_geom (suni:6f14de57-897a-4758-a984-262ca18baf75_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#6fa013cb-f86c-4978-ac06-999760a58991_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "6fa013cb-f86c-4978-ac06-999760a58991_geom (suni:6fa013cb-f86c-4978-ac06-999760a58991_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#723174b5-7af2-489a-a766-8c1650beae91_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "723174b5-7af2-489a-a766-8c1650beae91_geom (suni:723174b5-7af2-489a-a766-8c1650beae91_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7354c117-22d8-41c4-b679-3a1cd0357a65_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "7354c117-22d8-41c4-b679-3a1cd0357a65_geom (suni:7354c117-22d8-41c4-b679-3a1cd0357a65_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#782b5a2d-d383-4856-93eb-e974c77df325_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "782b5a2d-d383-4856-93eb-e974c77df325_geom (suni:782b5a2d-d383-4856-93eb-e974c77df325_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom (suni:78aacddc-ab6c-49aa-9593-e4cf7472c5df_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7a2b1560-c346-41b6-915b-a10547cd3440_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "7a2b1560-c346-41b6-915b-a10547cd3440_geom (suni:7a2b1560-c346-41b6-915b-a10547cd3440_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7abeb59f-2759-4736-897c-69d50f0cdb27_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "7abeb59f-2759-4736-897c-69d50f0cdb27_geom (suni:7abeb59f-2759-4736-897c-69d50f0cdb27_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom (suni:7afb7ebf-6ab8-4959-8f6a-997a1bd1e453_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7c93771e-f108-4c1a-8ede-799d87629036_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "7c93771e-f108-4c1a-8ede-799d87629036_geom (suni:7c93771e-f108-4c1a-8ede-799d87629036_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom (suni:7effe8a8-89ea-40c7-b095-ac70c7f9c030_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom (suni:8197bcdf-7b66-45e1-8b80-7dfcafd16631_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom (suni:81a150a3-f5f9-4f03-84d7-b5e043f9d371_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#837d4e73-d938-4f86-a89c-1099ce29f33e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "837d4e73-d938-4f86-a89c-1099ce29f33e_geom (suni:837d4e73-d938-4f86-a89c-1099ce29f33e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8522a6f2-b165-4529-9dd6-30bc0da88476_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8522a6f2-b165-4529-9dd6-30bc0da88476_geom (suni:8522a6f2-b165-4529-9dd6-30bc0da88476_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#863761bc-1744-4a56-87ca-5a38172397b7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "863761bc-1744-4a56-87ca-5a38172397b7_geom (suni:863761bc-1744-4a56-87ca-5a38172397b7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom (suni:866bd24f-ca66-4f1f-918f-6f01d4e65bd4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom (suni:866cbf6d-496f-4aff-acce-5f47e32fdcd9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom (suni:86997e8b-4662-4c0f-a2d1-b17edc36ac8a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#86d66279-5b89-4d4e-9f94-166f838cbf0d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "86d66279-5b89-4d4e-9f94-166f838cbf0d_geom (suni:86d66279-5b89-4d4e-9f94-166f838cbf0d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom (suni:86f8a06e-51c7-41be-935b-e70bfcaa67b7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom (suni:8711957e-f2bf-4fcd-a77d-9c38bf3f7cd8_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8852c98d-198f-41a6-ba42-44ea128db271_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8852c98d-198f-41a6-ba42-44ea128db271_geom (suni:8852c98d-198f-41a6-ba42-44ea128db271_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8870c476-f724-4940-a41c-ea4287430711_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8870c476-f724-4940-a41c-ea4287430711_geom (suni:8870c476-f724-4940-a41c-ea4287430711_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#88a536c2-f97f-41a1-aec9-4ed80f13707b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "88a536c2-f97f-41a1-aec9-4ed80f13707b_geom (suni:88a536c2-f97f-41a1-aec9-4ed80f13707b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#89b07983-8e6c-4b79-a97f-618a913945ee_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "89b07983-8e6c-4b79-a97f-618a913945ee_geom (suni:89b07983-8e6c-4b79-a97f-618a913945ee_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom (suni:8a40c3de-b0fb-4dc0-84d4-2000b15d6f60_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8a782006-277b-43df-b476-622e770433ba_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8a782006-277b-43df-b476-622e770433ba_geom (suni:8a782006-277b-43df-b476-622e770433ba_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8b5fa40a-9651-452e-b0ec-54acee59291b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8b5fa40a-9651-452e-b0ec-54acee59291b_geom (suni:8b5fa40a-9651-452e-b0ec-54acee59291b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom (suni:8b68d035-4363-4d8a-ada7-6a20be70ba7d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8be34e7d-8ed8-41b4-81b0-30fa20313640_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8be34e7d-8ed8-41b4-81b0-30fa20313640_geom (suni:8be34e7d-8ed8-41b4-81b0-30fa20313640_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom (suni:8fc69a50-3bd3-43ef-9f74-2e52360f520c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#8fee201f-da13-42aa-b212-3c44f64bc27e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "8fee201f-da13-42aa-b212-3c44f64bc27e_geom (suni:8fee201f-da13-42aa-b212-3c44f64bc27e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#90d8c5f4-021b-414b-8219-47f4e39bbff6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "90d8c5f4-021b-414b-8219-47f4e39bbff6_geom (suni:90d8c5f4-021b-414b-8219-47f4e39bbff6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#91417e18-f9c7-49d7-80b2-ec408b898147_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "91417e18-f9c7-49d7-80b2-ec408b898147_geom (suni:91417e18-f9c7-49d7-80b2-ec408b898147_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#92bc7954-d3e5-456e-a3f9-15ed633ca086_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "92bc7954-d3e5-456e-a3f9-15ed633ca086_geom (suni:92bc7954-d3e5-456e-a3f9-15ed633ca086_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9341c466-7f3f-4271-a114-d3c94c930f3f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9341c466-7f3f-4271-a114-d3c94c930f3f_geom (suni:9341c466-7f3f-4271-a114-d3c94c930f3f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9460842b-7734-4665-82a2-0085a33ce453_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9460842b-7734-4665-82a2-0085a33ce453_geom (suni:9460842b-7734-4665-82a2-0085a33ce453_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#949e43c6-bcb7-4a9e-8686-38c04de30d80_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "949e43c6-bcb7-4a9e-8686-38c04de30d80_geom (suni:949e43c6-bcb7-4a9e-8686-38c04de30d80_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#96121114-97f7-4a80-b9a6-510945167a62_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "96121114-97f7-4a80-b9a6-510945167a62_geom (suni:96121114-97f7-4a80-b9a6-510945167a62_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#96bc48a7-9318-4690-b6da-6c177bed2142_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "96bc48a7-9318-4690-b6da-6c177bed2142_geom (suni:96bc48a7-9318-4690-b6da-6c177bed2142_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom (suni:96e60a8c-9d55-490d-bc94-2bd6f3febe97_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#97e0311e-f072-4b6c-8619-4c8b81cb2232_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "97e0311e-f072-4b6c-8619-4c8b81cb2232_geom (suni:97e0311e-f072-4b6c-8619-4c8b81cb2232_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#983d0582-2a66-4b60-bb5b-979c01ef19c5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "983d0582-2a66-4b60-bb5b-979c01ef19c5_geom (suni:983d0582-2a66-4b60-bb5b-979c01ef19c5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#99d67f15-27a8-45c3-95bd-6619e211638a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "99d67f15-27a8-45c3-95bd-6619e211638a_geom (suni:99d67f15-27a8-45c3-95bd-6619e211638a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom (suni:99f4c834-6d0d-47ce-8a84-24355f8a3d89_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9a404584-fd22-42a3-ba09-2382a8cc7596_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9a404584-fd22-42a3-ba09-2382a8cc7596_geom (suni:9a404584-fd22-42a3-ba09-2382a8cc7596_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9a5569b3-ad35-413b-bf48-efc5563abc59_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9a5569b3-ad35-413b-bf48-efc5563abc59_geom (suni:9a5569b3-ad35-413b-bf48-efc5563abc59_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9a828b5f-bd7d-425f-b889-f2852b339898_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9a828b5f-bd7d-425f-b889-f2852b339898_geom (suni:9a828b5f-bd7d-425f-b889-f2852b339898_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom (suni:9bd68943-a8a4-4cc4-a5a6-adf62ecf63d5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom (suni:9cb0f3f8-c1c8-4c16-bbcd-4d8b45e051fa_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom (suni:9d5dc3a3-7b32-4400-af3d-1ae8663f75a4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9d5f5c58-94c9-426a-862c-0bce70aa017e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9d5f5c58-94c9-426a-862c-0bce70aa017e_geom (suni:9d5f5c58-94c9-426a-862c-0bce70aa017e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9e40eb0a-25e5-4622-8b79-1a19b2570330_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9e40eb0a-25e5-4622-8b79-1a19b2570330_geom (suni:9e40eb0a-25e5-4622-8b79-1a19b2570330_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9e80e441-dc60-4514-8477-702e7d8ea321_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9e80e441-dc60-4514-8477-702e7d8ea321_geom (suni:9e80e441-dc60-4514-8477-702e7d8ea321_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#9f2868a0-3143-4024-bb49-c71f9d8dd864_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "9f2868a0-3143-4024-bb49-c71f9d8dd864_geom (suni:9f2868a0-3143-4024-bb49-c71f9d8dd864_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a0108469-2166-4732-8aff-f6429f29a82f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a0108469-2166-4732-8aff-f6429f29a82f_geom (suni:a0108469-2166-4732-8aff-f6429f29a82f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom (suni:a0283553-5bf3-4d5e-8438-1dbfbd55f352_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a09111ca-c359-48cc-9a96-e79673caa0b8_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a09111ca-c359-48cc-9a96-e79673caa0b8_geom (suni:a09111ca-c359-48cc-9a96-e79673caa0b8_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a3006e8d-46d6-4db0-81aa-23238514e5eb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a3006e8d-46d6-4db0-81aa-23238514e5eb_geom (suni:a3006e8d-46d6-4db0-81aa-23238514e5eb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a3228d61-d64a-4b1f-be73-130b222b1c11_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a3228d61-d64a-4b1f-be73-130b222b1c11_geom (suni:a3228d61-d64a-4b1f-be73-130b222b1c11_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom (suni:a40e40b8-314c-4d89-8d2d-14332f0e6a07_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a46ff53a-7708-4b04-96d3-36d25d4f535f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a46ff53a-7708-4b04-96d3-36d25d4f535f_geom (suni:a46ff53a-7708-4b04-96d3-36d25d4f535f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a51e2e99-0037-4a04-874f-2fb1a64e804e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a51e2e99-0037-4a04-874f-2fb1a64e804e_geom (suni:a51e2e99-0037-4a04-874f-2fb1a64e804e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a67d29e2-adec-404e-83e4-1db08e6eedaf_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a67d29e2-adec-404e-83e4-1db08e6eedaf_geom (suni:a67d29e2-adec-404e-83e4-1db08e6eedaf_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom (suni:a681c461-66ba-4ed4-a4f7-046ad44fc1f1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a7f106af-5755-44ed-9ba2-86b1110e21f7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a7f106af-5755-44ed-9ba2-86b1110e21f7_geom (suni:a7f106af-5755-44ed-9ba2-86b1110e21f7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom (suni:a7f3e0de-4729-44fa-a1f1-502f8b8ef510_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a813eea2-fe9a-4314-916e-d18e30428f17_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a813eea2-fe9a-4314-916e-d18e30428f17_geom (suni:a813eea2-fe9a-4314-916e-d18e30428f17_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#a9d036a7-9001-47c8-89db-54c0fe8d6829_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "a9d036a7-9001-47c8-89db-54c0fe8d6829_geom (suni:a9d036a7-9001-47c8-89db-54c0fe8d6829_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom (suni:ab7a69ca-6c8f-4d13-893b-3702231a60b7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#abb845a6-5386-459e-938f-5100e0af1f72_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "abb845a6-5386-459e-938f-5100e0af1f72_geom (suni:abb845a6-5386-459e-938f-5100e0af1f72_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom (suni:b0ee6257-4d03-4c70-9799-8b55c29fbd00_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b1984fb3-ca88-4453-8fa3-b782d735052c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b1984fb3-ca88-4453-8fa3-b782d735052c_geom (suni:b1984fb3-ca88-4453-8fa3-b782d735052c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom (suni:b3a42fde-e5a1-4a7f-912f-ef0fe1019b2b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b41c112f-4843-4956-ab84-b90dade27d40_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b41c112f-4843-4956-ab84-b90dade27d40_geom (suni:b41c112f-4843-4956-ab84-b90dade27d40_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b49637a5-8304-4703-b961-328acd9cfab1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b49637a5-8304-4703-b961-328acd9cfab1_geom (suni:b49637a5-8304-4703-b961-328acd9cfab1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b4b23818-2422-4145-b162-9feb1559508f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b4b23818-2422-4145-b162-9feb1559508f_geom (suni:b4b23818-2422-4145-b162-9feb1559508f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom (suni:b5c63ca4-8c7c-4ef3-87f3-6460ef93b24c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b6233e40-079e-447d-b960-2f59a90dcd6e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b6233e40-079e-447d-b960-2f59a90dcd6e_geom (suni:b6233e40-079e-447d-b960-2f59a90dcd6e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b65b8060-5341-4b04-879f-ffebaab6d0b2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b65b8060-5341-4b04-879f-ffebaab6d0b2_geom (suni:b65b8060-5341-4b04-879f-ffebaab6d0b2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom (suni:b70a68c4-e63b-445d-8f0f-ec2384dc1363_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom (suni:b7b8283e-fd64-4b1f-b6e3-81a71091b63a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom (suni:b7ee573a-bf90-4f57-b159-39e1fc2822a8_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom (suni:b8b8a52d-9851-4436-9d74-90cc18bdc8e1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom (suni:b8c6881f-a8ec-4c27-ae3d-ea86523cbe7d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom (suni:b8ca6de4-79fe-49d2-b786-e5a01b2dc2a0_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom (suni:b9b8ed23-6d56-4374-b098-d5fe1a84c94f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom (suni:b9ffb4b5-8809-5d33-1405-f191f3d3661b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom (suni:ba37ba09-e4e5-4785-886e-bf6e84dbfb8a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ba7170d7-475e-4502-9cbd-054d5d326a7d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ba7170d7-475e-4502-9cbd-054d5d326a7d_geom (suni:ba7170d7-475e-4502-9cbd-054d5d326a7d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom (suni:bb1a37c5-ad15-45af-8de4-c94bb82a1604_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom (suni:bb2e25bb-08ac-43b7-bdd0-c0fb04835eb8_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom (suni:bd4e5cb6-b4bc-4d65-921d-21dec34dda1b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bd9a273c-41d4-4108-b63b-8f4a0f298268_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bd9a273c-41d4-4108-b63b-8f4a0f298268_geom (suni:bd9a273c-41d4-4108-b63b-8f4a0f298268_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom (suni:bdde5c6c-a670-4d6c-84c9-9a62d1ba9c2f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bf0c59ea-be3e-466b-b127-3489c46dd15a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bf0c59ea-be3e-466b-b127-3489c46dd15a_geom (suni:bf0c59ea-be3e-466b-b127-3489c46dd15a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#bffc569e-04a3-4506-9399-d6c95e77b3a6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "bffc569e-04a3-4506-9399-d6c95e77b3a6_geom (suni:bffc569e-04a3-4506-9399-d6c95e77b3a6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c08f3cf1-e573-4914-b15f-b249261d9fab_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c08f3cf1-e573-4914-b15f-b249261d9fab_geom (suni:c08f3cf1-e573-4914-b15f-b249261d9fab_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c1ab5f63-f9f9-4f75-aae2-428489b43823_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c1ab5f63-f9f9-4f75-aae2-428489b43823_geom (suni:c1ab5f63-f9f9-4f75-aae2-428489b43823_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c2174141-51b4-4932-b3b3-4526eb6245d5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c2174141-51b4-4932-b3b3-4526eb6245d5_geom (suni:c2174141-51b4-4932-b3b3-4526eb6245d5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c2efc23f-47bb-47cc-9786-739739a84f3b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c2efc23f-47bb-47cc-9786-739739a84f3b_geom (suni:c2efc23f-47bb-47cc-9786-739739a84f3b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c336744b-5e45-446b-ab1a-5c61031669ed_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c336744b-5e45-446b-ab1a-5c61031669ed_geom (suni:c336744b-5e45-446b-ab1a-5c61031669ed_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom (suni:c3bb016c-19bf-454f-8530-ffe68ec1da1a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom (suni:c4dd9c06-01f6-4edd-b607-5ed9bf248192_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c5771677-4cc9-44af-91b5-5de6365789b9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c5771677-4cc9-44af-91b5-5de6365789b9_geom (suni:c5771677-4cc9-44af-91b5-5de6365789b9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c5b30f79-c515-48cf-a077-c5289ec32956_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c5b30f79-c515-48cf-a077-c5289ec32956_geom (suni:c5b30f79-c515-48cf-a077-c5289ec32956_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom (suni:c5f35a70-8ad6-4cd8-8b0d-519a9ce95b94_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c67379cd-4787-4016-96aa-b153b932abab_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c67379cd-4787-4016-96aa-b153b932abab_geom (suni:c67379cd-4787-4016-96aa-b153b932abab_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c72db726-4400-4409-a50b-1217816e158f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c72db726-4400-4409-a50b-1217816e158f_geom (suni:c72db726-4400-4409-a50b-1217816e158f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c7c46dd9-6977-4662-86fa-7bd465591b65_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c7c46dd9-6977-4662-86fa-7bd465591b65_geom (suni:c7c46dd9-6977-4662-86fa-7bd465591b65_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c7e1a156-d0a7-4cd4-a519-182fd2078922_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c7e1a156-d0a7-4cd4-a519-182fd2078922_geom (suni:c7e1a156-d0a7-4cd4-a519-182fd2078922_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom (suni:c97f35dc-d9c5-44d2-9708-3d9a9c55d5bc_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom (suni:cbe5d6de-a929-4641-9d9b-9b9b2498eeb3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom (suni:cc01dfc5-6d56-472f-9045-d22f22b2ca3a_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#cc774e18-df41-45a3-976b-bbbbc25ecff1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "cc774e18-df41-45a3-976b-bbbbc25ecff1_geom (suni:cc774e18-df41-45a3-976b-bbbbc25ecff1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom (suni:cdab6a0b-7238-4f14-894e-b5fe7bb763d9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom (suni:cdee0615-f2e9-4e2f-bc88-6c1021fe4bc1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom (suni:ce36306d-ab71-49f0-aed2-6cea0b2cf1d7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom (suni:cfd8197a-ab1b-41e3-9c44-30bb2d1827ac_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom (suni:d04e1b9c-9c7e-4e90-86a1-9c1e367de3e4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d115b172-64a5-4db8-ab2d-b556287b2c54_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d115b172-64a5-4db8-ab2d-b556287b2c54_geom (suni:d115b172-64a5-4db8-ab2d-b556287b2c54_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d1248c32-d156-418a-a10f-104d770ca6fd_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d1248c32-d156-418a-a10f-104d770ca6fd_geom (suni:d1248c32-d156-418a-a10f-104d770ca6fd_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom (suni:d262f4b5-41c6-4c0c-a4db-4a5320f728bd_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom (suni:d2d79d98-18a8-491a-8be5-b4fe521b95d3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d366167a-c152-4bae-9b8a-87f3ac3bf275_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d366167a-c152-4bae-9b8a-87f3ac3bf275_geom (suni:d366167a-c152-4bae-9b8a-87f3ac3bf275_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d39b0a02-169d-40a8-897d-7c7a5eee497d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d39b0a02-169d-40a8-897d-7c7a5eee497d_geom (suni:d39b0a02-169d-40a8-897d-7c7a5eee497d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d4313e9d-3616-49e0-b1cc-cea436fd662f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d4313e9d-3616-49e0-b1cc-cea436fd662f_geom (suni:d4313e9d-3616-49e0-b1cc-cea436fd662f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom (suni:d46e1360-2fe2-43a6-80fc-892d3d2881c1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d54de471-c174-42dd-90c9-bfd8ad4c482c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d54de471-c174-42dd-90c9-bfd8ad4c482c_geom (suni:d54de471-c174-42dd-90c9-bfd8ad4c482c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d5710f70-63c7-4107-ac87-3fad0dca5830_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d5710f70-63c7-4107-ac87-3fad0dca5830_geom (suni:d5710f70-63c7-4107-ac87-3fad0dca5830_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom (suni:d78e64da-20a0-4de4-81e9-67e6aeb2914d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom (suni:d82ce8bc-ab19-43bf-a812-73550efdfe9e_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom (suni:d8d9485a-6d7f-46ac-a636-4bcc1018ae09_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#da05f974-2a60-4de2-9cd9-2b06625b3a30_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "da05f974-2a60-4de2-9cd9-2b06625b3a30_geom (suni:da05f974-2a60-4de2-9cd9-2b06625b3a30_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#dafdf1be-d473-4b7f-b65e-1b5313478cae_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "dafdf1be-d473-4b7f-b65e-1b5313478cae_geom (suni:dafdf1be-d473-4b7f-b65e-1b5313478cae_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#dbf1ab41-a655-4569-883e-1de100632e02_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "dbf1ab41-a655-4569-883e-1de100632e02_geom (suni:dbf1ab41-a655-4569-883e-1de100632e02_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#dc5ba2e0-7975-466e-930f-a5469030df40_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "dc5ba2e0-7975-466e-930f-a5469030df40_geom (suni:dc5ba2e0-7975-466e-930f-a5469030df40_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom (suni:dca0e312-48bb-4ff0-9316-fa71cdda0c9c_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#dcda68c8-cde0-4d2f-9062-be5e478beb52_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "dcda68c8-cde0-4d2f-9062-be5e478beb52_geom (suni:dcda68c8-cde0-4d2f-9062-be5e478beb52_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ddc25136-83aa-463c-9460-c718847292e0_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ddc25136-83aa-463c-9460-c718847292e0_geom (suni:ddc25136-83aa-463c-9460-c718847292e0_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ddd9a1d8-d2cd-433a-8158-97ae15270207_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ddd9a1d8-d2cd-433a-8158-97ae15270207_geom (suni:ddd9a1d8-d2cd-433a-8158-97ae15270207_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#de109b58-0791-4eb7-9fff-d536f15297af_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "de109b58-0791-4eb7-9fff-d536f15297af_geom (suni:de109b58-0791-4eb7-9fff-d536f15297af_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#def031d2-a760-4e54-a33d-6754a4780ec2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "def031d2-a760-4e54-a33d-6754a4780ec2_geom (suni:def031d2-a760-4e54-a33d-6754a4780ec2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#dfcca23a-f573-a4b1-f20d-52597dadffc9_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "dfcca23a-f573-a4b1-f20d-52597dadffc9_geom (suni:dfcca23a-f573-a4b1-f20d-52597dadffc9_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom (suni:e1a4e1ed-5021-4210-80a0-248b4c59ba2b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e2bb5213-40ec-467b-ab58-dfd191d67b15_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e2bb5213-40ec-467b-ab58-dfd191d67b15_geom (suni:e2bb5213-40ec-467b-ab58-dfd191d67b15_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom (suni:e3df5d1d-9d76-4d4d-88bf-a1365428e2f2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom (suni:e46dfffe-e0b5-4b6b-8545-7f7133231fcd_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom (suni:e4b46b46-8bef-436c-b99a-2cfc98a1d6ff_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e4f0d99c-176b-4354-872f-84ea358ac1d1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e4f0d99c-176b-4354-872f-84ea358ac1d1_geom (suni:e4f0d99c-176b-4354-872f-84ea358ac1d1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom (suni:e537eb8d-e10d-4cfa-88d8-f7e4e74e5a66_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom (suni:e6b91a0a-28db-4f3c-bbe7-3191b69ece51_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom (suni:e7bc9de4-6c4b-4562-b3f7-961a883d34d3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom (suni:e80677e6-20b7-4e3b-85f3-26eabae3fe58_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e953f777-8ea1-4ace-a2ad-f0240260c209_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e953f777-8ea1-4ace-a2ad-f0240260c209_geom (suni:e953f777-8ea1-4ace-a2ad-f0240260c209_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom (suni:e954bdb8-2c88-4fd7-80c6-a2e75aff088b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom (suni:e9b6f78c-acb3-44a8-a83d-5230ac8adfb8_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#e9f24e1d-fdda-420e-b444-66021c3b96e2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "e9f24e1d-fdda-420e-b444-66021c3b96e2_geom (suni:e9f24e1d-fdda-420e-b444-66021c3b96e2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ea39529e-ec32-490e-8b2d-df1f584a6afb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ea39529e-ec32-490e-8b2d-df1f584a6afb_geom (suni:ea39529e-ec32-490e-8b2d-df1f584a6afb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom (suni:ea530a2d-219a-4b12-a8b4-4cf7ca09b6b1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom (suni:ea5c5e92-f2bc-4437-a1af-8a7beaf0c709_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom (suni:ebd26bae-6b1e-419b-ab53-a52e011f6c81_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ec09119c-d470-45bb-9859-102f53ed944b_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ec09119c-d470-45bb-9859-102f53ed944b_geom (suni:ec09119c-d470-45bb-9859-102f53ed944b_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ec25566b-1581-4de8-af54-944d78b7756f_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ec25566b-1581-4de8-af54-944d78b7756f_geom (suni:ec25566b-1581-4de8-af54-944d78b7756f_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ec69643d-e636-443f-95a0-bb55b9614841_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ec69643d-e636-443f-95a0-bb55b9614841_geom (suni:ec69643d-e636-443f-95a0-bb55b9614841_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom (suni:edc05557-ba7a-4f53-86dd-62afa6d6e3cb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#eec807e9-47d0-4801-a3f8-017c818a99e7_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "eec807e9-47d0-4801-a3f8-017c818a99e7_geom (suni:eec807e9-47d0-4801-a3f8-017c818a99e7_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#ef66850a-2651-4d2b-bcfb-c37803346e55_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "ef66850a-2651-4d2b-bcfb-c37803346e55_geom (suni:ef66850a-2651-4d2b-bcfb-c37803346e55_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom (suni:f0721c17-ed69-4741-b365-cc5f5f8ed93d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f0be2267-3889-4ec6-a50c-87551f9581d3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f0be2267-3889-4ec6-a50c-87551f9581d3_geom (suni:f0be2267-3889-4ec6-a50c-87551f9581d3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f148606b-a850-4d16-a627-606fb8ee5577_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f148606b-a850-4d16-a627-606fb8ee5577_geom (suni:f148606b-a850-4d16-a627-606fb8ee5577_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f3fefd10-8b81-4d76-a86b-913d419e60d5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f3fefd10-8b81-4d76-a86b-913d419e60d5_geom (suni:f3fefd10-8b81-4d76-a86b-913d419e60d5_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f4c616a4-3188-45f4-ad66-878498003c20_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f4c616a4-3188-45f4-ad66-878498003c20_geom (suni:f4c616a4-3188-45f4-ad66-878498003c20_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f4dab308-cda8-4c28-bf6d-8872053307e3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f4dab308-cda8-4c28-bf6d-8872053307e3_geom (suni:f4dab308-cda8-4c28-bf6d-8872053307e3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f533c183-22fb-43cf-9bd1-265caaa661a0_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f533c183-22fb-43cf-9bd1-265caaa661a0_geom (suni:f533c183-22fb-43cf-9bd1-265caaa661a0_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom (suni:f6e65c6c-1594-49f1-a93c-a4f21350bfca_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom (suni:f7139fb2-78fe-4847-b1b6-53371ad41f0d_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#f7655a1e-c5a5-4308-b041-a306a98234fa_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "f7655a1e-c5a5-4308-b041-a306a98234fa_geom (suni:f7655a1e-c5a5-4308-b041-a306a98234fa_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fa1f5594-3452-4476-98a3-fc6146245ae1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fa1f5594-3452-4476-98a3-fc6146245ae1_geom (suni:fa1f5594-3452-4476-98a3-fc6146245ae1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fab26445-cb25-492a-8d8a-47f31706a753_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fab26445-cb25-492a-8d8a-47f31706a753_geom (suni:fab26445-cb25-492a-8d8a-47f31706a753_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom (suni:fb3b5762-4071-4ada-995d-4cbeb3de8fdb_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom (suni:fc8b58df-5951-1caa-5db2-c57163ca6fb4_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom (suni:fcf60de9-535c-4f8e-862b-561f3c2dd7a1_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fd82485d-f6e8-4413-9120-c739f0cc1e82_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fd82485d-f6e8-4413-9120-c739f0cc1e82_geom (suni:fd82485d-f6e8-4413-9120-c739f0cc1e82_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom (suni:fd8fe6ba-e13a-4ef3-9047-626fc45be9e2_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fdf099f7-869f-499e-80c3-00c91f0a4d35_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fdf099f7-869f-499e-80c3-00c91f0a4d35_geom (suni:fdf099f7-869f-499e-80c3-00c91f0a4d35_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fe037d07-6d14-4052-b152-17e83699eafd_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fe037d07-6d14-4052-b152-17e83699eafd_geom (suni:fe037d07-6d14-4052-b152-17e83699eafd_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom (suni:fec6c570-b8d5-49be-aa15-8be41afd1aa3_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#fef07810-f623-4efe-987e-9010958b2a15_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "geoinstance",
+        "text": "fef07810-f623-4efe-987e-9010958b2a15_geom (suni:fef07810-f623-4efe-987e-9010958b2a15_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/DenGulaVagen_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "DenGulaVagen_geom (fairyland:DenGulaVagen_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/NorrforsOutpost_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "NorrforsOutpost_geom (fairyland:NorrforsOutpost_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Returvagen_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Returvagen_geom (fairyland:Returvagen_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Smalgangen_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Smalgangen_geom (fairyland:Smalgangen_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_A1_geom (fairyland:Trench_A1_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_A2_geom (fairyland:Trench_A2_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_A3_geom (fairyland:Trench_A3_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_A4_geom (fairyland:Trench_A4_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_A5_geom (fairyland:Trench_A5_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_A6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_A6_geom (fairyland:Trench_A6_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_B1_geom (fairyland:Trench_B1_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_B2_geom (fairyland:Trench_B2_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_B3_geom (fairyland:Trench_B3_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_B4_geom (fairyland:Trench_B4_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_B5_geom (fairyland:Trench_B5_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_B6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_B6_geom (fairyland:Trench_B6_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_C1_geom (fairyland:Trench_C1_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_C2_geom (fairyland:Trench_C2_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_C3_geom (fairyland:Trench_C3_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_C4_geom (fairyland:Trench_C4_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_C5_geom (fairyland:Trench_C5_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_C6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_C6_geom (fairyland:Trench_C6_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_D1_geom (fairyland:Trench_D1_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_D2_geom (fairyland:Trench_D2_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_D3_geom (fairyland:Trench_D3_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_D4_geom (fairyland:Trench_D4_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_D5_geom (fairyland:Trench_D5_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_D6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_D6_geom (fairyland:Trench_D6_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E1_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_E1_geom (fairyland:Trench_E1_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E2_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_E2_geom (fairyland:Trench_E2_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E3_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_E3_geom (fairyland:Trench_E3_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E4_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_E4_geom (fairyland:Trench_E4_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E5_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_E5_geom (fairyland:Trench_E5_geom)",
+        "data": {}
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Trench_E6_geom_suniv1_",
+        "parent": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "type": "instance",
+        "text": "Trench_E6_geom (fairyland:Trench_E6_geom)",
+        "data": {}
+      },
+      {
+        "id": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+        "parent": "http://www.opengis.net/ont/geosparql#Geometry",
+        "type": "halfgeoclass",
+        "text": "SP6_Declarative_Place (crmgeo:SP6_Declarative_Place) [400]",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.opengis.net/ont/geosparql#asWKT": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 2,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            }
+          },
+          "from": {
+            "http://www.cidoc-crm.org/cidoc-crm/P53_has_former_or_current_location": {
+              "instancecount": 0,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 0,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Kangaroo": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 2
+            }
+          }
+        },
+        "instancecount": 4
       },
       {
         "id": "http://www.github.com/sparqlunicorn#Koetbullar_collection",
@@ -6588,13 +9518,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 9,
-              "https://github.com/Research-Squirrel-Engineers/FAIRyland/LingonberryJar": 9
+              "instancecount": 8,
+              "https://github.com/Research-Squirrel-Engineers/FAIRyland/Pencil": 8
             }
           },
           "from": {}
         },
-        "instancecount": 13
+        "instancecount": 12
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -6636,13 +9566,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 5,
-              "http://www.w3.org/2002/07/owl#DatatypeProperty": 5
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
             }
           },
           "from": {}
         },
-        "instancecount": 9
+        "instancecount": 5
       },
       {
         "id": "http://www.github.com/sparqlunicorn#Point_collection",
@@ -6659,10 +9589,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://www.github.com/sparqlunicorn#SP6_Declarative_Place_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "geocollection",
+        "text": "SP6_Declarative_Place Instances Collection (suni:SP6_Declarative_Place_collection)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection (gsp:GeometryCollection) [2]",
+        "text": "GeometryCollection (gsp:GeometryCollection) [3]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -6677,13 +9614,15 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 234,
-              "http://www.opengis.net/ont/sf#Point": 234
+              "instancecount": 366,
+              "http://www.opengis.net/ont/sf#Point": 234,
+              "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place": 366,
+              "http://www.opengis.net/ont/sf#Polygon": 132
             }
           },
           "from": {}
         },
-        "instancecount": 238
+        "instancecount": 370
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
@@ -6697,6 +9636,57 @@ var tree={
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "class",
         "text": "29555707-7201-41b5-8ef4-1c59caac6f59 (suni:29555707-7201-41b5-8ef4-1c59caac6f59)",
+        "data": {}
+      },
+      {
+        "id": "http://www.github.com/sparqlunicorn#nonns_Feature.html",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObject",
+        "type": "class",
+        "text": "Feature (gsp:Feature)",
+        "data": {
+          "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#subClassOf": {
+              "instancecount": 1,
+              "http://www.w3.org/2002/07/owl#Class": 1
+            }
+          },
+          "from": {
+            "http://rdfs.org/ns/void#class": {
+              "instancecount": 0,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#domain": {
+              "instancecount": 0,
+              "http://www.w3.org/2002/07/owl#DatatypeProperty": 4
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            }
+          }
+        },
+        "instancecount": 3
+      },
+      {
+        "id": "https://github.com/Research-Squirrel-Engineers/FAIRyland/Find",
+        "parent": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
+        "type": "class",
+        "text": "Find (fairyland:Find)",
+        "data": {}
+      },
+      {
+        "id": "http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing",
+        "parent": "#",
+        "type": "class",
+        "text": "E18_Physical_Thing (crm:E18_Physical_Thing)",
         "data": {}
       }
     ]
